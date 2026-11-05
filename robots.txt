@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://dmitriynyu.github.io/sitemap.xml
