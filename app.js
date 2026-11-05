@@ -1267,3 +1267,16 @@
   if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', init); else init();
   window.addEventListener('storage', function (e) { if (e.key === KEY_CMP) { syncCompare(); if (document.getElementById('compare-app')) renderCompare(); } });
 })();
+
+/* CEO hotfix 2026-11-05: pageview beacon on mirror (visits to /rating/ from vc.ru were invisible). Next publish-mirror may overwrite. */
+(function () {
+  try {
+    var B = window.THR && window.THR.beacon;
+    if (!B) return;
+    var p = location.pathname || '/';
+    var k = 'page';
+    if (p === '/' || p === '') k = 'home';
+    else if (p.indexOf('/rating') === 0) k = 'rating';
+    fetch(B + k, { cache: 'no-store', keepalive: true }).catch(function () {});
+  } catch (e) { /* offline */ }
+})();
