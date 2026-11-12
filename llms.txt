@@ -1,0 +1,116 @@
+# RoomFacts
+
+> RoomFacts (roomfacts.com, "Turkey & Moscow") is a bilingual (Russian/English) reference site about apart-hotel, hotel-room and branded-residence investment projects in Moscow and Turkey (Istanbul and resort cities). Every fact on a page shows its source, the date it was checked and a quote. The projects belong to third-party developers and sellers; RoomFacts is not the seller. Coverage as of 2026-11-12: 2 countries, 9 cities, 33 projects, 744 lots (units) for sale.
+
+Every page has a Markdown version at the same path with index.md (links below point to them). Project pages exist in Russian (/ru/) and English (/en/) versions; the bare project URL is Russian.
+
+## Key pages
+
+- [Гостиничные номера в Турции и Москве: факты и источники](https://roomfacts.com/index.md): Hotel rooms in Turkey and Moscow: facts and sources
+- [Страны](https://roomfacts.com/countries/index.md)
+- [Проекты и юниты](https://roomfacts.com/lots/index.md)
+- [Обещано и раскрыто: условия проектов](https://roomfacts.com/rating/index.md): Обещано и раскрыто: 33 проекта апарт-отелей в Москве и Турции; что продавец обещает про аренду и доход и какие условия раскрыты с цитатой
+- [Как собираются и проверяются данные](https://roomfacts.com/method/index.md)
+- [Каталог источников](https://roomfacts.com/sources/index.md)
+- [Образец досье: Аквилон Signal, лот 1006 (Москва)](https://roomfacts.com/dossier-sample/akvilon-signal/index.md): Бесплатный образец досье RoomFacts по лоту 1006 Аквилон Signal: что обещает продавец, что раскрыто, чего нет, вопросы и источники.
+
+## Россия / Russia
+
+- [Россия](https://roomfacts.com/ru/index.md)
+- [Москва](https://roomfacts.com/ru/moscow/index.md)
+  - [AIST Residence: доходность, условия и сроки](https://roomfacts.com/ru/moscow/aist-residence/index.md): AIST Residence, Moscow; status: under construction (seller's claim); managed by УК «АНИС отель»; sold by ООО «СЗ «АИСТ»; units for sale — 166
+    - [English version](https://roomfacts.com/ru/moscow/aist-residence/en/index.md)
+  - [Аквилон Signal (апарт-отель): доходность, условия и сроки](https://roomfacts.com/ru/moscow/akvilon-signal-apart-hotel/index.md): Аквилон Signal (апарт-отель), Moscow; rental yield 13–15% (seller's claim); managed by DOMOTEL; sold by Группа Аквилон; units for sale — 152
+    - [English version](https://roomfacts.com/ru/moscow/akvilon-signal-apart-hotel/en/index.md)
+  - [Инсайдер (гостиничные номера): доходность, условия и сроки](https://roomfacts.com/ru/moscow/insider-hotel-rooms/index.md): Инсайдер (гостиничные номера), Moscow; rental yield up to 16% (seller's claim); managed by Зенит; sold by РКС Девелопмент; units for sale — 52
+    - [English version](https://roomfacts.com/ru/moscow/insider-hotel-rooms/en/index.md)
+  - [Гостиничный комплекс «Варшавские ворота»: доходность, условия и сроки](https://roomfacts.com/ru/moscow/varshavskie-vorota-hotel/index.md): Гостиничный комплекс «Варшавские ворота», Moscow; managed by Зенит; sold by РГ-Девелопмент; units for sale — 144
+    - [English version](https://roomfacts.com/ru/moscow/varshavskie-vorota-hotel/en/index.md)
+
+## Турция / Turkey
+
+- [Турция](https://roomfacts.com/tr/index.md)
+- [Аланья](https://roomfacts.com/tr/alanya/index.md)
+  - [ALGORA City Alanya: доходность, условия и сроки](https://roomfacts.com/tr/alanya/algora-city-alanya/index.md): ALGORA City Alanya, Alanya; status: Hotel in operation (seller's claim); sold by Tekinoğlu Grup; units for sale — 2
+    - [English version](https://roomfacts.com/tr/alanya/algora-city-alanya/en/index.md)
+  - [Elite Luxury Suites & Spa: доходность, условия и сроки](https://roomfacts.com/tr/alanya/elite-luxury-suites-admiral/index.md): Elite Luxury Suites & Spa, Alanya; units for sale — 4
+    - [English version](https://roomfacts.com/tr/alanya/elite-luxury-suites-admiral/en/index.md)
+  - [New Level Premium: доходность, условия и сроки](https://roomfacts.com/tr/alanya/new-level-premium-avsallar/index.md): New Level Premium, Alanya; status: Project completion — July 2026 (seller's claim); sold by New Level; units for sale — 4
+    - [English version](https://roomfacts.com/tr/alanya/new-level-premium-avsallar/en/index.md)
+- [Анталья](https://roomfacts.com/tr/antalya/index.md)
+  - [Desire Hotel & Residences Antalya (Best Western): доходность, условия и сроки](https://roomfacts.com/tr/antalya/best-western-altintas/index.md): Desire Hotel & Residences Antalya (Best Western), Antalya; rental yield 7–12% (seller's claim); managed by Best Western; units for sale — 15
+    - [English version](https://roomfacts.com/tr/antalya/best-western-altintas/en/index.md)
+  - [Rixos Residence Antalya: доходность, условия и сроки](https://roomfacts.com/tr/antalya/rixos-residence-antalya/index.md): Rixos Residence Antalya, Antalya; units for sale — 9
+    - [English version](https://roomfacts.com/tr/antalya/rixos-residence-antalya/en/index.md)
+- [Бодрум](https://roomfacts.com/tr/bodrum/index.md)
+  - [Le Méridien Bodrum Beach Resort Residences: доходность, условия и сроки](https://roomfacts.com/tr/bodrum/le-meridien-bodrum-beach-resort-residences/index.md): Le Méridien Bodrum Beach Resort Residences, Bodrum; status: Hotel operating; residences completion 2027 (seller's claim); managed by MYC Partners
+    - [English version](https://roomfacts.com/tr/bodrum/le-meridien-bodrum-beach-resort-residences/en/index.md)
+  - [Marriott Residences Bodrum (Bitez): доходность, условия и сроки](https://roomfacts.com/tr/bodrum/marriott-residences-bodrum/index.md): Marriott Residences Bodrum (Bitez), Bodrum; units for sale — 1
+    - [English version](https://roomfacts.com/tr/bodrum/marriott-residences-bodrum/en/index.md)
+  - [Swissôtel Living Bodrum: доходность, условия и сроки](https://roomfacts.com/tr/bodrum/swissotel-living-bodrum/index.md): Swissôtel Living Bodrum, Bodrum; units for sale — 6
+    - [English version](https://roomfacts.com/tr/bodrum/swissotel-living-bodrum/en/index.md)
+  - [Swissôtel Residence Bodrum Hill: доходность, условия и сроки](https://roomfacts.com/tr/bodrum/swissotel-residence-bodrum-hill/index.md): Swissôtel Residence Bodrum Hill, Bodrum; rental yield 7% (seller's claim); status: Delivery 09/2027 (seller's claim); units for sale — 1
+    - [English version](https://roomfacts.com/tr/bodrum/swissotel-residence-bodrum-hill/en/index.md)
+  - [YAZ Yalıkavak Hotel: доходность, условия и сроки](https://roomfacts.com/tr/bodrum/yaz-yalikavak-hotel/index.md): YAZ Yalıkavak Hotel, Bodrum; units for sale — 1
+    - [English version](https://roomfacts.com/tr/bodrum/yaz-yalikavak-hotel/en/index.md)
+- [Фетхие](https://roomfacts.com/tr/fethiye/index.md)
+  - [Residence 222 Hisarönü: доходность, условия и сроки](https://roomfacts.com/tr/fethiye/residence-222-hisaronu/index.md): Residence 222 Hisarönü, Fethiye; sold by Golden Key; units for sale — 2
+    - [English version](https://roomfacts.com/tr/fethiye/residence-222-hisaronu/en/index.md)
+- [Финике](https://roomfacts.com/tr/finike/index.md)
+- [Стамбул](https://roomfacts.com/tr/istanbul/index.md)
+  - [Address Residences Istanbul: доходность, условия и сроки](https://roomfacts.com/tr/istanbul/address-residences-istanbul/index.md): Address Residences Istanbul, Istanbul; status: Ready, title deed available (seller's claim); sold by Emaar Properties; units for sale — 1
+    - [English version](https://roomfacts.com/tr/istanbul/address-residences-istanbul/en/index.md)
+  - [Aliée Lofts (Tersane Istanbul): доходность, условия и сроки](https://roomfacts.com/tr/istanbul/aliee-lofts-tersane-istanbul/index.md): Aliée Lofts (Tersane Istanbul), Istanbul; rental yield 7% (seller's claim); status: September 2026 (seller's claim); units for sale — 2
+    - [English version](https://roomfacts.com/tr/istanbul/aliee-lofts-tersane-istanbul/en/index.md)
+  - [Emaar Square (Üsküdar): доходность, условия и сроки](https://roomfacts.com/tr/istanbul/emaar-square-uskudar/index.md): Emaar Square (Üsküdar), Istanbul; units for sale — 5
+    - [English version](https://roomfacts.com/tr/istanbul/emaar-square-uskudar/en/index.md)
+  - [Fairmont Quasar Residences Istanbul: доходность, условия и сроки](https://roomfacts.com/tr/istanbul/fairmont-quasar-residences/index.md): Fairmont Quasar Residences Istanbul, Istanbul; status: Ready to move in, title deeds ready (seller's claim); managed by Fairmont Hotels & Resorts
+    - [English version](https://roomfacts.com/tr/istanbul/fairmont-quasar-residences/en/index.md)
+  - [Hotel Homes Istanbul (Esenyurt): доходность, условия и сроки](https://roomfacts.com/tr/istanbul/hotel-homes-istanbul-esenyurt/index.md): Hotel Homes Istanbul (Esenyurt), Istanbul; managed by Days Inn / Wyndham; units for sale — 3
+    - [English version](https://roomfacts.com/tr/istanbul/hotel-homes-istanbul-esenyurt/en/index.md)
+  - [JW Marriott Residences Tarabya Istanbul: доходность, условия и сроки](https://roomfacts.com/tr/istanbul/jw-marriott-residences-tarabya/index.md): JW Marriott Residences Tarabya Istanbul, Istanbul; managed by JW Marriott; units for sale — 6
+    - [English version](https://roomfacts.com/tr/istanbul/jw-marriott-residences-tarabya/en/index.md)
+  - [Kempinski Residences Astoria: доходность, условия и сроки](https://roomfacts.com/tr/istanbul/kempinski-residences-astoria/index.md): Kempinski Residences Astoria, Istanbul; status: Operating since 2007 (per the agency) (seller's claim); managed by Kempinski Hotels; sold by Astaş Holding
+    - [English version](https://roomfacts.com/tr/istanbul/kempinski-residences-astoria/en/index.md)
+  - [Mandarin Oriental Residences (Etiler): доходность, условия и сроки](https://roomfacts.com/tr/istanbul/mandarin-oriental-residences-etiler/index.md): Mandarin Oriental Residences (Etiler), Istanbul; units for sale — 3
+    - [English version](https://roomfacts.com/tr/istanbul/mandarin-oriental-residences-etiler/en/index.md)
+  - [Ramada Hotel Suite (Pendik): доходность, условия и сроки](https://roomfacts.com/tr/istanbul/ramada-pendik/index.md): Ramada Hotel Suite (Pendik), Istanbul; units for sale — 2
+    - [English version](https://roomfacts.com/tr/istanbul/ramada-pendik/en/index.md)
+  - [Residences by Rotana (Şişli): доходность, условия и сроки](https://roomfacts.com/tr/istanbul/residences-by-rotana-sisli/index.md): Residences by Rotana (Şişli), Istanbul; status: Ready to move in (seller's claim); units for sale — 5
+    - [English version](https://roomfacts.com/tr/istanbul/residences-by-rotana-sisli/en/index.md)
+  - [The Ritz-Carlton Residences (Şişli): доходность, условия и сроки](https://roomfacts.com/tr/istanbul/ritz-carlton-residences-sisli/index.md): The Ritz-Carlton Residences (Şişli), Istanbul; status: Construction completed (seller's claim); units for sale — 32
+    - [English version](https://roomfacts.com/tr/istanbul/ritz-carlton-residences-sisli/en/index.md)
+  - [Rixos Tersane Istanbul Residences: доходность, условия и сроки](https://roomfacts.com/tr/istanbul/rixos-tersane-istanbul-residences/index.md): Rixos Tersane Istanbul Residences, Istanbul; rental yield 7% (seller's claim); status: end of 2026 (seller's claim); managed by Rixos (Accor)
+    - [English version](https://roomfacts.com/tr/istanbul/rixos-tersane-istanbul-residences/en/index.md)
+  - [Sheraton Residences (Bahçeşehir): доходность, условия и сроки](https://roomfacts.com/tr/istanbul/sheraton-residences-istanbul/index.md): Sheraton Residences (Bahçeşehir), Istanbul; units for sale — 3
+    - [English version](https://roomfacts.com/tr/istanbul/sheraton-residences-istanbul/en/index.md)
+  - [The Superior Suites (Kağıthane): доходность, условия и сроки](https://roomfacts.com/tr/istanbul/the-superior-suites-kagithane/index.md): The Superior Suites (Kağıthane), Istanbul; status: Ready to move in (seller's claim); managed by The Superior Suites; units for sale — 3
+    - [English version](https://roomfacts.com/tr/istanbul/the-superior-suites-kagithane/en/index.md)
+- [Измир](https://roomfacts.com/tr/izmir/index.md)
+  - [Radisson Red Izmir: доходность, условия и сроки](https://roomfacts.com/tr/izmir/radisson-red-izmir/index.md): Radisson Red Izmir, İzmir; rental yield 6–7% (seller's claim); status: Completion year: 2025; whether the hotel operates is not stated (seller's claim)
+    - [English version](https://roomfacts.com/tr/izmir/radisson-red-izmir/en/index.md)
+  - [TRYP by Wyndham Izmir Point Bornova: доходность, условия и сроки](https://roomfacts.com/tr/izmir/tryp-by-wyndham-bornova/index.md): TRYP by Wyndham Izmir Point Bornova, İzmir; rental yield 6% (seller's claim); status: Under construction; completion March 2027 (seller's claim)
+    - [English version](https://roomfacts.com/tr/izmir/tryp-by-wyndham-bornova/en/index.md)
+- [Кушадасы](https://roomfacts.com/tr/kusadasi/index.md)
+  - [Kusadasi Golf & Spa Resort: доходность, условия и сроки](https://roomfacts.com/tr/kusadasi/kusadasi-golf-spa-resort/index.md): Kusadasi Golf & Spa Resort, Kuşadası; status: Completed in 2012 (seller's claim); managed by Wyndham Hotels & Resorts; units for sale — 8
+    - [English version](https://roomfacts.com/tr/kusadasi/kusadasi-golf-spa-resort/en/index.md)
+  - [Ramada Resort Kusadasi: доходность, условия и сроки](https://roomfacts.com/tr/kusadasi/ramada-resort-kusadasi/index.md): Ramada Resort Kusadasi, Kuşadası; status: Completed in 2016 (seller's claim); managed by Wyndham Resort Group; units for sale — 4
+    - [English version](https://roomfacts.com/tr/kusadasi/ramada-resort-kusadasi/en/index.md)
+
+## Developers and operators
+
+- [AKVO GY](https://roomfacts.com/developer/akvo-gy/index.md): AKVO GY: заявлено продавцом — 17, подтверждено источником — 0, нет данных — 5; проекты с юнитами в продаже: TRYP by Wyndham Izmir Point Bornova
+- [Astaş Holding](https://roomfacts.com/developer/astas-holding/index.md): Astaş Holding: заявлено продавцом — 8, подтверждено источником — 0, нет данных — 11; проекты с юнитами в продаже: Kempinski Residences Astoria
+- [Emaar Properties](https://roomfacts.com/developer/emaar-properties/index.md): Emaar Properties: заявлено продавцом — 4, подтверждено источником — 0, нет данных — 14; проекты с юнитами в продаже: Address Residences Istanbul
+- [Golden Key](https://roomfacts.com/developer/golden-key/index.md): Golden Key: заявлено продавцом — 8, подтверждено источником — 0, нет данных — 12; проекты с юнитами в продаже: Residence 222 Hisarönü
+- [Группа Аквилон](https://roomfacts.com/developer/gruppa-akvilon/index.md): Группа Аквилон: заявлено продавцом — 11, подтверждено источником — 0, нет данных — 6; проекты с юнитами в продаже: Аквилон Signal (апарт-отель)
+- [New Level](https://roomfacts.com/developer/new-level/index.md): New Level: заявлено продавцом — 8, подтверждено источником — 0, нет данных — 11; проекты с юнитами в продаже: New Level Premium
+- [ООО «СЗ «АИСТ»](https://roomfacts.com/developer/ooo-sz-aist/index.md): ООО «СЗ «АИСТ»: заявлено продавцом — 6, подтверждено источником — 0, нет данных — 11; проекты с юнитами в продаже: AIST Residence
+- [РГ-Девелопмент](https://roomfacts.com/developer/rg-development/index.md): РГ-Девелопмент: заявлено продавцом — 6, подтверждено источником — 0, нет данных — 9; проекты с юнитами в продаже: Гостиничный комплекс «Варшавские ворота»
+- [РКС Девелопмент](https://roomfacts.com/developer/rks-development/index.md): РКС Девелопмент: заявлено продавцом — 8, подтверждено источником — 0, нет данных — 9; проекты с юнитами в продаже: Инсайдер (гостиничные номера)
+- [Tekinoğlu Grup](https://roomfacts.com/developer/tekinoglu-grup/index.md): Tekinoğlu Grup: заявлено продавцом — 8, подтверждено источником — 1, нет данных — 10; проекты с юнитами в продаже: ALGORA City Alanya
+
+## Optional
+
+- [Full text of city and project pages](https://roomfacts.com/llms-full.txt): all city and project pages in one Markdown file
+- [Sitemap](https://roomfacts.com/sitemap.xml): every indexable page, including 744 lot pages
