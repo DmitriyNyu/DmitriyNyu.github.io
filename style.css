@@ -1,0 +1,1035 @@
+/* Neutral, system fonts, light/dark via prefers-color-scheme. No external resources. */
+:root {
+  color-scheme: light dark;
+  --bg: #fcfcfb; --surface: #ffffff; --surface-2: #f3f2ef; --text: #161614; --text-2: #4a4945; --muted: #5e5d58;
+  --border: #d9d7d1; --link: #1f5fb4; --focus: #1f5fb4;
+  --warn-bg: #fff6e0; --warn-border: #b07800; --note-bg: #eef3fb; --note-border: #5b7fb8;
+  --seller-bg: #fde8e4; --seller-text: #8a2410; --conflict-bg: #f1e6fb; --conflict-text: #5b2a86;
+  --derived-bg: #e4f2ec; --derived-text: #145c3e; --old-bg: #fbf0d0; --old-text: #6b4a00; --unk-bg: #ecebe8; --unk-text: #3d3c38;
+  --s-air: #eb6834; --s-sea: #2a78d6; --s-bar: #2a78d6; --grid: #e6e4df; --axis: #8a8984;
+  --fixture-bg: #7a1f1f; --fixture-text: #fff;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #151514; --surface: #1d1d1b; --surface-2: #262624; --text: #f0efec; --text-2: #cfcdc6; --muted: #b3b1aa;
+    --border: #3a3936; --link: #8cb8ff; --focus: #8cb8ff;
+    --warn-bg: #3a2c08; --warn-border: #d9a227; --note-bg: #1b2738; --note-border: #6f93cc;
+    --seller-bg: #4a1d14; --seller-text: #ffc3b5; --conflict-bg: #36214a; --conflict-text: #e2c8fb;
+    --derived-bg: #143528; --derived-text: #a9e6cb; --old-bg: #3d3010; --old-text: #f3d68a; --unk-bg: #2e2d2a; --unk-text: #dcdad3;
+    --s-air: #d95926; --s-sea: #3987e5; --s-bar: #3987e5; --grid: #2f2e2b; --axis: #8f8d86;
+  }
+}
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body { margin: 0; background: var(--bg); color: var(--text); font: 16px/1.5 system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; overflow-wrap: anywhere; }
+a { color: var(--link); }
+a:focus-visible, button:focus-visible, select:focus-visible, input:focus-visible, summary:focus-visible { outline: 3px solid var(--focus); outline-offset: 2px; }
+h1 { font-size: 1.6rem; line-height: 1.25; margin: .6rem 0 1rem; }
+h2 { font-size: 1.2rem; margin: 0 0 .6rem; }
+h3 { font-size: 1.05rem; margin: 1rem 0 .4rem; }
+.wrap { max-width: 1100px; margin: 0 auto; padding: 0 16px; }
+.skip { position: absolute; left: -9999px; }
+.skip:focus { left: 8px; top: 8px; background: var(--surface); padding: 6px 10px; z-index: 10; }
+.muted { color: var(--muted); }
+.small, .hint { font-size: .9rem; }
+.num { text-align: right; font-variant-numeric: tabular-nums; }
+th.num { text-align: right; } /* E3-13 UX-4: numeric headers sit flush with their values */
+[hidden] { display: none !important; } /* E3-13 UX-46: `hidden` always hides — `.plist { display: grid }` kept the cards on screen in «All units» */
+.u-ph { display: none; }
+/* E3-13 UX-4: a units table becomes a list of two-line rows on a phone (taste-skill app screens §12).
+   E3-13 UX-46: the same rows for the all-units table in the catalogue's middle column on a computer (420–700 px between the filters
+   and the map — eight columns broke words letter by letter): every units table is a size container on a phone, the all-units one always. */
+@media (max-width: 640px) { .units-w { container: units / inline-size; } }
+#units-view .units-w { container: units / inline-size; }
+@container units (max-width: 820px) {
+  table.units thead { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); }
+  table.units, table.units tbody { display: block; overflow-wrap: anywhere; }
+  table.units tr { display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 12px; padding: 10px 0; border-bottom: 1px solid var(--border); }
+  table.units tr[hidden] { display: none; }
+  table.units tr > td { display: block; border: 0; padding: 0; text-align: left; } /* UX-46: tr > td outranks the table cell padding below */
+  table.units tr::after { content: ''; order: 2; flex-basis: 100%; height: 0; }
+  table.units td.c-proj { order: -1; flex-basis: 100%; }
+  table.units td.c-proj > div { display: inline; margin-left: 6px; } /* UX-46: «Project · City» on one line */
+  table.units td.c-proj > div::before { content: '· '; content: '· ' / ''; }
+  table.units td.c-type { order: 0; flex: 1 1 auto; font-weight: 600; }
+  table.units td.c-price { order: 1; font-weight: 600; text-align: right; }
+  table.units td.c-area, table.units td.c-floor, table.units td.c-ppm, table.units td.c-date, table.units td.c-src { order: 3; color: var(--muted); font-size: 13px; }
+  table.units td.is-empty:not(.c-type):not(.c-price):not(.c-area) { display: none; }
+  table.units td.c-area .u-dk { display: none; } /* UX-142: a missing area reads «area not stated», not a dash */
+  table.units td.acts { order: 4; margin-left: auto; }
+  table.units .u-ph { display: inline; }
+  /* E3-13 UX-9: the whole row opens the lot (stretched link); «+ compare» and other links stay on top */
+  table.units tr { position: relative; }
+  table.units [data-testid="unit-link"]::after { content: ''; position: absolute; inset: 0; }
+  .pcard table.units [data-testid="unit-link"] { position: static; } /* UX-48: in a catalogue card too (the card rule made the link its own box) */
+  table.units td :is(a, button):not([data-testid="unit-link"]) { position: relative; z-index: 1; }
+  table.units td.acts { align-self: center; }
+}
+/* E3-13 UX-143 (D-242): in a narrow list (a phone, 320–414 px) the row is a grid: the facts are the left column (area · price per m²,
+   under them floor · date, then the source), the price and «+ compare» under it the right one. The wrapping row above sent the
+   98–121 px button to a third line under «area · price per m² · date» (+23 px in 85–93 % of the rows); wider lists keep it (all fits). */
+@container units (max-width: 520px) {
+  table.units tr { display: grid; grid-template-columns: auto 1fr min-content auto; gap: 4px 10px; }
+  table.units tr::after { content: none; }
+  table.units td.c-proj { grid-column: 1 / -1; }
+  table.units td.c-type { grid-column: 1 / 4; }
+  table.units td.c-price { grid-column: 4; justify-self: end; }
+  table.units td.c-price .b-conflict { display: table; margin: 2px 0 0 auto; }
+  table.units .u-price, table.units td.acts { white-space: nowrap; } /* their min width is their width: the spare space goes to the facts */
+  table.units td.c-area { grid-column: 1; }
+  table.units td.c-ppm { grid-column: 2; }
+  table.units td.c-floor, table.units td.c-date, table.units td.c-src { order: 5; grid-column: 1 / 3; }
+  table.units td.c-floor:not(.is-empty) { grid-column: 1; }
+  table.units td.c-floor:not(.is-empty) ~ td.c-date { grid-column: 2; }
+  table.units td.c-area, table.units td.c-ppm, table.units td.c-price { overflow-wrap: break-word; } /* «13 553 USD/м²» breaks between words, not letters */
+  table.units td.acts { grid-column: 3 / 5; grid-row: span 2; align-self: start; justify-self: end; margin-left: 0; } /* top = the area line; the row is max(44 px, facts) */
+}
+
+/* language & question-language toggles */
+:root[data-lang="ru"] .t[lang="en"], :root[data-lang="en"] .t[lang="ru"] { display: none; }
+:root[data-qlang="ru"] .qt[lang="en"], :root[data-qlang="en"] .qt[lang="ru"] { display: none; }
+
+/* header */
+header.site { background: var(--surface); border-bottom: 1px solid var(--border); }
+.hdr { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 16px; padding-top: 10px; padding-bottom: 10px; }
+.brand { font-weight: 700; text-decoration: none; color: var(--text); }
+header:where(.site) nav { display: flex; flex-wrap: wrap; gap: 4px 12px; flex: 1 1 auto; }
+header:where(.site) nav a { text-decoration: none; padding: 4px 2px; }
+header:where(.site) nav a[aria-current="page"] { font-weight: 700; text-decoration: underline; }
+.count:not(:empty) { display: inline-block; min-width: 1.4em; padding: 0 5px; border-radius: 10px; background: var(--surface-2); font-size: .8rem; text-align: center; }
+.prefs-wrap { position: relative; margin-left: auto; }
+.prefs-btn { font: inherit; display: inline-flex; align-items: center; gap: 4px; color: var(--text); background: var(--surface-2); border: 1px solid var(--border); border-radius: 18px; padding: 4px 9px; min-height: 34px; cursor: pointer; }
+.prefs-btn[aria-expanded="true"] { border-color: var(--text); }
+.prefs-sum { font-size: .8rem; color: var(--text-2); }
+:root:not(.js) .prefs-wrap { display: none; }
+.prefs { position: absolute; right: 0; top: calc(100% + 6px); z-index: 30; width: min(280px, calc(100vw - 32px)); background: var(--surface); border: 1px solid var(--border); border-radius: 10px; padding: 10px 12px; box-shadow: 0 6px 24px rgba(0,0,0,.18); }
+.prefs[hidden] { display: none; }
+.prefs .fld { display: grid; gap: 3px; margin: 0 0 8px; }
+.prefs select { font: inherit; padding: 5px 6px; border: 1px solid var(--border); border-radius: 6px; background: var(--surface-2); color: var(--text); }
+.prefs-h { margin: 0 0 8px; }
+.linkbtn { font: inherit; background: none; border: 0; padding: 0; color: var(--link); text-decoration: underline; cursor: pointer; }
+section.sub { border-top: 1px solid var(--border); margin-top: 10px; padding-top: 6px; }
+section.sub h4 { margin: .2rem 0; font-size: .98rem; }
+.seg { display: inline-flex; align-items: center; gap: 2px; }
+.seg-label { font-size: .85rem; color: var(--muted); margin-right: 4px; }
+.seg button, .btn { font: inherit; font-size: .9rem; color: var(--text); background: var(--surface-2); border: 1px solid var(--border); border-radius: 6px; padding: 5px 10px; cursor: pointer; min-height: 32px; }
+.seg button[aria-pressed="true"], .btn[aria-pressed="true"] { background: var(--text); color: var(--bg); border-color: var(--text); }
+.btn.big { padding: 10px 14px; font-size: 1rem; text-align: left; }
+.btn-compare .when-on { display: none; }
+/* E3-13 UX-21 (D-117): «Remove» is a secondary action — outlined, lighter than «+ compare», never the dark «pressed» fill */
+.btn.btn-remove { background: transparent; color: var(--muted); border-color: var(--border); }
+.btn.btn-remove:hover, .btn.btn-remove:focus-visible { color: var(--text); border-color: var(--text); }
+@media (max-width: 759px) { .btn.btn-remove { min-height: 44px; padding: 0 14px; } }
+/* E3-13 UX-146 (D-245): a project's long list shows its first 10 units, «N more units» opens the rest (app.js); without JS — all;
+   on paper — all (the button is not printed) */
+@media screen { :root.js .units-cut tr.u-more { display: none; } }
+:root:not(.js) .units-more { display: none; }
+.units-more { margin-top: 8px; }
+@media (max-width: 759px) { .units-more { min-height: 44px; width: 100%; } }
+.btn-compare[aria-pressed="true"] .when-on { display: inline; }
+.btn-compare[aria-pressed="true"] .when-off { display: none; }
+.choices { display: flex; flex-wrap: wrap; gap: 8px; margin: .6rem 0; }
+
+.fixture-banner { background: var(--fixture-bg); color: var(--fixture-text); text-align: center; padding: 6px 16px; font-weight: 700; }
+
+/* warnings */
+.warn { margin: 12px 0 0; padding: 12px 14px; border: 2px solid var(--warn-border); background: var(--warn-bg); border-radius: 8px; }
+.warn.note { border-width: 1px; border-color: var(--note-border); background: var(--note-bg); }
+.warn .w-title { font-size: 1rem; margin: 0 0 .3rem; }
+.warn p { margin: .2rem 0 .3rem; }
+.w-links { margin: 0; padding-left: 1.2rem; font-size: .9rem; }
+.note { padding: 8px 12px; border-left: 4px solid var(--note-border); background: var(--note-bg); border-radius: 4px; }
+
+main { padding-top: 8px; padding-bottom: 32px; }
+.crumbs { font-size: .9rem; margin-top: 12px; color: var(--muted); }
+.card { background: var(--surface); border: 1px solid var(--border); border-radius: 10px; padding: 14px 16px; margin: 0 0 16px; }
+details.card > summary { cursor: pointer; }
+.grid2 { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 420px), 1fr)); gap: 0 16px; }
+ul.cards { list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 320px), 1fr)); gap: 16px; }
+ul.cards > li { margin: 0; }
+.lot h3, .proj h3 { margin-top: 0; }
+
+/* facts */
+dl.facts { margin: 0; }
+dl.facts .row { display: grid; grid-template-columns: minmax(120px, 34%) 1fr; gap: 4px 12px; padding: 6px 0; border-top: 1px solid var(--border); }
+dl.facts .row:first-child { border-top: 0; }
+dl.facts dt { font-weight: 600; color: var(--text-2); }
+dl.facts dd { margin: 0; }
+dl.facts.compact .row { grid-template-columns: minmax(100px, 40%) 1fr; padding: 3px 0; font-size: .95rem; }
+@media (max-width: 520px) { dl.facts .row, dl.facts.compact .row { grid-template-columns: 1fr; } }
+.fact .v { font-weight: 500; }
+.badge { display: inline-block; font-size: .75rem; line-height: 1.3; padding: 1px 6px; border-radius: 4px; border: 1px solid transparent; vertical-align: baseline; white-space: nowrap; }
+.b-seller { background: var(--seller-bg); color: var(--seller-text); border-color: currentColor; font-weight: 600; }
+.b-conflict { background: var(--conflict-bg); color: var(--conflict-text); border-color: currentColor; }
+.b-derived { background: var(--derived-bg); color: var(--derived-text); }
+.b-outdated { background: var(--old-bg); color: var(--old-text); }
+.b-unknown { background: var(--unk-bg); color: var(--unk-text); }
+.alt { display: block; margin-top: 4px; padding-left: 10px; border-left: 3px solid var(--conflict-text); }
+/* UX-47 (D-142): several «i» in one line («2 sources: …») — a closed source's hidden content box (::details-content, a block) must not break the line before the next «i» */
+.alt > details.src:not([open])::details-content { display: none; }
+.attr { display: block; margin-top: 2px; color: var(--muted); }
+.attr a { color: inherit; }
+h2 .scope { font-weight: normal; font-size: .8em; color: var(--muted); }
+.convs { display: block; }
+.conv { display: block; font-size: .9rem; color: var(--text-2); }
+
+/* source popover (native details) */
+/* E3-13 UX-165 (D-271): the chip («seller», «i»), «no data», the filter scale and the /method/ sample were 11.05–11.7 px — now
+   not below 12 px (.75rem; «no data» max(.75rem, .85em) so it still grows with larger text) */
+details.src { display: inline; }
+details.src > summary { display: inline-flex; align-items: center; gap: 3px; list-style: none; cursor: pointer; font-size: .75rem; color: var(--muted); border: 1px solid var(--border); border-radius: 10px; padding: 0 6px; margin-left: 4px; vertical-align: 1px; }
+details.src > summary::-webkit-details-marker { display: none; }
+/* E3-13 UX-6: the info-only tag next to a value that already names its source type */
+details.src > summary.src-only { justify-content: center; min-width: 18px; padding: 0 5px; }
+@media (max-width: 640px) { details.src > summary { min-height: 28px; } details.src > summary.src-only { min-width: 28px; } }
+.src-i { font-style: italic; font-weight: 700; font-family: Georgia, serif; }
+details.src[open] > summary { background: var(--surface-2); color: var(--text); }
+details.src .pop { display: block; margin: 6px 0; padding: 8px 10px; background: var(--surface-2); border: 1px solid var(--border); border-radius: 6px; font-size: .88rem; font-weight: 400; max-width: 560px; }
+details.src .pop > div { margin: 2px 0; }
+details.src .pop q { font-style: italic; }
+details.src .pop code { font-size: .82rem; overflow-wrap: anywhere; }
+details.src .pop ul { margin: 2px 0; padding-left: 1.1rem; }
+
+/* tables */
+.scroll { overflow-x: auto; -webkit-overflow-scrolling: touch; position: relative; } /* UX-15: absolutely positioned .sr labels in cells stay inside the scroller (page had 488–627 px width on a phone) */
+table { border-collapse: collapse; width: 100%; font-size: .95rem; }
+th, td { text-align: left; vertical-align: top; padding: 6px 8px; border-bottom: 1px solid var(--border); }
+thead th { background: var(--surface-2); font-weight: 600; }
+.compare-table th[scope="row"] { min-width: 140px; }
+.compare-table td { min-width: 180px; }
+/* E3-13 UX-26 (D-122): lot head — room type · area is the link line, the project name a small line under it (was the full
+   «Project (City) · type · area» in 4–5 lines on a phone) */
+.cmp-lt { display: block; text-decoration: none; }
+.cmp-lt .cmp-u { display: block; text-decoration: underline; text-underline-offset: 2px; -webkit-hyphens: none; hyphens: none; } /* D-150: soft hyphens of shyEn break only on phones (≤ 480 px: hyphens: auto) */
+.compare-table thead .btn-remove { margin-top: 6px; }
+/* E3-13 UX-148 (D-247): a price cell is one wrapping line box — listing price, then the conversions; the display currency moves to the
+   top by the generated :root[data-cur] rule (tools/build-site.mjs) */
+.compare-table .price { display: flex; flex-wrap: wrap; align-items: center; gap: 2px 12px; }
+.compare-table .price > .fact { flex-basis: 100%; }
+.compare-table .price > * { min-width: 0; } /* with 200 % text a flex item is not wider than the lot column (the listing price and its «i» popover wrap inside it) */
+.compare-table .price > .convs { display: contents; }
+/* D-286: a Russian listing in RUB stays the first line (₽). The generated :root[data-cur] rule (0,5,0) lifts every
+   conversion; this is more specific and puts the conversion back under the listing price. */
+:root[data-cur] .compare-table .price[data-listcur="RUB"] .conv[data-cur] { order: 0; flex-basis: auto; font-size: .9rem; font-weight: 400; color: var(--text-2); }
+.cmp-lt .cmp-p { display: block; margin-top: 2px; font-size: .85rem; font-weight: 400; color: var(--text-2); }
+@media (min-width: 760px) { /* computer: one line «type · m² · project», as long as before */
+  .cmp-lt .cmp-u, .cmp-lt .cmp-p { display: inline; }
+  .cmp-lt .cmp-p { margin: 0 0 0 2px; } /* plus the space between the spans: copied text reads «74 м² Проект» */
+  .compare-table thead .btn-remove { margin-top: 4px; }
+}
+/* E3-13 UX-23 (D-119): on a phone the «Field» column took ~40% of the width — the 2nd lot and the ends of labels («calculated by us,
+   rate on …») were off-screen. Now the field name is a full-width line above the values and the lots stand side by side: 2 lots fit
+   a 320–390 px screen without scrolling, 3–4 lots scroll sideways with ≥ 140 px per lot; labels wrap inside their column. */
+@media (max-width: 759px) {
+  .compare-table, .compare-table thead, .compare-table tbody { display: block; }
+  .compare-table[data-n="3"], .compare-table[data-n="4"] { min-width: calc(var(--n) * 140px + (var(--n) - 1) * 10px); }
+  .compare-table tr { display: grid; grid-template-columns: repeat(var(--n, 2), minmax(0, 1fr)); column-gap: 10px; border-bottom: 1px solid var(--border); padding: 6px 0; }
+  .compare-table th, .compare-table td { min-width: 0; border-bottom: 0; padding: 2px 4px; overflow-wrap: anywhere; }
+  .compare-table th[scope="row"] { grid-column: 1 / -1; justify-self: start; position: sticky; left: 0; min-width: 0; font-size: .85rem; color: var(--text-2); padding-top: 4px; }
+  .compare-table thead tr { background: var(--surface-2); }
+  .compare-table thead th.cmp-fh { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; padding: 0; }
+  .compare-table .badge { white-space: normal; }
+}
+
+/* filters */
+.fgrid { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 160px), 1fr)); gap: 10px 12px; }
+.fld { display: flex; flex-direction: column; gap: 3px; }
+.fld label { font-size: .85rem; font-weight: 600; color: var(--text-2); }
+.fld select, .fld input, .fld textarea { font: inherit; font-size: .95rem; padding: 6px 8px; border: 1px solid var(--border); border-radius: 6px; background: var(--surface); color: var(--text); min-height: 36px; width: 100%; }
+
+.note-sent { font-weight: 600; }
+
+/* unknowns */
+.unknowns { border-color: var(--warn-border); }
+.unk-groups p { margin: 0 0 8px; } /* E3-13 UX-11: one line per reason */
+.unk-act { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 12px; margin: 4px 0 12px; }
+@media (max-width: 759px) { .unk-act .btn { min-height: 44px; padding: 0 16px; font-size: 15px; } }
+/* D-259: «What is a lot dossier» link styled as the copy button next to it; the highlighted lot on /check/ */
+.unk-act a.btn { display: inline-flex; align-items: center; text-decoration: none; }
+.check-lot { border-left: 4px solid var(--accent); }
+.check-lot p { margin: 0; }
+.questions { padding-left: 1.4rem; }
+.copy-status { font-size: .9rem; color: var(--muted); }
+
+/* charts */
+.charts { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 420px), 1fr)); gap: 12px 20px; }
+figure.chart { margin: 0; max-width: 640px; }
+figure.chart figcaption { font-weight: 600; font-size: .95rem; }
+figure.chart svg { width: 100%; height: auto; display: block; }
+.legend { display: flex; gap: 14px; font-size: .85rem; color: var(--text-2); margin: 2px 0; }
+.sw { display: inline-block; width: 14px; height: 3px; border-radius: 2px; vertical-align: middle; margin-right: 5px; }
+.sw.s-air { background: var(--s-air); } .sw.s-sea { background: var(--s-sea); }
+svg .grid { stroke: var(--grid); stroke-width: 1; }
+svg .axis { stroke: var(--axis); stroke-width: 1; }
+svg .ax { fill: var(--muted); font-size: 12px; }
+svg .dl { fill: var(--text-2); font-size: 12px; }
+svg .ln { fill: none; stroke-width: 2; stroke-linejoin: round; }
+svg .ln.s-air { stroke: var(--s-air); } svg .ln.s-sea { stroke: var(--s-sea); }
+svg .pt { stroke: var(--surface); stroke-width: 2; }
+svg .pt.s-air { fill: var(--s-air); } svg .pt.s-sea { fill: var(--s-sea); }
+svg .bar { fill: var(--s-bar); }
+svg .pt:hover, svg .bar:hover { opacity: .8; }
+details.tbl summary { cursor: pointer; font-size: .9rem; margin: 6px 0; }
+
+/* footer */
+footer.site { border-top: 1px solid var(--border); background: var(--surface); padding: 14px 0 24px; font-size: .92rem; }
+.foot-nav { margin: 0; }
+
+@media (max-width: 400px) {
+  body { font-size: 15px; }
+  h1 { font-size: 1.35rem; }
+  .card { padding: 12px; }
+}
+@media print { header.site .prefs-wrap, .btn { display: none; } }
+@media (max-width: 759px) { .hdr .brand { order: 0; } .hdr .prefs-wrap { order: 1; } .hdr nav { order: 2; flex-basis: 100%; } }
+/* E3-13 UX-16 (D-112): on a phone the menu is ONE row of 44 px links (was 2 rows of 31 px in ru — 128 px of header);
+   the current page is a bar under the link; on very narrow screens the row scrolls sideways instead of wrapping. */
+@media (max-width: 759px) {
+  .hdr { padding-top: 6px; padding-bottom: 0; row-gap: 0; }
+  .hdr nav { flex-wrap: nowrap; justify-content: space-between; gap: 0; margin: 0 -4px; overflow-x: auto; scrollbar-width: none; }
+  .hdr nav::-webkit-scrollbar { display: none; }
+  /* ar-0405: six items (+ «Рейтинг») — side padding 2 px (1 px under 360 px) keeps the row without scrolling, the font stays ≥ 12 px */
+  .hdr nav a { display: inline-flex; align-items: center; min-height: 44px; padding: 0 2px; white-space: nowrap; font-size: clamp(.75rem, 3.7vw, 1rem); }
+  .hdr nav a[aria-current="page"] { text-decoration: none; box-shadow: inset 0 -3px 0 currentColor; }
+  /* E3-13 UX-118 (D-214): high-contrast mode drops box-shadow, so the bar under the current page vanished — draw it as a thick underline there */
+  @media (forced-colors: active) { .hdr nav a[aria-current="page"] { text-decoration: underline 3px; text-underline-offset: 6px; } }
+  .hdr nav .count:not(:empty) { min-width: 1.2em; padding: 0 3px; }
+  .hdr nav a:focus-visible { outline-offset: -3px; }
+}
+/* ≤ 359 px: site name + "My details" (with its «RU/RU» summary) must stay on one line */
+@media (max-width: 359px) { .hdr { column-gap: 8px; } .hdr .brand { font-size: .9rem; } .hdr nav a { padding: 0 1px; } }
+.lots-table th[scope="row"], .lots-table td:last-child { white-space: nowrap; }
+
+/* ===== E3-8 (D-053): hotelist-style layout ===== */
+:root { --accent: #1f5fb4; --t-off: #2f7d4f; --t-other: #6b8fc7; --t-sell: #c9822b; --t-none: #d3d1cb; --hl: #fff3c4; --pin: #1d1d1b; --pin-text: #fff; }
+@media (prefers-color-scheme: dark) { :root { --accent: #8cb8ff; --t-off: #5cc08a; --t-other: #7fa2db; --t-sell: #e0a050; --t-none: #4a4945; --hl: #3a3410; --pin: #f0efec; --pin-text: #151514; } }
+.wrap.wide { max-width: 1680px; }
+.sr { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+.nodata { color: var(--muted); font-size: max(.75rem, .85em); font-weight: 400; }
+.nodata-why { color: var(--muted); font-size: .8em; }
+.tiny { font-size: .78rem; margin: 2px 0 0; }
+.sc { color: var(--seller-text); font-weight: 700; margin-left: 1px; cursor: help; }
+.small-btn { font-size: .78rem; padding: 2px 7px; min-height: 26px; }
+.btn-primary { background: var(--accent); color: var(--bg); border-color: var(--accent); text-decoration: none; display: inline-block; font-weight: 600; }
+
+/* /lots layout: filters | list | map */
+.lots-h1 { font-size: 1.25rem; margin: .4rem 0 .5rem; }
+.lots-layout { display: grid; gap: 16px; grid-template-columns: minmax(0, 1fr); align-items: start; }
+.fpanel { background: var(--surface); border: 1px solid var(--border); border-radius: 10px; padding: 10px 12px; }
+.fpanel .fld { margin-bottom: 8px; }
+.fpanel input[type=search] { font: inherit; font-size: .95rem; padding: 6px 8px; border: 1px solid var(--border); border-radius: 6px; background: var(--surface); color: var(--text); width: 100%; min-height: 36px; }
+.chips { display: flex; flex-wrap: wrap; gap: 6px; margin: 4px 0 8px; }
+.chip { font: inherit; font-size: .85rem; border: 1px solid var(--border); background: var(--surface-2); color: var(--text); border-radius: 16px; padding: 3px 10px; cursor: pointer; min-height: 30px; }
+.chip[aria-pressed="true"] { background: var(--text); color: var(--bg); border-color: var(--text); }
+.chip .cn { opacity: .7; font-size: .78rem; }
+.fsum { cursor: pointer; font-weight: 600; margin: 4px 0; }
+.rblock { margin: 10px 0 12px; }
+.rhead { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 4px; align-items: baseline; }
+.flabel { font-weight: 600; font-size: .9rem; }
+.flabel select { font: inherit; font-size: .82rem; padding: 1px 4px; border: 1px solid var(--border); border-radius: 4px; background: var(--surface); color: var(--text); margin-left: 4px; }
+.rvals { font-size: .85rem; color: var(--text-2); }
+.histwrap { height: 40px; margin-top: 4px; }
+svg.hist { width: 100%; height: 40px; display: block; }
+svg.hist .hb { fill: var(--t-none); }
+svg.hist .hb.in { fill: var(--accent); }
+.dual { position: relative; height: 22px; margin-top: -2px; }
+.dual input[type=range] { position: absolute; left: 0; right: 0; width: 100%; margin: 0; top: 2px; background: none; pointer-events: none; touch-action: none; -webkit-appearance: none; appearance: none; height: 18px; }
+.dual input[type=range]::-webkit-slider-thumb { pointer-events: auto; -webkit-appearance: none; width: 18px; height: 18px; border-radius: 50%; background: var(--surface); border: 2px solid var(--accent); cursor: pointer; }
+.dual input[type=range]::-moz-range-thumb { pointer-events: auto; width: 16px; height: 16px; border-radius: 50%; background: var(--surface); border: 2px solid var(--accent); cursor: pointer; }
+.dual input[type=range]::-webkit-slider-runnable-track { height: 2px; background: var(--border); }
+.dual input[type=range] + input[type=range]::-webkit-slider-runnable-track { background: transparent; }
+.scalewrap { position: relative; height: 16px; margin: 1px 0 4px; font-size: .75rem; line-height: 16px; color: var(--muted); font-variant-numeric: tabular-nums; }
+.scale { position: relative; height: 16px; }
+.scale .tk { position: absolute; top: 0; left: calc(9px + (100% - 18px) * var(--p)); transform: translateX(-50%); white-space: nowrap; }
+.scale .tk-min { left: 0; transform: none; }
+.scale .tk-max { left: auto; right: 0; transform: none; }
+.scale .tk.off { visibility: hidden; }
+.rnums { display: flex; gap: 8px; margin-top: 2px; }
+.rnums label > span { white-space: nowrap; }
+.rnums label { display: flex; align-items: center; gap: 4px; font-size: .82rem; color: var(--muted); flex: 1 1 0; min-width: 0; }
+.rnums input { font: inherit; font-size: .85rem; width: 100%; min-width: 0; padding: 3px 6px; border: 1px solid var(--border); border-radius: 5px; background: var(--surface); color: var(--text); }
+.hid { color: var(--muted); margin: 2px 0 0; display: block; }
+.checks { display: grid; gap: 2px; margin: 6px 0; }
+.chk { display: flex; gap: 6px; align-items: center; font-size: .92rem; cursor: pointer; min-height: 28px; }
+.chk input { width: 17px; height: 17px; }
+.fmore summary { cursor: pointer; font-size: .9rem; color: var(--link); margin: 6px 0; }
+.fmore .fgrid, .fgrid.fsel { grid-template-columns: 1fr; } /* E3-13 UX-30: status and month shown directly, no nested «More filters» */
+.fgrid.fsel { margin: 4px 0 8px; }
+
+.ltools { display: flex; flex-wrap: wrap; gap: 6px 12px; align-items: center; margin: 0 0 8px; font-size: .9rem; }
+.ltools #lots-count { font-weight: 600; flex: 1 1 auto; }
+.sortl { font-size: .88rem; color: var(--muted); max-width: 100%; }
+.sortl select { font: inherit; font-size: .88rem; padding: 3px 6px; border: 1px solid var(--border); border-radius: 6px; background: var(--surface); color: var(--text); max-width: 100%; }
+/* D-224 (UX-130): the select is as wide as its longest option («highest price per m²»); with text at 200 % at 320 px (en) that was 38 px wider than the screen — now it is capped at the row width (at 100 % nothing changes: it fits anyway). */
+.panetabs { display: none; margin-bottom: 8px; }
+.plist { list-style: none; margin: 0; padding: 0; display: grid; gap: 10px; }
+.pcard { background: var(--surface); border: 1px solid var(--border); border-radius: 10px; padding: 8px 12px; scroll-margin: 80px; }
+.pcard.hl { outline: 3px solid var(--accent); background: var(--hl); }
+.pc-top { display: flex; justify-content: space-between; gap: 8px; align-items: baseline; }
+.pc-top h3 { margin: 0; font-size: 1.05rem; }
+.pc-sub { margin: 0; font-size: .88rem; }
+.pc-main { display: flex; flex-wrap: wrap; gap: 4px 18px; margin: 2px 0 0; font-size: 1.05rem; font-weight: 600; font-variant-numeric: tabular-nums; }
+.pc-facts { list-style: none; margin: 0 0 4px; padding: 0; display: flex; flex-wrap: wrap; gap: 2px 14px; font-size: .86rem; color: var(--text-2); }
+.rf-some { color: var(--seller-text); }
+.units-d { margin-top: 3px; }
+.units-d > summary { cursor: pointer; font-size: .9rem; color: var(--link); }
+table.units { font-size: .86rem; overflow-wrap: normal; } /* E3-13 UX-46: a table too wide for its box scrolls instead of breaking words */
+table.units td, table.units th { padding: 4px 6px; }
+table.units .acts { white-space: nowrap; }
+.pc .conv { display: none; }
+
+/* map */
+.mpane { display: none; }
+.mapbox { position: relative; height: 420px; border: 1px solid var(--border); border-radius: 10px; overflow: hidden; background: var(--surface-2); }
+#map { position: absolute; inset: 0; }
+.map-status { position: absolute; left: 8px; right: 8px; top: 8px; margin: 0; z-index: 3; }
+.map-note, .attr-line { margin: 4px 0 0; }
+.attr-line a { color: inherit; }
+.pin { font: 600 12px/1.2 system-ui, sans-serif; background: var(--pin); color: var(--pin-text); border: 2px solid var(--pin); border-radius: 12px; padding: 3px 7px; white-space: nowrap; cursor: pointer; box-shadow: 0 1px 3px rgba(0,0,0,.35); }
+.pin.approx { border-style: dashed; border-color: var(--surface); }
+.pin.active, .pin.hover { background: var(--accent); border-color: var(--accent); color: #fff; z-index: 5; }
+.pin[hidden] { display: none; }
+/* E3-13: a pin inside a cluster is hidden; the cluster is the same pill, inverted, so it reads as a group */
+.pin.in-cluster { display: none; }
+.pin.cluster { background: var(--surface); color: var(--text); border: 2px solid var(--pin); }
+.pin.cluster.active, .pin.cluster.hover { background: var(--accent); border-color: var(--accent); color: #fff; z-index: 5; }
+/* /features/: what changed in the interface and why */
+.feat-shots { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 16px; margin: 12px 0 0; }
+.feat-shots figure { margin: 0; }
+.feat-shots img { display: block; width: 100%; height: auto; border: 1px solid var(--border); }
+.feat-shots figcaption { font-size: 14px; color: var(--muted); margin-top: 6px; }
+.feat-list { list-style: none; margin: 0; padding: 0; }
+.feat-list li { margin: 0; padding: 10px 0; border-top: 1px solid var(--border); }
+.feat-list li > a { font-weight: 600; }
+.feat-goal { margin: 4px 0 0; color: var(--muted); display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+.feat-day h2 { font-size: 1.05rem; margin: 22px 0 6px; }
+.feat-nav { display: flex; justify-content: space-between; gap: 4px 16px; margin: 20px 0 8px; }
+.feat-nav a { display: block; padding: 11px 0; max-width: 48%; }
+.feat-nav a[rel="next"] { text-align: right; margin-left: auto; }
+@media (max-width: 640px) { .feat-nav { flex-direction: column; } .feat-nav a { max-width: none; } .feat-nav a[rel="next"] { text-align: left; margin-left: 0; } }
+.pop-list { display: grid; gap: 4px; font-size: .88rem; color: #161614; }
+.linkish { font: inherit; background: none; border: 0; padding: 2px 0; color: #1f5fb4; text-decoration: underline; cursor: pointer; text-align: left; }
+:root:not(.js) .mpane { display: none !important; }
+
+@media (min-width: 760px) {
+  .lots-layout { grid-template-columns: minmax(0, 1fr) minmax(0, 40%); }
+  .fpanel { grid-column: 1 / -1; }
+  .mpane { display: block; position: sticky; top: 8px; }
+  .mapbox { height: calc(100vh - 140px); min-height: 360px; }
+}
+@media (min-width: 1100px) {
+  .lots-layout { grid-template-columns: 240px minmax(0, 1fr) minmax(0, 32%); gap: 14px; }
+  .fpanel { grid-column: auto; position: sticky; top: 8px; max-height: calc(100vh - 16px); overflow-y: auto; }
+  .fpanel .fsum { display: none; }
+}
+.lbl-short { display: none; }
+@media (max-width: 759px) {
+  /* E3-13 UX-2 (phone first screen): one row of controls above the list, 44px touch targets,
+     search and «Filters» in one row, list/map as a floating switch at the bottom (taste-skill app screens §12) */
+  .fpanel { display: grid; grid-template-columns: minmax(0, 1fr) auto; column-gap: 8px; align-items: center; padding: 8px 10px; }
+  .fpanel > .fld-search { grid-column: 1; grid-row: 1; margin: 0; }
+  .fpanel > .fld-search label { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+  .fpanel > #fwrap { grid-column: 2; grid-row: 1; }
+  .fpanel > #fwrap[open] { grid-column: 1 / -1; grid-row: 3; margin-top: 8px; }
+  .fpanel > .chips { grid-column: 1 / -1; grid-row: 2; margin: 8px 0 0; }
+  .fpanel input[type=search] { min-height: 44px; font-size: 16px; }
+  .fpanel .fsum { min-height: 44px; display: flex; align-items: center; gap: 6px; padding: 0 14px; border: 1px solid var(--border); border-radius: 6px; background: var(--surface-2); list-style: none; cursor: pointer; font-weight: 600; }
+  .fpanel .fsum::-webkit-details-marker { display: none; }
+  .chip { min-height: 44px; padding: 0 14px; font-size: 15px; }
+  .ltools { gap: 8px; }
+  .ltools #lots-count { flex-basis: 100%; font-weight: 400; color: var(--muted); font-size: 14px; }
+  .ltools .seg button, .sortl select { min-height: 44px; font-size: 15px; }
+  .sortl-t { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+  .lbl-long { display: none; }
+  .lbl-short { display: inline; }
+  .panetabs { position: fixed; left: 50%; bottom: 16px; transform: translateX(-50%); z-index: 40; margin: 0; padding: 4px; gap: 4px; background: var(--surface); border: 1px solid var(--border); border-radius: 999px; box-shadow: 0 4px 16px rgba(0, 0, 0, .18); }
+  .panetabs button { min-height: 44px; padding: 0 20px; border: 0; border-radius: 999px; font-size: 15px; }
+  .lpane { padding-bottom: 76px; }
+  .lots-layout[data-pane="map"] .lpane { padding-bottom: 0; }
+  .lots-layout[data-pane="map"] .mpane { padding-bottom: 76px; }
+  .lots-layout[data-pane="map"] .mapbox { height: calc(100vh - 260px); min-height: 320px; }
+  .panetabs { display: inline-flex; }
+  .chips { flex-wrap: nowrap; overflow-x: auto; padding-bottom: 4px; -webkit-overflow-scrolling: touch; }
+  .chip { flex: 0 0 auto; }
+  .lots-layout[data-pane="map"] .lpane > :not(.panetabs) { display: none; }
+  .lots-layout[data-pane="map"] .mpane { display: block; }
+  .lots-layout[data-pane="map"] .fpanel { display: none; }
+}
+
+/* object page: header + tabs */
+.obj-head h1 { margin-bottom: .3rem; }
+.obj-meta { margin: 0 0 4px; color: var(--text-2); }
+.k-lbl { font-weight: 400; color: var(--muted); font-size: .9rem; }
+.obj-key { margin: 0 0 6px; font-size: 1.15rem; font-weight: 600; font-variant-numeric: tabular-nums; }
+.obj-key .rf, .pc-facts .rf { font-size: .92rem; font-weight: 400; }
+/* ar-0434 (D-275): «: доходность, условия и сроки» after the project name; the intro paragraph from its facts */
+.h1-sub { font-weight: 400; }
+.obj-intro { margin: 0 0 8px; max-width: 75ch; line-height: 1.5; }
+.obj-intro details.src:not([open])::details-content { display: none; } /* as .alt (UX-47): a closed «i» keeps the line */
+.obj-acts { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; margin: 6px 0; }
+.demand { margin: 6px 0; }
+/* E3-13 UX-21 (D-117): the note stays one phrase under the button instead of breaking after the button mid-phrase */
+.demand .demand-note { display: block; margin-top: 4px; }
+@media (max-width: 759px) { .demand .btn { min-height: 44px; padding: 0 16px; } }
+.demand .note { margin: 6px 0 0; }
+/* ar-0409: fake door «buy the dossier» on a project page and the way back on /dossier-soon/ */
+.fd { margin: 8px 0 4px; }
+.fd .btn, .fd-back { display: inline-flex; align-items: center; text-decoration: none; }
+@media (max-width: 759px) { .fd .btn, .fd-back { min-height: 44px; padding: 0 16px; } }
+.tabbar { display: flex; gap: 2px; overflow-x: auto; -webkit-overflow-scrolling: touch; border-bottom: 2px solid var(--border); margin: 12px 0 14px; scrollbar-width: thin; }
+.tabbar a { flex: 0 0 auto; padding: 8px 12px; text-decoration: none; color: var(--text-2); border-bottom: 3px solid transparent; margin-bottom: -2px; white-space: nowrap; }
+.tabbar a[aria-selected="true"] { color: var(--text); border-bottom-color: var(--accent); font-weight: 600; }
+.tabs:not(.tabs-on) .tabpanel { border-top: 1px dashed var(--border); padding-top: 8px; }
+.tabs.tabs-on .panel-h { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); }
+.tabpanel[hidden] { display: none; }
+.srclist { padding-left: 1.1rem; }
+.card > h3:first-child, .tabpanel > .card > h3:first-child { margin-top: 0; }
+.tabs.tabs-on .tabpanel > .card:first-of-type { margin-top: 0; }
+.pc-mark { margin: 0; font-size: .76rem; }
+/* E3-13 UX-3: the project card on one type scale — 12 / 14 / 17 px; the name and the price lead, the rest is quieter */
+.plist { gap: 12px; }
+.pcard { padding: 14px 16px; }
+.pc-top h3 { font-size: 17px; font-weight: 600; line-height: 1.3; }
+.pc-top h3 a { text-decoration: none; }
+.pc-top h3 a:hover, .pc-top h3 a:focus-visible { text-decoration: underline; }
+.pcard .pc-sub { font-size: 14px; margin: 2px 0 0; }
+.pcard .pc-main { font-size: 17px; margin: 8px 0 4px; }
+.pcard .pc-facts { font-size: 14px; gap: 2px 16px; margin: 0 0 6px; }
+.pcard .pc-facts .rf, .pcard .nodata { font-size: 14px; }
+.pcard .small, .pcard .pc-mark, .pcard .badge, .pcard .small-btn { font-size: 12px; }
+.pcard .units-d > summary { font-size: 14px; }
+.pcard table.units { font-size: 14px; }
+.pcard table.units thead th { font-size: 12px; }
+/* E3-13 UX-7: /compare — rows with no data for every lot are hidden; «Differences only» hides rows that are the same */
+.cmp-bar { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 0 12px; margin: 0 0 10px; } /* UX-26: one row */
+.cmp-diff-l { display: inline-flex; align-items: center; gap: 8px; min-height: 36px; font-weight: 600; cursor: pointer; }
+.cmp-diff-l input { width: 18px; height: 18px; }
+.compare-table tr[data-empty] { display: none; }
+.cmp-only-diff .compare-table tr[data-same] { display: none; }
+@media (max-width: 759px) { .cmp-diff-l { min-height: 44px; } }
+/* E3-13 UX-8: active filters above the list, each removable in one tap */
+.afilters { display: flex; flex-wrap: wrap; align-items: center; gap: 6px 8px; margin: 0 0 10px; }
+.afilters[hidden] { display: none; }
+.achip { font: inherit; font-size: 14px; display: inline-flex; align-items: center; gap: 6px; min-height: 32px; padding: 0 10px; border: 1px solid var(--text); border-radius: 16px; background: var(--surface); color: var(--text); cursor: pointer; }
+.achip span { font-size: 16px; line-height: 1; }
+.ahid { flex-basis: 100%; margin: 0; font-size: 14px; color: var(--muted); } /* E3-13 UX-50: hidden for lack of data, next to the results */
+#lots-empty .btn { display: block; margin-top: 10px; }
+@media (max-width: 759px) { .achip { min-height: 44px; padding: 0 14px; } .afilters .linkbtn { min-height: 44px; padding: 0 6px; } #lots-empty .btn { min-height: 44px; } }
+/* E3-13 UX-9: a project card opens the project wherever it is tapped, a unit row on a phone opens the lot (the title link
+   is stretched over the card); links, buttons and the units list inside stay on top and keep their own action */
+.pcard { position: relative; }
+.pcard .pc-top h3 a::after { content: ''; position: absolute; inset: 0; border-radius: inherit; }
+.pcard :is(a, button, details):not(.pc-top h3 a) { position: relative; z-index: 1; }
+.pcard .pc-sub a { padding: 4px 0 12px; margin: -4px 0 -12px; }
+.pcard:has(.pc-top h3 a:focus-visible) { outline: 2px solid var(--focus); outline-offset: 2px; }
+@media (hover: hover) { .pcard:hover { border-color: var(--muted); } }
+@media (max-width: 759px) {
+  .units-d > summary { padding: 12px 0; }
+  table.units .btn-compare, .pcard table.units .btn-compare { min-height: 44px; padding: 0 12px; font-size: 14px; }
+}
+/* E3-13 UX-10: on a phone all object tabs are visible at once — a 3×2 segmented control in the site's own style
+   (as «Проекты | Юниты»), instead of a scrolling bar where «Налоги», «Чего не знаем» and «Источники» were off-screen */
+@media (max-width: 759px) {
+  .tabbar { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 4px; overflow: visible; border-bottom: 0; }
+  .tabbar a { display: flex; align-items: center; justify-content: center; min-height: 44px; padding: 4px 6px; margin: 0; border: 1px solid var(--border); border-radius: 8px; background: var(--surface-2); color: var(--text); white-space: normal; text-align: center; line-height: 1.15; font-size: 15px; }
+  .tabbar a[aria-selected="true"] { background: var(--text); color: var(--bg); border-color: var(--text); }
+}
+/* E3-13 UX-12: city page — projects first as catalogue cards; «on this page» links to projects, climate, seasonality */
+.jump { display: flex; flex-wrap: wrap; gap: 8px; margin: 0 0 16px; }
+.jump a { display: inline-flex; align-items: center; min-height: 36px; padding: 0 12px; border: 1px solid var(--border); border-radius: 999px; background: var(--surface); color: var(--text); text-decoration: none; font-size: 15px; }
+.jump a:hover { border-color: var(--muted); }
+#projects, #climate, #seasonality { scroll-margin-top: 12px; }
+#projects > h2 { margin-top: 0; }
+@media (max-width: 759px) { .jump a { min-height: 44px; } }
+/* E3-13 UX-13: country page — the city table with unit price ranges is the first tab */
+table.cities td.c-price { white-space: nowrap; }
+/* E3-13 UX-137 (D-233): the cities of a country under its name */
+table.countries .c-cities { display: block; margin-top: 2px; font-weight: 400; color: var(--muted); }
+.c-ph { display: none; }
+@media (max-width: 640px) {
+  /* a phone row: the city on the first line, «4 projects · 10 lots» and the price range on the second; the whole row opens the city */
+  table.cities thead { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); }
+  table.cities, table.cities tbody { display: block; }
+  table.cities tr { position: relative; display: flex; flex-wrap: wrap; align-items: baseline; gap: 2px 12px; padding: 12px 0; border-bottom: 1px solid var(--border); }
+  table.cities th, table.cities td { display: block; border: 0; padding: 0; text-align: left; background: none; }
+  table.cities th[scope="row"] { flex: 1 0 100%; font-size: 17px; }
+  table.cities th[scope="row"] a::after { content: ''; position: absolute; inset: 0; }
+  table.cities td.c-n { color: var(--muted); font-size: 14px; }
+  table.cities td.c-price { margin-left: auto; font-weight: 600; }
+  table.cities .c-ph { display: inline; }
+}
+/* E3-13 UX-14 (D-110): /sources — type chips; numbers and dates do not break; on a phone each domain is a block */
+:root:not(.js) .src-types { display: none; }
+/* E3-13 UX-99 (D-198): domain search above the type chips */
+:root:not(.js) .src-search { display: none; }
+.src-search { margin: 0 0 10px; max-width: 420px; }
+.src-search label { display: block; font-size: .9rem; color: var(--muted); margin: 0 0 4px; }
+.src-search input[type=search] { font: inherit; font-size: 16px; padding: 6px 10px; border: 1px solid var(--border); border-radius: 6px; background: var(--surface); color: var(--text); width: 100%; min-height: 44px; box-sizing: border-box; }
+#sources-none .btn { display: block; margin-top: 10px; min-height: 44px; }
+table.sources td.s-n, table.sources td.s-date, table.sources td.s-urls summary, table.sources thead th { white-space: nowrap; }
+table.sources th[scope="row"] { overflow-wrap: anywhere; }
+table.sources tr[hidden] { display: none !important; }
+/* E3-13 UX-108 (D-207): in the table the URL list starts where the «N URL» text does (after the 16 px disclosure marker), no bullet, 4 px
+   between addresses — the default 40 px indent in a 160–320 px column wrapped long addresses into up to 15 lines (800 px, ru); phones: UX-106 */
+table.sources td.s-urls ul { padding-left: 16px; list-style: none; }
+table.sources td.s-urls li + li { margin-top: 4px; }
+/* E3-13 UX-120 (D-215): from 800 px the URL column is 159–318 px wide and an open list wrapped long addresses into up to 12 lines
+   (800 px, ru); with JS the open list takes the whole row under the domain (container width, from its left edge to the right one),
+   app.js pushes it below the row's other cells when one of them wraps (type, domain, note). Without JS the list stays in its column */
+@media (min-width: 800px) {
+  :root.js [data-testid="sources-table"] .scroll { container-type: inline-size; }
+  :root.js table.sources td.s-urls details[open] > ul { margin-left: calc(100% - 100cqi + 16px); padding-left: 0; }
+}
+/* E3-13 UX-122 (D-216): from 800 px «N URL» was a 69×23 px target on a touch screen too (a tablet); with a coarse pointer it is ≥ 44 px
+   tall, as on a phone (UX-110): it reaches into the cell's 6 px top and bottom padding, so its text stays level with the row's other
+   cells and a one-line row grows from 36 to 45 px (with its border), not 51. A mouse (fine pointer) keeps the previous layout */
+@media (min-width: 800px) and (pointer: coarse) {
+  table.sources td.s-urls summary { margin: -6px 0; padding: 6px 0 0; min-height: 44px; box-sizing: border-box; }
+}
+/* E3-13 UX-110 (D-210): «each domain is a block» up to 799 px (was 640) — at 641–799 px the table left the address column 86–188 px wide
+   and the longest address took up to 22 lines (641 px, ru); the table starts at 800 px.
+   E3-13 UX-136 (D-231): without JS (the UX-120 full-row list needs app.js) the table at 800–1023 px left an open list in its
+   column, 61–208 px of text width — an address took up to 12 lines (800 px) / 8 (1023 px); without JS the blocks go on up to 1023 px */
+@media (max-width: 799px), (max-width: 1023px) and (scripting: none) {
+  table.sources thead { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); }
+  table.sources, table.sources tbody { display: block; }
+  /* E3-13 UX-102 (D-202): the «·» before a fact count / date sits in the column gap (cell pulled left by the gap width); when the
+     cell wraps to a new line its «·» falls left of the row and is clipped — the line starts with «checked …», not «· checked …» */
+  table.sources tr { display: flex; flex-wrap: wrap; align-items: baseline; gap: 2px 16px; padding: 10px 0 4px; border-bottom: 1px solid var(--border); overflow-x: clip; }
+  table.sources th, table.sources td { display: block; border: 0; padding: 0; text-align: left; background: none; }
+  table.sources th[scope="row"] { flex: 1 0 100%; font-size: 17px; }
+  table.sources td.s-type, table.sources td.s-n, table.sources td.s-date { color: var(--muted); font-size: 14px; }
+  table.sources td.s-n, table.sources td.s-date { margin-left: -16px; }
+  table.sources td.s-n::before, table.sources td.s-date::before { content: '·'; display: inline-block; width: 16px; text-align: center; }
+  table.sources td.s-urls { flex: 1 0 100%; }
+  table.sources td.s-urls summary { min-height: 44px; display: flex; align-items: center; cursor: pointer; color: var(--link, inherit); }
+  /* UX-136: a touch screen of 800–1023 px without JS — the table's 44 px target (UX-122) reaches into a cell padding the block has not */
+  table.sources td.s-urls summary { margin: 0; padding-top: 0; }
+  table.sources td.s-urls ul { margin: 0 0 8px; overflow-wrap: anywhere; }
+  /* E3-13 UX-104 (D-204): the row clips overflow (UX-102) and the summary / URLs reach its edges — the focus ring
+     (3 px + 2 px offset) was cut off left and right; the summary ring goes inside its 44 px box (text 8 px in, clear of the ring),
+     the URL list keeps 5 px on the right */
+  table.sources td.s-urls summary { padding-left: 8px; }
+  table.sources td.s-urls summary:focus-visible { outline-offset: -3px; }
+  table.sources td.s-urls ul { padding-right: 5px; }
+  /* E3-13 UX-106 (D-205): the URL list starts where the «N URL» text does (8 px, room for the 5 px focus ring), no bullet, 4 px between
+     addresses — the default 40 px indent wrapped long addresses into up to 7 lines on a 320 px phone */
+  table.sources td.s-urls ul { padding-left: 8px; list-style: none; }
+  table.sources td.s-urls li + li { margin-top: 4px; }
+  /* E3-13 UX-112 (D-211): the summary is display:flex (44 px tap height), and a flex summary gets no disclosure marker — «N URL» had no
+     sign that it opens a list (the table from 800 px shows «▶ N URL»); the same triangle is drawn before the text, turned down when open.
+     The URL list stays on the summary's content edge (8 px, UX-106), i.e. under the triangle — no address gets narrower */
+  table.sources td.s-urls summary::before { content: ''; flex: none; width: 0; height: 0; border-style: solid; border-width: 5px 0 5px 8px; border-color: transparent transparent transparent currentColor; margin-right: 6px; }
+  table.sources td.s-urls details[open] > summary::before { transform: rotate(90deg); }
+  /* E3-13 UX-114 (D-212): in forced colors (Windows high contrast) the system recoloured all four borders — the triangle became a filled
+     rectangle and ▶ / ▼ looked the same; the pseudo-element keeps its own colours, the visible side takes the system link colour */
+  @media (forced-colors: active) { table.sources td.s-urls summary::before { forced-color-adjust: none; border-color: transparent transparent transparent LinkText; } }
+  table.sources .c-ph { display: inline; }
+}
+
+/* E3-13 UX-15 (D-111): /compare is not a dead end — chosen lot + picker in place */
+.cmp-chosen, .cmp-list { margin: 0 0 12px; padding: 0; list-style: none; }
+.cmp-row { display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 10px 0; border-bottom: 1px solid var(--border); }
+.cmp-chosen .cmp-row { border: 1px solid var(--border); border-radius: 8px; padding: 10px 12px; background: var(--surface); }
+.cmp-t { display: flex; flex-direction: column; gap: 2px; min-width: 0; }
+.cmp-t a { overflow-wrap: anywhere; }
+.cmp-row .btn { min-height: 44px; padding: 0 14px; white-space: nowrap; flex: none; }
+.cmp-picker h2 { font-size: 1.15rem; margin: 18px 0 8px; }
+.cmp-city { display: flex; align-items: center; gap: 8px; margin: 4px 0 6px; }
+.cmp-city select { min-height: 44px; font: inherit; padding: 0 8px; max-width: 100%; background: var(--surface); color: var(--text); border: 1px solid var(--border); border-radius: 6px; }
+.cmp-foot { display: flex; flex-wrap: wrap; align-items: center; gap: 12px 16px; }
+.cmp-foot .btn { min-height: 44px; }
+.cmp-more { margin-top: 16px; }
+.cmp-more > summary { cursor: pointer; min-height: 44px; display: flex; align-items: center; font-weight: 600; }
+/* E3-13 UX-153 (D-253): a flex summary gets no disclosure marker — «Add a lot (N more allowed)» looked like a plain label, not the way
+   to the picker; the UX-112 triangle is drawn before the text, turned down when open (the phone «Table» toggle below too) */
+.cmp-more > summary::before { content: ''; flex: none; width: 0; height: 0; border-style: solid; border-width: 5px 0 5px 8px; border-color: transparent transparent transparent currentColor; margin-right: 6px; }
+.cmp-more[open] > summary::before { transform: rotate(90deg); }
+@media (forced-colors: active) { .cmp-more > summary::before, details.tbl > summary::before { forced-color-adjust: none; border-color: transparent transparent transparent CanvasText; } }
+/* E3-13 UX-17: phone filter panel — a sticky «Show N projects» button at the bottom of the open panel; the floating
+   «List | Map» switch steps aside while the panel is open. Desktop: filters and list sit side by side, no button. */
+.fapply-wrap { display: none; }
+@media (max-width: 759px) {
+  #fwrap[open] .fapply-wrap { display: block; position: sticky; bottom: 0; z-index: 5; margin: 10px -10px -8px; padding: 10px 10px 12px; background: var(--surface); border-top: 1px solid var(--border); border-radius: 0 0 10px 10px; }
+  .fapply { width: 100%; min-height: 48px; font-size: 16px; text-align: center; }
+  body:has(#fwrap[open]) .panetabs { display: none; }
+}
+
+/* E3-13 UX-18 (D-114): /method — contents on the first screen (2 columns of 44 px links on a phone, a wrapping row on
+   desktop), labels shown exactly as they look next to values, a landing heading not glued to the viewport edge. */
+.mtoc { margin: 0 0 16px; }
+.mtoc ul { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: 6px 8px; }
+.mtoc a { display: inline-flex; align-items: center; min-height: 32px; padding: 2px 10px; border: 1px solid var(--border); border-radius: 16px; background: var(--surface); text-decoration: none; font-size: .9rem; line-height: 1.25; }
+.mtoc a:hover { background: var(--surface-2); }
+main section[id] { scroll-margin-top: 12px; }
+main section[id]:target { border-color: var(--link); }
+.mlabels { margin: 10px 0 0; }
+.mlabels > div { padding: 8px 0; border-top: 1px solid var(--border); }
+.mlabels > div:first-child { border-top: 0; }
+.mlabels dt { margin: 0 0 4px; }
+.mlabels dt .badge { white-space: normal; } /* D-226 (UX-132): with text at 200 % «в объявлении противоречие» in one line went past the edge of a 320–375 px screen; at 100 % every label still fits on one line. */
+.mlabels dd { margin: 0; }
+.mlabels dd ul { margin: 4px 0; padding-left: 1.1rem; }
+.mlabels dd li { margin: 3px 0; }
+.src-demo { display: inline-flex; align-items: center; gap: 3px; font-size: .75rem; color: var(--muted); border: 1px solid var(--border); border-radius: 10px; padding: 0 6px; }
+@media (max-width: 759px) {
+  .mtoc ul { display: grid; grid-template-columns: 1fr 1fr; gap: 6px; }
+  .mtoc a { display: flex; min-height: 44px; height: 100%; box-sizing: border-box; padding: 4px 10px; font-size: .88rem; border-radius: 10px; }
+}
+/* E3-13 UX-20: phone map — a tapped pin shows the project card as a preview over the bottom of the map */
+.map-preview { position: absolute; left: 8px; right: 8px; bottom: 8px; z-index: 3; max-height: 62%; overflow: auto; border-radius: 12px; box-shadow: 0 6px 24px rgba(0, 0, 0, .22); }
+.map-preview[hidden] { display: none; }
+.mapbox > #map { isolation: isolate; } /* the map's own layers (markers, controls) stay under the preview */
+.map-preview .pcard { margin: 0; padding-right: 52px; }
+.map-preview .mp-close { position: absolute; top: 4px; right: 4px; z-index: 4; width: 44px; height: 44px; border: 0; border-radius: 22px; background: transparent; color: var(--text); font-size: 24px; line-height: 1; cursor: pointer; }
+/* E3-13 UX-22: lot price — conversions on one line with one mark and one source button */
+.convs { display: flex; flex-wrap: wrap; align-items: center; gap: 2px 12px; margin-top: 4px; }
+.convs > .conv { display: inline; }
+.conv-meta { display: inline-flex; align-items: center; gap: 4px; }
+/* E3-13 UX-128 (D-219): with 200 % text the nowrap badges of the lot price («computed by us, rate of …» plus «i» at the price and the price per m², «listing contradicts
+   itself») were wider than the price column (641 px: +11 px page scroll with a mouse, +21 px on a touch screen; 320 px: +206) — they may
+   wrap, but only when wider than the whole line: the badge group does not shrink (it still moves to its own line first, as before),
+   so at normal size nothing changes. Lot page facts only (the compare table has its own rule above) */
+.facts .convs > .conv-meta { max-width: 100%; flex-shrink: 0; }
+.facts .price .badge, .facts .conv-meta > .badge { white-space: normal; min-width: 0; }
+/* E3-13 UX-134 (D-228): a nowrap badge next to a fact value outside the price («в объявлении противоречие» at «Статус проекта» of two lots) set the width of the
+   grid column with text at 200 % — the lot page was wider than a 320–375 px screen (+59…+4 px). An inline-block badge with white-space: normal still moves to the
+   next line as a whole first and wraps inside only when wider than the whole line, so at normal size nothing changes. */
+dl.facts dd .badge { white-space: normal; }
+.convs .pop .conv { display: block; font-size: inherit; color: inherit; }
+/* E3-13 UX-31 (D-127): the price «how it is calculated» popover drops to its own full-width row instead of a
+   cramped ~125 px column squeezed into the inline-flex badge cell (which overflowed the phone viewport). When the
+   source tag is open, badge + «i» stay on the conversions line and the popover breaks below, full readable width. */
+.convs .conv-meta:has(> details.src[open]) { display: contents; }
+.convs .conv-meta > details.src[open] { display: contents; }
+.convs .conv-meta > details.src[open]::details-content { display: contents; }
+.convs .conv-meta > details.src[open] > summary { margin-left: -8px; }
+.convs .conv-meta > details.src[open] .pop { flex-basis: 100%; margin: 2px 0 0; }
+/* E3-13 UX-24: the lot's empty fields in one muted line */
+.row-nodata dd { color: var(--muted); }
+/* E3-13 UX-27: one chart variant per screen width (see charts.mjs) — labels ~12 px on phones and desktops */
+figure.chart-n { display: none; }
+@media (max-width: 640px) { figure.chart-w { display: none; } figure.chart-n { display: block; } }
+/* E3-13 UX-29: desktop unit tables — the whole row opens the lot (app.js), so it looks clickable */
+@media (min-width: 641px) {
+  table.units tbody tr[data-id] { cursor: pointer; }
+  table.units tbody tr[data-id]:hover > td, table.units tbody tr[data-id]:hover > th { background: var(--surface-2); }
+}
+/* E3-13 UX-28 (D-124): a date «22 окт. 2026» never breaks between day, month and year */
+time { white-space: nowrap; }
+/* E3-13 UX-34 (D-130): /compare with one lot on a phone — the chosen lot's «Remove» is a 44×44 «×» (the word stays for
+   screen readers), so the lot title gets ~50 px more width; picker rows put «+ compare» at the top of the row instead of its
+   middle. Together the first «+ compare» rises onto the first 320×568 screen. Desktop and the 2+ lot table are unchanged. */
+@media (max-width: 480px) {
+  .cmp-chosen .btn-remove { width: 44px; min-width: 44px; padding: 0; text-align: center; font-size: 1.25rem; line-height: 1; }
+  .cmp-chosen .btn-remove .rm-t { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+  .cmp-list .cmp-row { align-items: flex-start; }
+  .cmp-picker h2 { font-size: 1.05rem; margin-top: 14px; }
+  .cmp-picker > p.small { font-size: .82rem; margin: 4px 0; }
+}
+/* E3-13 UX-42 (D-138): /compare picker rows on a phone — «+ compare» is a 44×44 «+» (the word stays for screen readers, as
+   the chosen lot's «×» in UX-34), so the lot title gets ~60 px more width: at 320 px Antalya titles wrap into 4–5 lines next
+   to the 104–109 px word button. The pressed state stays «✓». Desktop, the units tables and lot pages are unchanged. */
+@media (max-width: 480px) {
+  .cmp-list .btn-compare { width: 44px; min-width: 44px; padding: 0; text-align: center; font-size: 1.25rem; line-height: 1; }
+  .cmp-list .btn-compare .add-t { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+}
+/* E3-13 UX-44 (D-140): /compare table head on a phone — «Remove» was a 95×44 word button on its own line under the lot name
+   (head 199–221 px at 320 px, the first values below the 320×568 screen). Now it is a 44×44 «×» (the word stays for screen
+   readers) in the head's top-right corner; an empty float keeps 48×44 px clear for it, so only the first lines of the room
+   type · area wrap around it, and the lines below and the project line keep the full column width. Desktop and the one-lot
+   list are unchanged. */
+@media (max-width: 480px) {
+  .compare-table thead th.cmp-lh { position: relative; min-height: 48px; }
+  .compare-table thead th.cmp-lh .cmp-u { overflow-wrap: normal; } /* «anywhere» split «апартамен|ты» beside the «×»: a whole word now moves below it (longest word, ru/en, fits 320 px) */
+  /* E3-13 UX-49 (D-146): a first word wider than the room left of the «×» («Апартаменты,», «Гостиничный» at 320 px) moved below it and
+     left a ~44 px empty strip beside the button; dictionary hyphenation (lang="ru"/"en" on the spans) breaks it with a hyphen instead —
+     at least 4 letters before the break and 3 after, words up to 7 letters stay whole. */
+  .compare-table thead th.cmp-lh .cmp-u { -webkit-hyphens: auto; hyphens: auto; hyphenate-limit-chars: 8 4 3; }
+  .compare-table thead th.cmp-lh .cmp-lt::before { content: ''; float: right; width: 48px; height: 44px; }
+  .compare-table thead th.cmp-lh .btn-remove { position: absolute; right: 4px; top: 2px; margin: 0; width: 44px; min-width: 44px; padding: 0; text-align: center; font-size: 1.25rem; line-height: 1; }
+  .compare-table thead th.cmp-lh .btn-remove .rm-t { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+}
+/* E3-13 UX-39: project location map */
+.map-approx { margin: 0 0 8px; } /* E3-13 UX-133 (D-227) */
+.pmap { height: 260px; border: 1px solid var(--border); border-radius: 10px; overflow: hidden; background: var(--surface-2); }
+@media (max-width: 759px) { .pmap { height: 220px; } }
+
+/* E3-13 UX-45: once a lot is picked for comparison, «Compare N →» stays on screen on pages with «+ compare» buttons
+   (the header with the count scrolls away in a long list). Desktop: a pill bottom-right, below the sticky map;
+   phone: a bar at the bottom, the floating «List | Map» switch sits above it; out of the way while the filters are open. */
+.cmp-tray { position: fixed; right: 16px; bottom: 16px; z-index: 20; display: inline-flex; align-items: center; gap: 8px; min-height: 44px; padding: 0 18px; border-radius: 999px; background: var(--accent); color: var(--bg); font-weight: 600; text-decoration: none; box-shadow: 0 4px 16px rgba(0, 0, 0, .18); }
+.cmp-tray[hidden] { display: none !important; }
+.cmp-tray .count:not(:empty) { background: var(--bg); color: var(--text); font-size: .85rem; }
+.cmp-tray:focus-visible { outline: 3px solid var(--focus); outline-offset: 2px; }
+body:has(.cmp-tray:not([hidden])) footer.site { padding-bottom: 84px; }
+@media (max-width: 759px) {
+  .cmp-tray { left: 0; right: 0; bottom: 0; justify-content: center; min-height: 56px; border-radius: 0; font-size: 16px; box-shadow: 0 -2px 12px rgba(0, 0, 0, .14); }
+  body:has(.cmp-tray:not([hidden])) .panetabs { bottom: 72px; }
+  body:has(.cmp-tray:not([hidden])) .lpane { padding-bottom: 132px; }
+  body:has(.cmp-tray:not([hidden])) .lots-layout[data-pane="map"] .lpane { padding-bottom: 0; }
+  body:has(.cmp-tray:not([hidden])) .lots-layout[data-pane="map"] .mpane { padding-bottom: 132px; }
+  body:has(.cmp-tray:not([hidden])) .lots-layout[data-pane="map"] .mapbox { height: calc(100vh - 316px); min-height: 264px; }
+  body:has(#fwrap[open]) .cmp-tray { display: none !important; }
+}
+/* E3-13 UX-46: a two-line units row on a computer highlights as one row, not cell by cell; UX-48: only with a mouse (no sticky hover after a tap) */
+@media (hover: hover) {
+  @container units (max-width: 820px) {
+    table.units tbody tr[data-id]:hover { background: var(--surface-2); }
+    table.units tbody tr[data-id]:hover > td { background: none; }
+  }
+}
+/* E3-13 UX-51: contents at the top of the «Taxes and law» tab — one 44 px row per section, with its size */
+.tab-toc { margin: 0 0 12px; }
+.tab-toc ul { list-style: none; margin: 0; padding: 0; border: 1px solid var(--border); border-radius: 10px; background: var(--surface); }
+.tab-toc li { display: flex; align-items: center; justify-content: space-between; gap: 12px; min-height: 44px; padding: 0 12px; border-top: 1px solid var(--border); }
+.tab-toc li:first-child { border-top: 0; }
+.tab-toc a { padding: 10px 0; }
+.tab-toc .toc-n { flex: 0 0 auto; color: var(--muted); font-size: 14px; white-space: nowrap; }
+#tax-cit:focus, #tax-res:focus { outline: none; }
+/* E3-13 UX-62: phone touch sizes. Form controls 44 px tall with 16 px text — smaller text makes iOS Safari zoom the page
+   when a field gets focus (currency 13 px, price «from/to» 13.6 px, status 15 px before); checkbox rows and «Table» toggles
+   44 px; the «i» source chips (28 px) get a 44 px tap area without changing how they look (breadcrumbs: UX-69 below). */
+@media (max-width: 759px) {
+  .prefs select, .fld select, .fld input, .flabel select, .rnums input, .sortl select, .cmp-city select { font-size: 16px; min-height: 44px; }
+  .chk { min-height: 44px; gap: 10px; }
+  .chk input { width: 20px; height: 20px; }
+  details.tbl > summary { min-height: 44px; display: flex; align-items: center; margin: 0; }
+  /* E3-13 UX-153 (D-253): flex dropped the marker — the triangle as at «Add a lot» above; from 760 px the browser's own marker stays */
+  details.tbl > summary::before { content: ''; flex: none; width: 0; height: 0; border-style: solid; border-width: 5px 0 5px 8px; border-color: transparent transparent transparent currentColor; margin-right: 6px; }
+  details.tbl[open] > summary::before { transform: rotate(90deg); }
+  details.src > summary { position: relative; }
+  details.src > summary::after { content: ''; position: absolute; inset: -8px 0 -8px -8px; } /* not to the right: a chip at a line end must not widen the page */
+}
+/* E3-13 UX-126 (D-218): from 641 px the «i» source chip was 18×19 px on a touch screen too (a tablet) — the phone sizes stopped at
+   640 px (chip 28 px) and 759 px (tap area 8 px above, below and left). With a coarse pointer the chip and its tap area are the
+   phone's at any width; a mouse (fine pointer) keeps the previous size */
+@media (min-width: 641px) and (pointer: coarse) {
+  details.src > summary { min-height: 28px; position: relative; }
+  details.src > summary.src-only { min-width: 28px; }
+  details.src > summary::after { content: ''; position: absolute; inset: -8px 0 -8px -8px; }
+}
+/* E3-13 UX-65: the budget hint in the empty result — the message, then «Show up to …» and «Reset filters» */
+#lots-empty [data-testid="budget-hint"] { display: block; margin-bottom: 8px; }
+#lots-empty .btn { min-height: 44px; margin: 4px 8px 0 0; }
+
+
+/* E3-13 UX-64 (D-163): touch sizes on a phone, part 2 (UX-62 left these below 44 px).
+   Range thumbs: the visible ring stays 18 px, the thumb box is 44×44 (the ring is drawn by a gradient in its centre); each input
+   is 13 px wider on both sides (44/2 − 18/2) so the thumb centre travels over the same x as before and the histogram and the
+   scale under it need no change. The ring now sits centred on the line (it hung below it), so the slider row moves 6 px down
+   to keep it clear of the histogram bars. Header: the brand row is 44 px (the 34 px «My details» pill keeps its look,
+   its tap zone fills the row); the header's top padding goes, so the header grows by 4 px. Footer links, «Reset» and «Clear selection» — 44 px. */
+@media (max-width: 759px) {
+  .dual { margin-top: 4px; z-index: 1; } /* above the scale row (positioned, later in the DOM) so the lower half of the thumb zone is the thumb */
+  .dual input[type=range] { left: -13px; right: -13px; width: calc(100% + 26px); height: 44px; top: -11px; }
+  .dual input[type=range]::-webkit-slider-runnable-track { height: 2px; }
+  .dual input[type=range]::-webkit-slider-thumb { width: 44px; height: 44px; margin-top: -21px; border: 0; border-radius: 0; background: radial-gradient(circle closest-side, var(--surface) 0 7px, var(--accent) 7.5px 9px, transparent 9.5px); }
+  .dual input[type=range]::-moz-range-thumb { width: 44px; height: 44px; border: 0; border-radius: 0; background: radial-gradient(circle closest-side, var(--surface) 0 7px, var(--accent) 7.5px 9px, transparent 9.5px); }
+  .hdr { padding-top: 0; align-items: center; }
+  .hdr .brand { display: inline-flex; align-items: center; min-height: 44px; }
+  .hdr .prefs-wrap { align-self: stretch; display: flex; align-items: center; } /* the wrap is the whole 44 px row … */
+  .prefs-btn::after { content: ''; position: absolute; inset: 0 -4px; } /* … and the pill's tap zone is the wrap (the pill is not positioned) */
+  .hdr .prefs { top: calc(100% + 2px); } /* the panel stays where it was under the pill (the wrap is 5 px taller below it) */
+  .foot-nav :is(a, .linkbtn) { display: inline-flex; align-items: center; min-height: 44px; }
+  #filter-reset, #compare-clear { min-height: 44px; padding: 0 16px; }
+}
+/* E3-13 UX-68: the lot's listings table — no letter-by-letter breaks; on a phone each listing is «site … status» over
+   «seller · since … · last seen …» */
+table.lst { overflow-wrap: normal; }
+table.lst .l-path { color: var(--muted); overflow-wrap: anywhere; }
+table.lst .st-bad { color: var(--seller-text); font-weight: 600; }
+@media (max-width: 640px) {
+  table.lst thead { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); }
+  table.lst, table.lst tbody { display: block; }
+  table.lst tr { display: flex; flex-wrap: wrap; align-items: baseline; gap: 2px 12px; padding: 10px 0; border-bottom: 1px solid var(--border); }
+  table.lst tr > td { display: block; padding: 0; border: 0; }
+  table.lst td.l-url { order: 0; flex: 1 1 auto; min-width: 0; overflow-wrap: anywhere; }
+  table.lst td.l-st { order: 1; margin-left: auto; text-align: right; }
+  table.lst tr::after { content: ''; order: 2; flex-basis: 100%; height: 0; }
+  table.lst td.l-seller, table.lst td.l-first, table.lst td.l-last { order: 3; color: var(--muted); font-size: 14px; }
+  table.lst .u-ph { display: inline; }
+}
+
+/* E3-13 UX-69 (D-168): breadcrumbs. «header nav» (meant for the site menu) also matched the crumbs inside <header class="obj-head">
+   on project and lot pages: there they were a flex row with 12 px gaps and 4 px padding, not underlined, unlike the crumbs on the
+   country and city pages; the site-menu rules now match only header.site (:where keeps their old specificity, so the phone menu
+   rules after them still win). On a phone every crumb link is a 44 px tall inline box (UX-62 gave 31 px zones that overlapped when the
+   crumbs took two lines); the text between them, «›» and the current page (/features/) flow as plain text and wrap word by word; the 12 px top margin goes into the 44 px row, so the crumb text stays where it was. */
+@media (max-width: 759px) {
+  .crumbs { margin-top: 0; }
+  .crumbs a { display: inline-flex; align-items: center; min-height: 44px; vertical-align: middle; }
+}
+/* E3-13 UX-76: «Next: <tab> →» at the end of a tab panel (hidden without JS, when all panels are shown in a row) */
+.tab-next { margin: 16px 0 4px; }
+.tab-next a { display: inline-block; padding: 11px 0; font-weight: 600; }
+.tabs:not(.tabs-on) .tab-next { display: none; }
+/* E3-13 UX-82: city page → the catalogue narrowed to this city */
+.to-lots { margin: -4px 0 10px; }
+.to-lots a { display: inline-block; padding: 11px 0; font-weight: 600; }
+/* E3-13 UX-85: compare — a value the same for every lot is one cell across the lot columns; «same for all» under the field name
+   (a phone: after it, on the field-name line); with 3–4 lots on a phone the cell stays in the visible width while the table scrolls */
+.cmp-same-l { display: block; margin-top: 2px; font-size: 12px; font-weight: 400; color: var(--muted); }
+@media (max-width: 759px) {
+  .cmp-same-l { display: inline; margin: 0; }
+  .cmp-same-l::before { content: ' · '; content: ' · ' / ''; }
+  #compare-app > .scroll { container-type: inline-size; }
+  .compare-table td.cmp-all { grid-column: 1 / -1; justify-self: start; position: sticky; left: 0; }
+  .compare-table th[scope="row"], .compare-table td.cmp-all { max-width: 100cqw; } /* the visible width of the scrolling box, not the table's */
+}
+/* E3-13 UX-87: the card's units count lives in the «Units (N)» toggle — the same number in the facts line is hidden while the toggle
+   is there (the map preview removes it and shows the count); «* seller's claim» sits on the toggle's line, at the right, and goes below
+   the units list when it is open */
+.pcard:has(.units-d) .pc-n, .pcard:has(.units-d) .pc-nli { display: none; }
+.pcard:has(.units-d) .pc-facts:not(:has(li:not(.pc-nli))) { display: none; }
+.pc-foot { display: flex; flex-wrap: wrap; align-items: baseline; column-gap: 12px; }
+.pc-foot > .units-d { flex: 1 1 auto; min-width: 0; }
+.pc-foot > .units-d[open] { flex-basis: 100%; }
+.pc-foot > .units-d + .pc-mark { margin-left: auto; }
+/* E3-13 UX-89: questions to the seller in topics (unit and price, project, rental, title and documents), numbering runs through */
+.questions-w .q-h { margin: 14px 0 4px; font-size: 14px; font-weight: 600; color: var(--text-2); }
+.questions-w .q-h:first-child { margin-top: 6px; }
+.questions-w .questions { margin: 0; }
+.unknowns ol.questions { padding-left: 2rem; } /* «10.»–«26.» stood out of the list to the card's edge with 1.4rem */
+/* E3-13 UX-91: the unit type is the row's link — link colour, underlined on hover/focus like a card title; «type not stated» quieter */
+table.units td.c-type a { color: var(--link); text-decoration: none; }
+table.units td.c-type a:hover, table.units td.c-type a:focus-visible { text-decoration: underline; }
+table.units td.c-type a.u-unk { font-weight: 400; color: var(--muted); }
+/* E3-13 UX-93: the lot's actions on a phone — «Seller's listing» (the site below, small) and «+ compare» side by side, both 44 px:
+   the compare button was 34 px (below the 44 px touch target) and the listing button took the full width in two lines */
+.bl-short, .cb-short { display: none; }
+@media (max-width: 759px) {
+  .obj-acts [data-testid="open-listing"] { flex: 1 1 150px; min-height: 44px; display: inline-flex; flex-direction: column; justify-content: center; align-items: center; text-align: center; line-height: 1.2; padding: 4px 10px; }
+  .obj-acts [data-testid="open-listing"] .bl-long { display: none; }
+  .obj-acts [data-testid="open-listing"] .bl-short { display: inline; }
+  .obj-acts [data-testid="open-listing"] .bl-host { font-size: 12px; font-weight: 400; opacity: .9; overflow-wrap: anywhere; }
+  .obj-acts { align-items: stretch; }
+  .obj-acts > .btn-compare { flex: 0 0 auto; min-height: 44px; padding: 0 14px; }
+  .obj-acts > .btn-compare .cb-long { display: none; }
+  .obj-acts > .btn-compare .cb-short { display: inline; }
+  .obj-acts > [data-testid="lot-seen"] { flex-basis: 100%; }
+}
+/* E3-13 UX-95: the data source of the climate / seasonality charts — a quiet caption under the charts */
+.chart-src { margin-top: 12px; padding-top: 8px; border-top: 1px solid var(--border); font-size: 13px; color: var(--text-2); }
+.chart-src p { margin: 4px 0; }
+.chart-src .fact .v { font-weight: 400; }
+.chart-src .attr { font-size: 12px; }
+/* E3-13 UX-97: citizenship and tax residency right above the facts they switch (tax tab, country «My details») */
+.params-form .note { margin: 0 0 8px; }
+.params-form .pf-row { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 8px 12px; }
+.params-form .fld { margin: 0; }
+:root:not(.js) .params-form { display: none; }
+/* E3-13 UX-98: an empty search result — what was searched, «Clear the search», «Search without filters (N)» */
+#lots-empty [data-testid="search-hint"] { display: block; margin-bottom: 8px; }
+#lots-empty [data-testid="search-hint"][hidden] { display: none; }
+@media (max-width: 759px) { #lots-empty [data-testid="search-clear"], #lots-empty [data-testid="search-wide"] { min-height: 44px; } }
+/* E3-13 UX-103: sentence-long fact values read as body text — regular weight, line height 1.5, lines up to ~70 characters */
+.fact .v.v-long { font-weight: 400; }
+dl.facts dd:has(.v-long) { max-width: 70ch; line-height: 1.5; }
+/* E3-13 UX-105: the card's lowest price per m² — next to price and area, quieter (the catalogue's default order is by it) */
+.pcard .pc-ppm { font-size: 14px; font-weight: 500; color: var(--text-2); }
+/* E3-13 UX-107: a tablet (760–1099 px) gets the phone's compact filter row — search and «Filters» side by side, the city chips under
+   them, the panel collapsed until asked for and closed by «Show N projects» at its bottom; the list and the map are on the first screen */
+@media (min-width: 760px) and (max-width: 1099px) {
+  .fpanel { display: grid; grid-template-columns: minmax(0, 1fr) auto; column-gap: 8px; align-items: center; padding: 8px 10px; }
+  .fpanel > .fld-search { grid-column: 1; grid-row: 1; margin: 0; }
+  .fpanel > .fld-search label { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+  .fpanel > #fwrap { grid-column: 2; grid-row: 1; }
+  .fpanel > #fwrap[open] { grid-column: 1 / -1; grid-row: 3; margin-top: 8px; }
+  .fpanel > .chips { grid-column: 1 / -1; grid-row: 2; margin: 8px 0 0; }
+  .fpanel input[type=search] { min-height: 44px; }
+  .fpanel .fsum { min-height: 44px; display: flex; align-items: center; gap: 6px; padding: 0 14px; border: 1px solid var(--border); border-radius: 6px; background: var(--surface-2); list-style: none; cursor: pointer; font-weight: 600; }
+  .fpanel .fsum::-webkit-details-marker { display: none; }
+  #fwrap[open] .fapply-wrap { display: block; position: sticky; bottom: 0; z-index: 5; margin: 10px -10px -8px; padding: 10px 10px 12px; background: var(--surface); border-top: 1px solid var(--border); border-radius: 0 0 10px 10px; }
+  .fapply { width: 100%; min-height: 48px; font-size: 16px; text-align: center; }
+}
+/* E3-13 UX-111: footer — a wrapped line no longer starts with «·»: each item carries its separator in front, and the row is shifted
+   left by one separator inside a clipped box, so the separator of the first item on every line is hidden */
+.foot-nav { overflow: hidden; }
+.foot-nav .fn { display: flex; flex-wrap: wrap; align-items: center; margin-left: -1.2em; }
+.foot-nav .fn-i::before { content: '·'; content: '·' / ''; display: inline-block; width: 1.2em; text-align: center; color: var(--muted); }
+
+/* D-258: sample lot dossier (/check/examples/…) — quotes of the seller under each statement, links wrap on a phone */
+.dossier { padding-left: 1.2rem; }
+.dossier li { margin: .5rem 0; }
+.dossier p { margin: .15rem 0; }
+.dossier blockquote { margin: .25rem 0; padding-left: .6rem; border-left: 3px solid var(--border); color: var(--muted); }
+.dossier a { overflow-wrap: anywhere; }
+.dossier .badge { border-color: var(--border); }
+/* ar-0405 (D-261): /rating/ «Promised and disclosed» — a row per project; summaries are 44 px tap targets */
+.rating-list { list-style: none; padding: 0; margin: 0; }
+.rating-row { border-top: 1px solid var(--border); padding: 8px 0; }
+.rating-row:first-child { border-top: 0; }
+.rating-row p { margin: 4px 0; }
+.rr-h a { font-weight: 600; }
+.rr-score meter { width: 8rem; max-width: 40%; vertical-align: middle; }
+.rr-g > summary { box-sizing: border-box; min-height: 44px; padding: 10px 0; cursor: pointer; }
+.rr-g dl.facts { margin-left: 1rem; }
+.home-rating { margin: -.25rem 0 .5rem; }
+.seo-lead { max-width: 75ch; margin: .25rem 0 .75rem; }
+.home-cities { display: flex; flex-wrap: wrap; gap: 4px 14px; margin: 0 0 12px; }
+.home-cities a, .related a { display: inline-flex; align-items: center; min-height: 44px; }
+.related { margin: 4px 0 12px; }
+.related ul { display: flex; flex-wrap: wrap; gap: 0 16px; margin: 0; padding: 0; list-style: none; }
+.related h2 { font-size: 1.05rem; margin: 0; }
+
+/* ar-0462 (D-278): the mirror build — «order the dossier» and «follow» above the fold on the home and project pages (as roomfacts.com) */
+.cta-door { margin: 12px 0 18px; padding: 12px 14px; border: 1px solid var(--border); border-radius: 8px; background: var(--surface); display: flex; flex-wrap: wrap; gap: 10px; align-items: center; max-width: 100%; }
+.cta-door > * { min-width: 0; max-width: 100%; }
+.cta-door .btn { min-height: 44px; padding: 8px 16px; text-decoration: none; display: inline-flex; align-items: center; font-weight: 600; max-width: 100%; }
+@media print { .cta-door { display: none; } }
+/* ar-0466 (D-280): the free sample dossier (/dossier-sample/…) of the mirror build and the links to it next to «order the dossier» */
+.sample blockquote { margin: .5rem 0; padding-left: .75rem; border-left: 3px solid var(--border); }
+.known blockquote { margin: .35rem 0 .5rem; padding-left: .75rem; border-left: 3px solid var(--border); color: var(--muted); }
+.known-facts { list-style: none; padding: 0; margin: 0; }
+.known-facts > li { margin: 0 0 1.1rem; }
+.sample a { overflow-wrap: anywhere; }
+.sample td, .sample th { white-space: normal; vertical-align: top; } /* D-291: cells are sentences, not a price grid */
+.sample h2 + ol:first-of-type { background: var(--surface); border: 1px solid var(--border); border-radius: 10px; padding: 12px 16px 12px 2.2rem; margin: 0 0 16px; }
+.sample li.check { list-style: none; }
+.cta-door .sample-link { min-height: 44px; display: inline-flex; align-items: center; }
+/* D-289: one card on the home, a city and a project — a link, not a banner. The order button on /podbor/ is 44 px. */
+.podbor-cta a { font-weight: 600; }
+.podbor-form .btn { min-height: 44px; padding: 8px 16px; text-decoration: none; display: inline-flex; align-items: center; max-width: 100%; }
+.podbor-form textarea { min-height: 4.5rem; resize: vertical; }
+@media (max-width: 759px) { .podbor-form textarea { font-size: 16px; } }
+.sample-line .sample-link { display: inline-block; padding: 10px 0; }
+/* D-295: the hotel-room ownership guide (mirror, Russian). Quotes wrap; the stamp is one line, not a banner. */
+.guide { overflow-wrap: break-word; }
+.guide blockquote { margin: .5rem 0; padding-left: .75rem; border-left: 3px solid var(--border); }
+.guide a, .guide q { overflow-wrap: anywhere; }
+.guide-toc { display: flex; flex-wrap: wrap; gap: 4px 14px; margin: 0 0 1rem; }
+.guide-toc a, .guide-mention a { display: inline-flex; align-items: center; min-height: 44px; }
+.guide-stamp { margin-top: 1.5rem; padding: .6rem .8rem; border: 1px solid var(--border); border-radius: 8px; }
+.guide-mention { margin: .25rem 0 .75rem; }
+
+/* generated: profile visibility */
+:root[data-profile="ru"] .conv:not([data-cur="USD"]):not([data-cur="EUR"]):not([data-cur="RUB"]){display:none}
+:root[data-profile="uk"] .conv:not([data-cur="GBP"]):not([data-cur="EUR"]){display:none}
+/* investor parameters (D-055): scoped to :root.js — without JS every block is shown */
+:root.js:not([data-cit="ru"]) :is([data-for-cit="ru"], [data-toc-cit="ru"]),
+:root.js:not([data-cit="uk"]) :is([data-for-cit="uk"], [data-toc-cit="uk"]),
+:root.js:not([data-cit="other"]) :is([data-for-cit="other"], [data-toc-cit="other"]),
+:root.js:not([data-tax="ru"]) :is([data-for-tax="ru"], [data-toc-tax="ru"]),
+:root.js:not([data-tax="uk"]) :is([data-for-tax="uk"], [data-toc-tax="uk"]),
+:root.js:not([data-tax="other"]) :is([data-for-tax="other"], [data-toc-tax="other"]){display:none!important}
+:root.js[data-cit] [data-when-unset],
+:root.js[data-tax] [data-when-unset],
+:root:not(.js) [data-when-unset]{display:none!important}
+
+/* display currency (E3-8): without JS — listing currency */
+.pc{display:none}
+:root:not([data-cur]) .pc[data-cur="orig"],
+:root[data-cur="USD"] .pc[data-cur="USD"],
+:root[data-cur="EUR"] .pc[data-cur="EUR"],
+:root[data-cur="RUB"] .pc[data-cur="RUB"],
+:root[data-cur="GBP"] .pc[data-cur="GBP"]{display:inline}
+:root[data-cur="USD"] .hist-c:not([data-cur="USD"]),
+:root[data-cur="EUR"] .hist-c:not([data-cur="EUR"]),
+:root[data-cur="RUB"] .hist-c:not([data-cur="RUB"]),
+:root[data-cur="GBP"] .hist-c:not([data-cur="GBP"]){display:none}
+:root[data-cur="USD"] .compare-table .conv[data-cur="USD"],
+:root[data-cur="EUR"] .compare-table .conv[data-cur="EUR"],
+:root[data-cur="RUB"] .compare-table .conv[data-cur="RUB"],
+:root[data-cur="GBP"] .compare-table .conv[data-cur="GBP"]{order:-1;flex-basis:100%;font-size:inherit;font-weight:500;color:var(--text)}
+

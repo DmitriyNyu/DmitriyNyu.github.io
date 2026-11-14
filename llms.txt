@@ -1,0 +1,144 @@
+# RoomFacts
+
+> RoomFacts (roomfacts.com, "Turkey & Moscow") is a bilingual (Russian/English) reference site about apart-hotel, hotel-room and branded-residence investment projects in Moscow and Turkey (Istanbul and resort cities). Every fact on a page shows its source, the date it was checked and a quote. The projects belong to third-party developers and sellers; RoomFacts is not the seller. Coverage as of 2026-11-14: 2 countries, 10 cities, 54 projects, 1436 lots (units) for sale.
+
+Every page has a Markdown version at the same path with index.md (links below point to them). Project pages exist in Russian (/ru/) and English (/en/) versions; the bare project URL is Russian.
+
+## Key pages
+
+- [Апарт-отели Турции и России](https://roomfacts.com/index.md): Апарт-отели Турции и России: 39 проектов, 771 лот. Программа аренды у 22 проектов, заявленная доходность у 8 проектов. Факты с источниками.
+- [Страны](https://roomfacts.com/countries/index.md)
+- [Проекты и юниты](https://roomfacts.com/lots/index.md)
+- [Обещано и раскрыто: условия проектов](https://roomfacts.com/rating/index.md): Обещано и раскрыто: 34 проекта апарт-отелей в России и Турции; что продавец обещает про аренду и доход и какие условия раскрыты с цитатой
+- [Как собираются и проверяются данные](https://roomfacts.com/method/index.md)
+- [Каталог источников](https://roomfacts.com/sources/index.md)
+- [Образец досье: Аквилон Signal, лот 1006 (Москва)](https://roomfacts.com/dossier-sample/akvilon-signal/index.md): Досье RoomFacts по лоту 1006 Аквилон Signal: цена, тип помещения, сроки по проектной декларации, эскроу, застройщик и УК, налоги.
+- [Подбор апартаментов под ваш бюджет — 990 ₽](https://roomfacts.com/podbor/index.md): 5–7 лотов из базы RoomFacts под бюджет, город и цель. Цена, цена за м², условия аренды, если известны, и ссылки на источники. До 2 рабочих дней.
+- [Номер в отеле в собственность в Турции: что на самом деле покупаете](https://roomfacts.com/ru/guides/nomer-v-otele-v-sobstvennost/index.md): Номер в отеле в собственность в Турции: отдельного тапу на номер нет. Что покупают вместо него, что с ВНЖ и «гарантированной доходностью». Цитаты закона.
+
+## Россия / Russia
+
+- [Россия](https://roomfacts.com/ru/index.md)
+- [Апарт-отели Москвы: доходность и программы аренды](https://roomfacts.com/ru/moscow/index.md): Апарт-отели Москвы: 4 проекта, 514 лотов, цены 10 155 200–46 213 378 ₽, площади 20–96 м². Программа аренды у 4 проектов, заявленная доходность у 2 проектов.
+  - [AIST Residence: апартаменты в Москве, 166 лотов, программа аренды](https://roomfacts.com/ru/moscow/aist-residence/index.md): AIST Residence in Moscow: 166 lots from 12,839,700 ₽, 34–96 m². Rental programme. Facts with sources.
+    - [AIST Residence: сроки по декларации и условия УК — что известно по документам](https://roomfacts.com/ru/moscow/aist-residence/izvestno/index.md): Декларация 77-002781 от 29.09.2025: ключи с 30.06.2025 перенесены на 28.02.2026, разрешение до 31.12.2025. Отзывов покупателей нет.
+    - [English version](https://roomfacts.com/ru/moscow/aist-residence/en/index.md)
+  - [Аквилон Signal (апарт-отель): апартаменты в Москве, 152 лота, программа аренды, заявленная доходность](https://roomfacts.com/ru/moscow/akvilon-signal-apart-hotel/index.md): Аквилон Signal (апарт-отель) in Moscow: 152 lots from 12,023,474 ₽, 20–63 m². Rental programme, claimed yield 13–15%. Facts with sources.
+    - [Аквилон Signal: сроки, переносы и условия УК — что известно по документам](https://roomfacts.com/ru/moscow/akvilon-signal-apart-hotel/izvestno/index.md): Ввод 4 кв. 2026, ключи 31.12.2027, разрешение до 27.12.2026. На наш.дом.рф отметок о проблемах нет. Условия УК — заявление продавца. Отзывов покупателей нет.
+    - [English version](https://roomfacts.com/ru/moscow/akvilon-signal-apart-hotel/en/index.md)
+  - [Apart-hotels in Moscow: yield and rental programmes](https://roomfacts.com/ru/moscow/en/index.md): Apart-hotels in Moscow: 4 projects, 514 lots, prices 10,155,200–46,213,378 ₽, areas 20–96 m². Rental programme for 4 projects, claimed yield for 2 projects.
+  - [Инсайдер (гостиничные номера): номера в Москве, 52 лота, программа аренды, заявленная доходность](https://roomfacts.com/ru/moscow/insider-hotel-rooms/index.md): Инсайдер (гостиничные номера) in Moscow: 52 lots from 20,723,515 ₽, 44–88 m². Rental programme, claimed yield up to 16%. Facts with sources.
+    - [English version](https://roomfacts.com/ru/moscow/insider-hotel-rooms/en/index.md)
+  - [Апарт-отели Москвы: доходность и программы аренды](https://roomfacts.com/ru/moscow/ru/index.md): Апарт-отели Москвы: 4 проекта, 514 лотов, цены 10 155 200–46 213 378 ₽, площади 20–96 м². Программа аренды у 4 проектов, заявленная доходность у 2 проектов.
+  - [Гостиничный комплекс «Варшавские ворота»: номера в Москве, 144 лота, программа аренды](https://roomfacts.com/ru/moscow/varshavskie-vorota-hotel/index.md): Гостиничный комплекс «Варшавские ворота» in Moscow: 144 lots from 10,155,200 ₽, 22–66 m². Rental programme. Facts with sources.
+    - [English version](https://roomfacts.com/ru/moscow/varshavskie-vorota-hotel/en/index.md)
+- [Апарт-отели Выборга: программы аренды](https://roomfacts.com/ru/vyborg/index.md): Апарт-отели Выборга: 1 проект, 4 лота, цены 6 864 000–8 450 000 ₽, площади 15–20 м². Программа аренды у 1 проекта. Факты с источниками.
+  - [Apart-hotels in Vyborg: rental programmes](https://roomfacts.com/ru/vyborg/en/index.md): Apart-hotels in Vyborg: 1 project, 4 lots, prices 6,864,000–8,450,000 ₽, areas 15–20 m². Rental programme for 1 project. Facts with sources.
+  - [Port Comfort, Выборг, ул. Димитрова, 4: апартаменты в Выборге, 4 лота, программа аренды](https://roomfacts.com/ru/vyborg/port-comfort-dimitrova-4/index.md): Port Comfort, Выборг, ул. Димитрова, 4: 4 lots from 6,864,000 ₽, 15–20 m². Rental programme. Facts with sources.
+    - [English version](https://roomfacts.com/ru/vyborg/port-comfort-dimitrova-4/en/index.md)
+  - [Апарт-отели Выборга: программы аренды](https://roomfacts.com/ru/vyborg/ru/index.md): Апарт-отели Выборга: 1 проект, 4 лота, цены 6 864 000–8 450 000 ₽, площади 15–20 м². Программа аренды у 1 проекта. Факты с источниками.
+
+## Турция / Turkey
+
+- [Турция](https://roomfacts.com/tr/index.md)
+- [Проекты Аланьи: программы аренды](https://roomfacts.com/tr/alanya/index.md): Проекты Аланьи: 3 проекта, 10 лотов, цены 136 400–330 000 €, площади 45–150 м². Программа аренды у 3 проектов. Факты с источниками.
+  - [ALGORA City Alanya: отель в Аланье, 2 лота, программа аренды](https://roomfacts.com/tr/alanya/algora-city-alanya/index.md): ALGORA City Alanya: 2 lots. Rental programme. Facts with sources.
+    - [English version](https://roomfacts.com/tr/alanya/algora-city-alanya/en/index.md)
+  - [Elite Luxury Suites & Spa: номера в Аланье, 4 лота, программа аренды](https://roomfacts.com/tr/alanya/elite-luxury-suites-admiral/index.md): Elite Luxury Suites & Spa in Alanya: 4 lots, 45–60 m². Rental programme. Facts with sources.
+    - [English version](https://roomfacts.com/tr/alanya/elite-luxury-suites-admiral/en/index.md)
+  - [Projects in Alanya: rental programmes](https://roomfacts.com/tr/alanya/en/index.md): Projects in Alanya: 3 projects, 10 lots, prices 136,400–330,000 €, areas 45–150 m². Rental programme for 3 projects. Facts with sources.
+  - [New Level Premium: жилой комплекс в Аланье, 4 лота, программа аренды](https://roomfacts.com/tr/alanya/new-level-premium-avsallar/index.md): New Level Premium in Alanya: 4 lots from 136,400 €, 53–150 m². Rental programme. Facts with sources.
+    - [English version](https://roomfacts.com/tr/alanya/new-level-premium-avsallar/en/index.md)
+  - [Проекты Аланьи: программы аренды](https://roomfacts.com/tr/alanya/ru/index.md): Проекты Аланьи: 3 проекта, 10 лотов, цены 136 400–330 000 €, площади 45–150 м². Программа аренды у 3 проектов. Факты с источниками.
+- [Проекты Антальи: доходность и программы аренды](https://roomfacts.com/tr/antalya/index.md): Проекты Антальи: 2 проекта, 24 лота, площади 42–236 м². Программа аренды у 1 проекта, заявленная доходность у 1 проекта. Факты с источниками.
+  - [Desire Hotel & Residences Antalya (Best Western): жилой комплекс в Анталье, 15 лотов, программа аренды, заявленная доходность](https://roomfacts.com/tr/antalya/best-western-altintas/index.md): Desire Hotel & Residences Antalya (Best Western): 15 lots from 171,900 €, 42–110 m². Rental programme, claimed yield 7–12%. Facts with sources.
+    - [English version](https://roomfacts.com/tr/antalya/best-western-altintas/en/index.md)
+  - [Projects in Antalya: yield and rental programmes](https://roomfacts.com/tr/antalya/en/index.md): Projects in Antalya: 2 projects, 24 lots, areas 42–236 m². Rental programme for 1 project, claimed yield for 1 project. Facts with sources.
+  - [Rixos Residence Antalya: проект в Анталье, 9 лотов](https://roomfacts.com/tr/antalya/rixos-residence-antalya/index.md): Rixos Residence Antalya: 9 lots, 64–236 m². Facts with sources.
+    - [English version](https://roomfacts.com/tr/antalya/rixos-residence-antalya/en/index.md)
+  - [Проекты Антальи: доходность и программы аренды](https://roomfacts.com/tr/antalya/ru/index.md): Проекты Антальи: 2 проекта, 24 лота, площади 42–236 м². Программа аренды у 1 проекта, заявленная доходность у 1 проекта. Факты с источниками.
+- [Апарт-отели Бодрума: доходность и программы аренды](https://roomfacts.com/tr/bodrum/index.md): Апарт-отели Бодрума: 5 проектов, 10 лотов, площади 100–315 м². Программа аренды у 2 проектов, заявленная доходность у 1 проекта. Факты с источниками.
+  - [Apart-hotels in Bodrum: yield and rental programmes](https://roomfacts.com/tr/bodrum/en/index.md): Apart-hotels in Bodrum: 5 projects, 10 lots, areas 100–315 m². Rental programme for 2 projects, claimed yield for 1 project. Facts with sources.
+  - [Le Méridien Bodrum Beach Resort Residences: проект в Бодруме, 1 лот, программа аренды](https://roomfacts.com/tr/bodrum/le-meridien-bodrum-beach-resort-residences/index.md): Le Méridien Bodrum Beach Resort Residences: 1 lot from 1,200,000 €, 175 m². Rental programme. Facts with sources.
+    - [English version](https://roomfacts.com/tr/bodrum/le-meridien-bodrum-beach-resort-residences/en/index.md)
+  - [Marriott Residences Bodrum (Bitez): отель в Бодруме, 1 лот](https://roomfacts.com/tr/bodrum/marriott-residences-bodrum/index.md): Marriott Residences Bodrum (Bitez): 1 lot from 4,500,000 €, 315 m². Facts with sources.
+    - [English version](https://roomfacts.com/tr/bodrum/marriott-residences-bodrum/en/index.md)
+  - [Апарт-отели Бодрума: доходность и программы аренды](https://roomfacts.com/tr/bodrum/ru/index.md): Апарт-отели Бодрума: 5 проектов, 10 лотов, площади 100–315 м². Программа аренды у 2 проектов, заявленная доходность у 1 проекта. Факты с источниками.
+  - [Swissôtel Living Bodrum: апартаменты в Бодруме, 6 лотов](https://roomfacts.com/tr/bodrum/swissotel-living-bodrum/index.md): Swissôtel Living Bodrum: 6 lots from 791,000 €, 115–252 m². Facts with sources.
+    - [English version](https://roomfacts.com/tr/bodrum/swissotel-living-bodrum/en/index.md)
+  - [Swissôtel Residence Bodrum Hill: проект в Бодруме, 1 лот, программа аренды, заявленная доходность](https://roomfacts.com/tr/bodrum/swissotel-residence-bodrum-hill/index.md): Swissôtel Residence Bodrum Hill: 1 lot from 850,000 $, 105 m². Rental programme, claimed yield 7%. Facts with sources.
+    - [English version](https://roomfacts.com/tr/bodrum/swissotel-residence-bodrum-hill/en/index.md)
+  - [YAZ Yalıkavak Hotel: отель в Бодруме, 1 лот](https://roomfacts.com/tr/bodrum/yaz-yalikavak-hotel/index.md): YAZ Yalıkavak Hotel in Bodrum: 1 lot from 1,461,000 €, 100 m². Facts with sources.
+    - [English version](https://roomfacts.com/tr/bodrum/yaz-yalikavak-hotel/en/index.md)
+- [Проекты Фетхие: программы аренды](https://roomfacts.com/tr/fethiye/index.md): Проекты Фетхие: 1 проект, 2 лота. Программа аренды у 1 проекта. Факты с источниками.
+  - [Projects in Fethiye: rental programmes](https://roomfacts.com/tr/fethiye/en/index.md): Projects in Fethiye: 1 project, 2 lots. Rental programme for 1 project. Facts with sources.
+  - [Residence 222 Hisarönü: отель в Фетхие, 2 лота, программа аренды](https://roomfacts.com/tr/fethiye/residence-222-hisaronu/index.md): Residence 222 Hisarönü in Fethiye: 2 lots. Rental programme. Facts with sources.
+    - [English version](https://roomfacts.com/tr/fethiye/residence-222-hisaronu/en/index.md)
+  - [Проекты Фетхие: программы аренды](https://roomfacts.com/tr/fethiye/ru/index.md): Проекты Фетхие: 1 проект, 2 лота. Программа аренды у 1 проекта. Факты с источниками.
+- [Лоты в Финике](https://roomfacts.com/tr/finike/index.md): Лоты в Финике: 4 лота. Продавец не называет проект. Факты с источниками.
+  - [Lots in Finike](https://roomfacts.com/tr/finike/en/index.md): Lots in Finike: 4 lots. The seller does not name a project. Facts with sources.
+  - [Лоты в Финике](https://roomfacts.com/tr/finike/ru/index.md): Лоты в Финике: 4 лота. Продавец не называет проект. Факты с источниками.
+- [Апарт-отели Стамбула: доходность и программы аренды](https://roomfacts.com/tr/istanbul/index.md): Апарт-отели Стамбула: 14 проектов, 80 лотов, площади 40–807 м². Программа аренды у 6 проектов, заявленная доходность у 2 проектов. Факты с источниками.
+  - [Address Residences Istanbul: проект в Стамбуле, 1 лот](https://roomfacts.com/tr/istanbul/address-residences-istanbul/index.md): Address Residences Istanbul: 1 lot from 550,000 $. Facts with sources.
+    - [English version](https://roomfacts.com/tr/istanbul/address-residences-istanbul/en/index.md)
+  - [Aliée Lofts (Tersane Istanbul): проект в Стамбуле, 2 лота, программа аренды, заявленная доходность](https://roomfacts.com/tr/istanbul/aliee-lofts-tersane-istanbul/index.md): Aliée Lofts (Tersane Istanbul): 2 lots, 167 m². Rental programme, claimed yield 7%. Facts with sources.
+    - [English version](https://roomfacts.com/tr/istanbul/aliee-lofts-tersane-istanbul/en/index.md)
+  - [Emaar Square (Üsküdar): отель в Стамбуле, 5 лотов, программа аренды](https://roomfacts.com/tr/istanbul/emaar-square-uskudar/index.md): Emaar Square (Üsküdar) in Istanbul: 5 lots from 1,576,800 €, 204–638 m². Rental programme. Facts with sources.
+    - [English version](https://roomfacts.com/tr/istanbul/emaar-square-uskudar/en/index.md)
+  - [Apart-hotels in Istanbul: yield and rental programmes](https://roomfacts.com/tr/istanbul/en/index.md): Apart-hotels in Istanbul: 14 projects, 80 lots, areas 40–807 m². Rental programme for 6 projects, claimed yield for 2 projects. Facts with sources.
+  - [Fairmont Quasar Residences Istanbul: проект в Стамбуле, 6 лотов](https://roomfacts.com/tr/istanbul/fairmont-quasar-residences/index.md): Fairmont Quasar Residences Istanbul: 6 lots from 659,695 $, 442 m². Facts with sources.
+    - [English version](https://roomfacts.com/tr/istanbul/fairmont-quasar-residences/en/index.md)
+  - [Hotel Homes Istanbul (Esenyurt): отель в Стамбуле, 3 лота, программа аренды](https://roomfacts.com/tr/istanbul/hotel-homes-istanbul-esenyurt/index.md): Hotel Homes Istanbul (Esenyurt): 3 lots from 58,000 €, 40–111 m². Rental programme. Facts with sources.
+    - [English version](https://roomfacts.com/tr/istanbul/hotel-homes-istanbul-esenyurt/en/index.md)
+  - [JW Marriott Residences Tarabya Istanbul: проект в Стамбуле, 6 лотов](https://roomfacts.com/tr/istanbul/jw-marriott-residences-tarabya/index.md): JW Marriott Residences Tarabya Istanbul: 6 lots from 1,134,000 $, 100–341 m². Facts with sources.
+    - [English version](https://roomfacts.com/tr/istanbul/jw-marriott-residences-tarabya/en/index.md)
+  - [Kempinski Residences Astoria: проект в Стамбуле, 5 лотов](https://roomfacts.com/tr/istanbul/kempinski-residences-astoria/index.md): Kempinski Residences Astoria in Istanbul: 5 lots from 450,000 $, 111–180 m². Facts with sources.
+    - [English version](https://roomfacts.com/tr/istanbul/kempinski-residences-astoria/en/index.md)
+  - [Mandarin Oriental Residences (Etiler): отель в Стамбуле, 3 лота](https://roomfacts.com/tr/istanbul/mandarin-oriental-residences-etiler/index.md): Mandarin Oriental Residences (Etiler) in Istanbul: 3 lots from 4,555,000 $, 299–486 m². Facts with sources.
+    - [English version](https://roomfacts.com/tr/istanbul/mandarin-oriental-residences-etiler/en/index.md)
+  - [Ramada Hotel Suite (Pendik): отель в Стамбуле, 2 лота, программа аренды](https://roomfacts.com/tr/istanbul/ramada-pendik/index.md): Ramada Hotel Suite (Pendik) in Istanbul: 2 lots. Rental programme. Facts with sources.
+    - [English version](https://roomfacts.com/tr/istanbul/ramada-pendik/en/index.md)
+  - [Residences by Rotana (Şişli): отель в Стамбуле, 5 лотов](https://roomfacts.com/tr/istanbul/residences-by-rotana-sisli/index.md): Residences by Rotana (Şişli) in Istanbul: 5 lots from 450,000 $, 72–226 m². Facts with sources.
+    - [English version](https://roomfacts.com/tr/istanbul/residences-by-rotana-sisli/en/index.md)
+  - [The Ritz-Carlton Residences (Şişli): отель в Стамбуле, 32 лота](https://roomfacts.com/tr/istanbul/ritz-carlton-residences-sisli/index.md): The Ritz-Carlton Residences (Şişli) in Istanbul: 32 lots from 924,000 €, 110–807 m². Facts with sources.
+    - [English version](https://roomfacts.com/tr/istanbul/ritz-carlton-residences-sisli/en/index.md)
+  - [Rixos Tersane Istanbul Residences: проект в Стамбуле, 4 лота, программа аренды, заявленная доходность](https://roomfacts.com/tr/istanbul/rixos-tersane-istanbul-residences/index.md): Rixos Tersane Istanbul Residences: 4 lots from 840,000 $, 95–496 m². Rental programme, claimed yield 7%. Facts with sources.
+    - [English version](https://roomfacts.com/tr/istanbul/rixos-tersane-istanbul-residences/en/index.md)
+  - [Апарт-отели Стамбула: доходность и программы аренды](https://roomfacts.com/tr/istanbul/ru/index.md): Апарт-отели Стамбула: 14 проектов, 80 лотов, площади 40–807 м². Программа аренды у 6 проектов, заявленная доходность у 2 проектов. Факты с источниками.
+  - [Sheraton Residences (Bahçeşehir): отель в Стамбуле, 3 лота](https://roomfacts.com/tr/istanbul/sheraton-residences-istanbul/index.md): Sheraton Residences (Bahçeşehir) in Istanbul: 3 lots from 450,000 $, 140–178 m². Facts with sources.
+    - [English version](https://roomfacts.com/tr/istanbul/sheraton-residences-istanbul/en/index.md)
+  - [The Superior Suites (Kağıthane): апартаменты в Стамбуле, 3 лота, программа аренды](https://roomfacts.com/tr/istanbul/the-superior-suites-kagithane/index.md): The Superior Suites (Kağıthane) in Istanbul: 3 lots from 230,000 $, 55–128 m². Rental programme. Facts with sources.
+    - [English version](https://roomfacts.com/tr/istanbul/the-superior-suites-kagithane/en/index.md)
+- [Проекты Измира: доходность и программы аренды](https://roomfacts.com/tr/izmir/index.md): Проекты Измира: 2 проекта, 8 лотов. Программа аренды у 2 проектов, заявленная доходность у 2 проектов. Факты с источниками.
+  - [Projects in İzmir: yield and rental programmes](https://roomfacts.com/tr/izmir/en/index.md): Projects in İzmir: 2 projects, 8 lots. Rental programme for 2 projects, claimed yield for 2 projects. Facts with sources.
+  - [Radisson Red Izmir: номера в Измире, 3 лота, программа аренды, заявленная доходность](https://roomfacts.com/tr/izmir/radisson-red-izmir/index.md): Radisson Red Izmir: 3 lots. Rental programme, claimed yield 6–7%. Facts with sources.
+    - [English version](https://roomfacts.com/tr/izmir/radisson-red-izmir/en/index.md)
+  - [Проекты Измира: доходность и программы аренды](https://roomfacts.com/tr/izmir/ru/index.md): Проекты Измира: 2 проекта, 8 лотов. Программа аренды у 2 проектов, заявленная доходность у 2 проектов. Факты с источниками.
+  - [TRYP by Wyndham Izmir Point Bornova: номера в Измире, 5 лотов, программа аренды, заявленная доходность](https://roomfacts.com/tr/izmir/tryp-by-wyndham-bornova/index.md): TRYP by Wyndham Izmir Point Bornova: 5 lots. Rental programme, claimed yield 6%. Facts with sources.
+    - [English version](https://roomfacts.com/tr/izmir/tryp-by-wyndham-bornova/en/index.md)
+- [Апарт-отели Кушадасы: программы аренды](https://roomfacts.com/tr/kusadasi/index.md): Апарт-отели Кушадасы: 2 проекта, 12 лотов, площади 37–155 м². Программа аренды у 2 проектов. Факты с источниками.
+  - [Apart-hotels in Kuşadası: rental programmes](https://roomfacts.com/tr/kusadasi/en/index.md): Apart-hotels in Kuşadası: 2 projects, 12 lots, areas 37–155 m². Rental programme for 2 projects. Facts with sources.
+  - [Kusadasi Golf & Spa Resort: проект в Кушадасы, 8 лотов, программа аренды](https://roomfacts.com/tr/kusadasi/kusadasi-golf-spa-resort/index.md): Kusadasi Golf & Spa Resort in Kuşadası: 8 lots from 105,000 €, 55–155 m². Rental programme. Facts with sources.
+    - [English version](https://roomfacts.com/tr/kusadasi/kusadasi-golf-spa-resort/en/index.md)
+  - [Ramada Resort Kusadasi: апартаменты в Кушадасы, 4 лота, программа аренды](https://roomfacts.com/tr/kusadasi/ramada-resort-kusadasi/index.md): Ramada Resort Kusadasi in Kuşadası: 4 lots from 49,500 £, 37–70 m². Rental programme. Facts with sources.
+    - [English version](https://roomfacts.com/tr/kusadasi/ramada-resort-kusadasi/en/index.md)
+  - [Апарт-отели Кушадасы: программы аренды](https://roomfacts.com/tr/kusadasi/ru/index.md): Апарт-отели Кушадасы: 2 проекта, 12 лотов, площади 37–155 м². Программа аренды у 2 проектов. Факты с источниками.
+
+## Developers and operators
+
+- [AKVO GY](https://roomfacts.com/developer/akvo-gy/index.md): AKVO GY: заявлено продавцом — 17, подтверждено источником — 0, нет данных — 5; проекты с юнитами в продаже: TRYP by Wyndham Izmir Point Bornova
+- [Astaş Holding](https://roomfacts.com/developer/astas-holding/index.md): Astaş Holding: заявлено продавцом — 8, подтверждено источником — 0, нет данных — 11; проекты с юнитами в продаже: Kempinski Residences Astoria
+- [Emaar Properties](https://roomfacts.com/developer/emaar-properties/index.md): Emaar Properties: заявлено продавцом — 4, подтверждено источником — 0, нет данных — 14; проекты с юнитами в продаже: Address Residences Istanbul
+- [Golden Key](https://roomfacts.com/developer/golden-key/index.md): Golden Key: заявлено продавцом — 8, подтверждено источником — 0, нет данных — 12; проекты с юнитами в продаже: Residence 222 Hisarönü
+- [Группа Аквилон](https://roomfacts.com/developer/gruppa-akvilon/index.md): Группа Аквилон: заявлено продавцом — 11, подтверждено источником — 0, нет данных — 6; проекты с юнитами в продаже: Аквилон Signal (апарт-отель)
+- [InReit](https://roomfacts.com/developer/inreit/index.md): InReit: заявлено продавцом — 12, подтверждено источником — 1, нет данных — 4; проекты с юнитами в продаже: Port Comfort, Выборг, ул. Димитрова, 4
+- [New Level](https://roomfacts.com/developer/new-level/index.md): New Level: заявлено продавцом — 8, подтверждено источником — 0, нет данных — 11; проекты с юнитами в продаже: New Level Premium
+- [ООО «СЗ «АИСТ»](https://roomfacts.com/developer/ooo-sz-aist/index.md): ООО «СЗ «АИСТ»: заявлено продавцом — 6, подтверждено источником — 0, нет данных — 11; проекты с юнитами в продаже: AIST Residence
+- [РГ-Девелопмент](https://roomfacts.com/developer/rg-development/index.md): РГ-Девелопмент: заявлено продавцом — 6, подтверждено источником — 0, нет данных — 9; проекты с юнитами в продаже: Гостиничный комплекс «Варшавские ворота»
+- [РКС Девелопмент](https://roomfacts.com/developer/rks-development/index.md): РКС Девелопмент: заявлено продавцом — 8, подтверждено источником — 0, нет данных — 9; проекты с юнитами в продаже: Инсайдер (гостиничные номера)
+- [Tekinoğlu Grup](https://roomfacts.com/developer/tekinoglu-grup/index.md): Tekinoğlu Grup: заявлено продавцом — 8, подтверждено источником — 1, нет данных — 10; проекты с юнитами в продаже: ALGORA City Alanya
+
+## Optional
+
+- [Full text of city and project pages](https://roomfacts.com/llms-full.txt): all city and project pages in one Markdown file
+- [Sitemap](https://roomfacts.com/sitemap.xml): every indexable page, including 1436 lot pages
