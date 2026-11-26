@@ -1,0 +1,229 @@
+# 1+1 · 42 м² · 1-й этаж · цена в объявлении 174 900 EUR
+
+> Desire Hotel & Residences Antalya (Best Western) в Анталье: 1+1, 42 м², 174 900 €. Программа аренды, заявленная доходность 7 %. Факты с источниками.
+
+HTML: https://roomfacts.com/lot/hasporealty-347529/ · Language: ru · EN version: https://roomfacts.com/lot/hasporealty-347529/en/index.md
+
+[Главная](https://roomfacts.com/index.md) › [Турция](https://roomfacts.com/tr/index.md) › [Анталья](https://roomfacts.com/tr/antalya/index.md) › [Desire Hotel & Residences Antalya (Best Western)](https://roomfacts.com/tr/antalya/best-western-altintas/index.md)
+
+Цена: 174 900 EUR [заявление продавца]
+
+**Цена с оценёнными расходами ≈ 178 398 – 186 586 EUR (оценка RoomFacts; сборы кадастра не учтены)**
+
+| Тапу, доля покупателя 2% [закон / тариф] (Тип источника: официальный; Проверено: 2026-10-19; [cdn.gib.gov.tr](https://cdn.gib.gov.tr/api/gibportal-file/file/getFileResources?objectKey=arsiv%2Fonceki-dokumanlar%2Fgayrimenkul_alimsatim_vergilendirilmesi.pdf); Цитата: «Gayrimenkul devir ve iktisaplarında tapu harcı, beyan edilen gerçek devir ve iktisap bedeli üzerinden binde 20 oranında alıcı ve satıcıdan ayrı ayrı alınır.») | 3 498 EUR |
+| --- | --- |
+| Плата в фонд кадастра Турции (döner sermaye), в том числе доплата, если покупатель — иностранец: по тарифу TKGM на 2026 год, суммы не подтверждены, в оценку не включены [закон / тариф] (Тип источника: официальный; Проверено: 2026-11-17; [tkgm.gov.tr](https://www.tkgm.gov.tr/doner-sermaye-isletme-mudurlugu/haberler/doner-sermaye-isletme-mudurlugu-2026-yili-doner-sermaye-ucretlerine-iliskin-tarife-cetveli); Цитата: «2026 Yılı Döner Sermaye Ücretlerine ilişkin güncel tarife cetveli 01.01.2026 tarihi itibariyle uygulanmak üzere yürürlüğe girmiştir.») | не включено |
+| Условия продавца этого лота не известны | |
+| Доля продавца по тапу 2%, если её переложат на покупателя, — сценарий RoomFacts (Тип источника: продавец; Проверено: 2026-11-17; Цитата: «Title deed transfer 4%») [закон / тариф] (Тип источника: официальный; Проверено: 2026-10-19; [cdn.gib.gov.tr](https://cdn.gib.gov.tr/api/gibportal-file/file/getFileResources?objectKey=arsiv%2Fonceki-dokumanlar%2Fgayrimenkul_alimsatim_vergilendirilmesi.pdf); Цитата: «Gayrimenkul devir ve iktisaplarında tapu harcı, beyan edilen gerçek devir ve iktisap bedeli üzerinden binde 20 oranında alıcı ve satıcıdan ayrı ayrı alınır.») | 3 498 EUR |
+| Комиссия агентства 2% — допущение RoomFacts по письму Turkey Property Guru о Ramada от 16.10.2026 (Тип источника: продавец; Проверено: 2026-11-17; Цитата: «Agency fees 2%») | 3 498 EUR |
+| Юрист 1 000 GBP, если нанимать, — допущение RoomFacts по тому же письму (Тип источника: продавец; Проверено: 2026-11-17; Цитата: «Please also allow a further £1000 if you wish to use a lawyer.») | 1 192 EUR |
+| Turkey Property Guru в письме о Ramada от 16.10.2026 называет местные налоги и государственные сборы «около 1%». Что входит в эту сумму, в письме не сказано; отдельно в оценку не добавлено, чтобы не посчитать сборы дважды. (Тип источника: продавец; Проверено: 2026-11-17; Цитата: «Local taxes & government fees around 1%») | не включено |
+
+Оценка RoomFacts: суммы округлены, переводчик и страховка от землетрясения (DASK) обязательны, их цена зависит от исполнителя и объекта, в оценку не включены
+
+не включены: сборы кадастра, переводчик, DASK
+
+[Открыть объявление у продавца (hasporealty.com)](https://hasporealty.com/en/properties/otelnye-appartamenty-1-1-desire-hotel-residence-altyntash-antalya/) Впервые замечено: 2026-10-20 · Последний раз: 2026-11-26
+
+[Досье по объекту — 2 900 ₽ · написать нам](https://roomfacts.com/dossier-soon/?p=hasporealty-347529&place=lot) [смотреть образец](https://roomfacts.com/dossier-sample/akvilon-signal/index.md) (образец формата: Signal, Москва)
+
+## Обзор
+
+### Характеристики юнита
+
+- **Цена**: 174 900 EUR [заявление продавца] [может быть устарело] (Тип источника: продавец; Проверено: 2026-11-11; [hasporealty.com](https://hasporealty.com/en/properties/otelnye-appartamenty-1-1-desire-hotel-residence-altyntash-antalya/); Цитата: «Price: 174 900 €»)≈ 191 884 USD≈ 146 680 GBP≈ 15 805 712 RUB [посчитано нами, курс на 20 нояб. 2026] (Тип источника: посчитано нами; Проверено: 2026-11-20; [tcmb.gov.tr](https://www.tcmb.gov.tr/kurlar/today.xml); Как посчитано: 174 900 EUR × 55,2974 TRY за 1 EUR ÷ 50,4028 TRY за 1 USD (курс ЦБ Турции (TCMB) на 20 нояб. 2026) 174 900 EUR × 55,2974 TRY за 1 EUR ÷ 65,9363 TRY за 1 GBP (курс ЦБ Турции (TCMB) на 20 нояб. 2026) 174 900 EUR × 55,2974 TRY за 1 EUR ÷ 0,6119 TRY за 1 RUB (курс ЦБ Турции (TCMB) на 20 нояб. 2026); [tcmb.gov.tr](https://www.tcmb.gov.tr/kurlar/today.xml))
+- **Площадь, м²**: 42 [заявление продавца] [может быть устарело] (Тип источника: продавец; Проверено: 2026-11-11; [hasporealty.com](https://hasporealty.com/en/properties/otelnye-appartamenty-1-1-desire-hotel-residence-altyntash-antalya/); Цитата: «Area: 42 m2»)
+- **Тип номера**: 1+1 [заявление продавца] [может быть устарело] (Тип источника: продавец; Проверено: 2026-11-11; [hasporealty.com](https://hasporealty.com/en/properties/otelnye-appartamenty-1-1-desire-hotel-residence-altyntash-antalya/); Цитата: «Number of rooms: 1 + 1»)
+- **Этаж**: 1 [заявление продавца] [может быть устарело] (Тип источника: продавец; Проверено: 2026-11-11; [hasporealty.com](https://hasporealty.com/en/properties/otelnye-appartamenty-1-1-desire-hotel-residence-altyntash-antalya/); Цитата: «Object ID: 347529 Floor: 1»)
+- **Цена за м²**: 4 164 EUR/м² [заявление продавца] [посчитано нами] [может быть устарело] (Тип источника: посчитано нами; Проверено: 2026-11-11; Как посчитано: цена 174 900 EUR ÷ площадь 42 м² (оба значения — из объявления); округлено до целых)≈ 4 569 USD/м²≈ 3 492 GBP/м²≈ 376 326 RUB/м² [посчитано нами, курс на 20 нояб. 2026] (Тип источника: посчитано нами; Проверено: 2026-11-20; [tcmb.gov.tr](https://www.tcmb.gov.tr/kurlar/today.xml); Как посчитано: 191 884 USD ÷ 42 м² (цена в USD: 174 900 EUR × 55,2974 TRY за 1 EUR ÷ 50,4028 TRY за 1 USD (курс ЦБ Турции (TCMB) на 20 нояб. 2026)) 146 680 GBP ÷ 42 м² (цена в GBP: 174 900 EUR × 55,2974 TRY за 1 EUR ÷ 65,9363 TRY за 1 GBP (курс ЦБ Турции (TCMB) на 20 нояб. 2026)) 15 805 712 RUB ÷ 42 м² (цена в RUB: 174 900 EUR × 55,2974 TRY за 1 EUR ÷ 0,6119 TRY за 1 RUB (курс ЦБ Турции (TCMB) на 20 нояб. 2026)); [tcmb.gov.tr](https://www.tcmb.gov.tr/kurlar/today.xml))
+- **Нет данных**: Вид · Заявленная доходность
+
+### Этот лот среди лотов проекта
+
+По объявлениям продавца, проверено с 2026-10-20 по 2026-11-11. [заявление продавца] [посчитано нами]
+
+ (Тип источника: посчитано нами; Проверено: 2026-11-11; Как посчитано: Цена за м² — цена в объявлении, делённая на площадь и округлённая до целых; место, медиана и разницы считаются по этим числам, на экране значения округлены так же, как цены на сайте. Минимум, медиана и максимум — по лотам набора в валюте объявления, без пересчёта в другие валюты. Медиана — значение посередине списка по возрастанию; при чётном числе лотов — полусумма двух средних. Место — 1 плюс число лотов набора с меньшим значением. Разница — цена за м² лота набора минус цена за м² этого лота.)
+
+- **Цена за м² этого лота**: 4 164 EUR/м²
+- **Набор**: 10 лотов проекта с ценой и площадью, включая этот. Лотов того же типа («1+1») с ценой и площадью: 1.
+- **Цена за м² в наборе, EUR**: 8 лотов, минимум 3 275 EUR/м², медиана 3 912 EUR/м², максимум 6 048 EUR/м²
+- **Цена за м² в наборе, USD**: 2 лота, минимум 3 974 USD/м², медиана 4 296 USD/м², максимум 4 617 USD/м²
+- **Место по цене за м²**: 6-е место из 8, от меньшей цены за м² к большей в EUR.
+- **Разница в цене за м² с каждым лотом набора**:
+  **8 лотов, по возрастанию цены за м²**
+  −889 EUR/м², −529 EUR/м², −495 EUR/м², −434 EUR/м², −71 EUR/м², 0 EUR/м², +286 EUR/м², +1 884 EUR/м². «+» — цена за м² другого лота больше, «−» — меньше, без знака — этот лот или та же цена за м² после округления.
+- **Место по площади**: 1-е место из 10, от меньшей площади к большей. Такая же площадь ещё у 5 лотов. Площадь в наборе: минимум 42 м², максимум 110 м².
+
+### Другие лоты проекта (14)
+
+- [Семейный люкс (2+1) · 76 м²](https://roomfacts.com/lot/realtygalaxy-desire-family-suite/index.md)
+- [Стандарт 1+1 · 42 м²](https://roomfacts.com/lot/residenceledger-desire-1/index.md)
+- [Люкс «Кинг» (2+1) · 110 м²](https://roomfacts.com/lot/realtygalaxy-desire-king-suite/index.md)
+- [2 спальни · 72 м²](https://roomfacts.com/lot/antalyamoydom-185/index.md)
+- [2+1 · 67 м²](https://roomfacts.com/lot/hasporealty-347557/index.md)
+- [Стандарт · 42 м²](https://roomfacts.com/lot/realtygalaxy-desire-standard/index.md)
+- [1+1, гостиничный апартамент · 42 м²](https://roomfacts.com/lot/turkishrivierahomes-36263-1/index.md)
+- [Номер с выходом в бассейн (1+1) · 42 м²](https://roomfacts.com/lot/realtygalaxy-desire-swim-up/index.md)
+- [Джуниор-сьют · 42 м²](https://roomfacts.com/lot/realtygalaxy-desire-junior/index.md)
+- [1+1 резиденция · 44 м²](https://roomfacts.com/lot/desire-antalya-1/index.md)
+- [2+1 резиденция · 79 м²](https://roomfacts.com/lot/desire-antalya-2/index.md)
+- [1+1 резиденция с террасой 50 м² · 44 м²](https://roomfacts.com/lot/desire-antalya-3/index.md)
+- [Апартаменты с терассой · 50 м²](https://roomfacts.com/lot/hayatestate-108623-3/index.md)
+- [3+1](https://roomfacts.com/lot/toantalya-969-3-1/index.md)
+
+### Проект: [Desire Hotel & Residences Antalya (Best Western)](https://roomfacts.com/tr/antalya/best-western-altintas/index.md)
+
+- **Статус проекта**: Hayat Estate: строится, сдача — 4 квартал 2026 (другие источники — иные сроки и стадия, см. альтернативы) [источники расходятся] [заявление продавца] (Тип источника: продавец; Проверено: 2026-11-11; [hayatestate.com](https://hayatestate.com/object?objectId=108623); Цитата: «Сдача комплекса – 4 квартал 2026 года.»)2 источника: год постройки: 2025 [заявление продавца] (Тип источника: продавец; Проверено: 2026-10-19; [turkishrivierahomes.com](https://www.turkishrivierahomes.com/property/premium-residences-and-hotel-apartments-in-altintas-antalya/); Цитата: «Year Built: 2025») (Тип источника: продавец; Проверено: 2026-10-20; [hasporealty.com](https://hasporealty.com/en/properties/otelnye-appartamenty-1-1-desire-hotel-residence-altyntash-antalya/); Цитата: «2025 Year built»)2 источника: срок сдачи: Q3 2026 [заявление продавца] (Тип источника: продавец; Проверено: 2026-10-19; [residenceledger.com](https://residenceledger.com/projects/desire-hotel-residences-antalya/); Цитата: «Completion: Q3 2026.») (Тип источника: продавец; Проверено: 2026-10-19; [desire-antalya.com](https://www.desire-antalya.com/residences/); Цитата: «сompletion date: Q3 2026»)Другой источник: срок сдачи: end of 2025 [заявление продавца] (Тип источника: продавец; Проверено: 2026-10-20; [hasporealty.com](https://hasporealty.com/en/properties/otelnye-appartamenty-1-1-desire-hotel-residence-altyntash-antalya/); Цитата: «Completion is scheduled for the end of 2025.»)Другой источник: стадия: построен [заявление продавца] (Тип источника: продавец; Проверено: 2026-10-20; [realtygalaxy.com](https://www.realtygalaxy.com/project-detail/antalya/aksu/desire-antalya/213672); Цитата: «Construction finished & Ready»)
+- **Программа аренды**: Управляющая компания занимается сдачей резиденций в аренду (условия не описаны) [заявление продавца] (Тип источника: продавец; Проверено: 2026-11-11; [turkishrivierahomes.com](https://www.turkishrivierahomes.com/property/premium-residences-and-hotel-apartments-in-altintas-antalya/); Цитата: «In addition, the management company takes care of the administration of the residences for rental purposes.»; Только в объявлении агентства или на стороннем сайте; у застройщика и бренда не найдено)
+- **Оператор**: Заявлено управление международным оператором Best Western; юрлицо не названо [заявление продавца] (Тип источника: продавец; Проверено: 2026-11-11; [hayatestate.com](https://hayatestate.com/object?objectId=108623); Цитата: «В продаже остались последние юниты в гостиничном комплексе под управлением международного оператора Best Western.»)
+- **Нет данных**: Тип права · Работает круглый год или сезонно
+
+### Другие юниты проекта (14)
+
+| Тип | м² | Этаж | Цена | Цена за м² |
+| --- | --- | --- | --- | --- |
+| [Семейный люкс (2+1)](https://roomfacts.com/lot/realtygalaxy-desire-family-suite/index.md) | 76 | — | 248 900 EUR | 3 275 EUR/м² |
+| [Стандарт 1+1](https://roomfacts.com/lot/residenceledger-desire-1/index.md) | 42 | — | 166 900 USD | 3 974 USD/м² |
+| [Люкс «Кинг» (2+1)](https://roomfacts.com/lot/realtygalaxy-desire-king-suite/index.md) | 110 | — | 399 900 EUR | 3 635 EUR/м² |
+| [2 спальни](https://roomfacts.com/lot/antalyamoydom-185/index.md) | 72 | — | 264 196 EUR [цены расходятся] | 3 669 EUR/м² |
+| [2+1](https://roomfacts.com/lot/hasporealty-347557/index.md) | 67 | 1 | 249 900 EUR | 3 730 EUR/м² |
+
+«—» — значения нет в проверенных источниках или источник ещё не снимали.
+
+Значения юнитов — из объявлений: заявление продавца.
+
+[Все юниты проекта (15) →](https://roomfacts.com/tr/antalya/best-western-altintas/index.md)
+
+### На карте
+
+Карта: © [OpenStreetMap](https://www.openstreetmap.org/copyright) contributors, [OpenFreeMap](https://openfreemap.org/)
+
+### Город: [Анталья](https://roomfacts.com/tr/antalya/index.md)
+
+- **Регион**: провинция Анталья (административный центр провинции; район в пределах города не указан) (Тип источника: официальный; Проверено: 2026-10-19; [antalya.gov.tr](https://www.antalya.gov.tr/ilcelerimiz); Цитата: «T.C. Antalya Valiliği»)
+- **Аэропорт**: Аэропорт Анталья (AYT) (Тип источника: официальный; Проверено: 2026-10-19; [dhmi.gov.tr](https://www.dhmi.gov.tr/Sayfalar/Havalimani/Antalya/GenelBilgiler.aspx); Цитата: «ICAO Kodu: LTAI IATA Kodu: AYT»)
+- **Расстояние до аэропорта, км**: 13 км от аэропорта до центра Антальи (по данным DHMİ) (Тип источника: официальный; Проверено: 2026-10-19; [dhmi.gov.tr](https://www.dhmi.gov.tr/Sayfalar/Havalimani/Antalya/Ulasim.aspx); Цитата: «Havalimanımız Antalya şehir merkezine 13 km. mesafede»)
+- **Загрузка отелей в 2025 г., %**: Средняя загрузка за 2025 г.: 66.3% (провинция Анталья в целом) [посчитано нами] (Тип источника: посчитано нами; Проверено: 2026-10-19; [yigm.ktb.gov.tr](https://yigm.ktb.gov.tr/Eklenti/145670%2Ckonaklama-yillik-b-lten-2025-ver2xlsx.xlsx?0); Цитата: «İŞLETME VE BASİT BELGELİ KONAKLAMA TESİSLERİNDE TESİSLERE GELİŞ, GECELEME, ORTALAMA KALIŞ SÜRESİ VE DOLULUK ORANLARININ İLLERE VE İLÇELERE GÖRE DAĞILIMI (2025)»; Как посчитано: Показатель «загрузка, %» (всего) из годового бюллетеня KTB о средствах размещения за 2025 г., строка: провинция Анталья в целом; округлено до десятых.; [yigm.ktb.gov.tr](https://yigm.ktb.gov.tr/Eklenti/145670%2Ckonaklama-yillik-b-lten-2025-ver2xlsx.xlsx?0))
+
+[Климат и сезонность — на странице города](https://roomfacts.com/tr/antalya/index.md)
+
+## Аренда
+
+### Данные проекта
+
+- **Программа аренды**: Управляющая компания занимается сдачей резиденций в аренду (условия не описаны) [заявление продавца] (Тип источника: продавец; Проверено: 2026-11-11; [turkishrivierahomes.com](https://www.turkishrivierahomes.com/property/premium-residences-and-hotel-apartments-in-altintas-antalya/); Цитата: «In addition, the management company takes care of the administration of the residences for rental purposes.»; Только в объявлении агентства или на стороннем сайте; у застройщика и бренда не найдено)
+- **Доход, заявленный продавцом**: 7 % годовых · заявлено продавцом на 3 года · валюта не указана · есть условия [источники расходятся] [заявление продавца] (Тип источника: продавец; Проверено: 2026-11-11; [hayatestate.com](https://hayatestate.com/object?objectId=108623); Цитата: «Эксклюзивно для клиентов Hayat Estate: гарантированная доходность 7% годовых на 3 года в валюте»; Только в объявлении агентства или на стороннем сайте; у застройщика и бренда не найдено)Другой источник: 10 % годовых · заявлено продавцом на 3 года · валюта не указана [заявление продавца] (Тип источника: продавец; Проверено: 2026-10-19; [turkishrivierahomes.com](https://www.turkishrivierahomes.com/property/premium-residences-and-hotel-apartments-in-altintas-antalya/); Цитата: «Guaranteed 10% annual rental yield for 3 years!»)
+- **Нет данных**: Тип программы аренды · Доля владельца в доходе · Ночи владельца в год · Срок договора аренды · Работает круглый год или сезонно
+
+## Проект и оператор
+
+### Данные проекта
+
+- **Тип проекта**: Комплекс: гостиничный блок A1 под Best Western и жилые блоки A2, A3 [заявление продавца] (Тип источника: продавец; Проверено: 2026-11-11; [hayatestate.com](https://hayatestate.com/object?objectId=108623); Цитата: «Блок А1: 32 отельных номера под управлением Best Western Блок А2 и Блок А3: это жилые блоки»)
+- **Бренд**: Best Western (заявлено застройщиком) [заявление продавца] (Тип источника: продавец; Проверено: 2026-11-11; [desire-antalya.com](https://www.desire-antalya.com/residences/); Цитата: «DESIRE is a proud member of the world-renowned Best Western Hotel chain»)
+- **Оператор**: Заявлено управление международным оператором Best Western; юрлицо не названо [заявление продавца] (Тип источника: продавец; Проверено: 2026-11-11; [hayatestate.com](https://hayatestate.com/object?objectId=108623); Цитата: «В продаже остались последние юниты в гостиничном комплексе под управлением международного оператора Best Western.»)
+- **Застройщик / продавец**: Жилстрой-2, Teus Group и неназванный турецкий строительный партнёр [заявление продавца] (Тип источника: продавец; Проверено: 2026-11-11; [residenceledger.com](https://residenceledger.com/projects/desire-hotel-residences-antalya/); Цитата: «The project is built by three named developers: Жилстрой-2 (80 years in the market, 1M+ m² delivered), an unnamed Turkish construction partner (30 years), and Teus Group.»)
+- **Статус проекта**: Hayat Estate: строится, сдача — 4 квартал 2026 (другие источники — иные сроки и стадия, см. альтернативы) [источники расходятся] [заявление продавца] (Тип источника: продавец; Проверено: 2026-11-11; [hayatestate.com](https://hayatestate.com/object?objectId=108623); Цитата: «Сдача комплекса – 4 квартал 2026 года.»)2 источника: год постройки: 2025 [заявление продавца] (Тип источника: продавец; Проверено: 2026-10-19; [turkishrivierahomes.com](https://www.turkishrivierahomes.com/property/premium-residences-and-hotel-apartments-in-altintas-antalya/); Цитата: «Year Built: 2025») (Тип источника: продавец; Проверено: 2026-10-20; [hasporealty.com](https://hasporealty.com/en/properties/otelnye-appartamenty-1-1-desire-hotel-residence-altyntash-antalya/); Цитата: «2025 Year built»)2 источника: срок сдачи: Q3 2026 [заявление продавца] (Тип источника: продавец; Проверено: 2026-10-19; [residenceledger.com](https://residenceledger.com/projects/desire-hotel-residences-antalya/); Цитата: «Completion: Q3 2026.») (Тип источника: продавец; Проверено: 2026-10-19; [desire-antalya.com](https://www.desire-antalya.com/residences/); Цитата: «сompletion date: Q3 2026»)Другой источник: срок сдачи: end of 2025 [заявление продавца] (Тип источника: продавец; Проверено: 2026-10-20; [hasporealty.com](https://hasporealty.com/en/properties/otelnye-appartamenty-1-1-desire-hotel-residence-altyntash-antalya/); Цитата: «Completion is scheduled for the end of 2025.»)Другой источник: стадия: построен [заявление продавца] (Тип источника: продавец; Проверено: 2026-10-20; [realtygalaxy.com](https://www.realtygalaxy.com/project-detail/antalya/aksu/desire-antalya/213672); Цитата: «Construction finished & Ready»)
+- **Число номеров**: Hayat Estate: 32 гостиничных номера в блоке A1 (другие источники — иное число, см. альтернативы) [источники расходятся] [заявление продавца] (Тип источника: продавец; Проверено: 2026-11-11; [hayatestate.com](https://hayatestate.com/object?objectId=108623); Цитата: «Блок А1: 32 отельных номера под управлением Best Western»)2 источника: 53 [заявление продавца] (Тип источника: продавец; Проверено: 2026-10-19; [turkishrivierahomes.com](https://www.turkishrivierahomes.com/property/premium-residences-and-hotel-apartments-in-altintas-antalya/); Цитата: «The property also offer 53 rooms will be implemented in the hotel complex of the project.») (Тип источника: продавец; Проверено: 2026-10-19; [residenceledger.com](https://residenceledger.com/projects/desire-hotel-residences-antalya/); Цитата: «74 residences plus a 53-room Best Western-managed hotel»)
+- **Адрес**: Алтынташ / Аксу, Анталья (точный адрес не указан) [заявление продавца] (Тип источника: продавец; Проверено: 2026-11-11; [hayatestate.com](https://hayatestate.com/object?objectId=108623); Цитата: «Комплекс премиум-класса в районе Алтынташ / Аксу города Анталия.»)
+- **Координаты**: 36.8892846, 30.8324565 (Алтынташ, Аксу, Анталья) [заявление продавца] (Тип источника: продавец; Проверено: 2026-11-11; [desire-antalya.com](https://www.desire-antalya.com/residences/); Цитата: «!2d30.8324565!3d36.8892846!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14c3833ca0879625%3A0x2482731975924f86!2sDesire»)
+- **Всего юнитов в комплексе**: Всего 127 юнитов в комплексе [заявление продавца] (Тип источника: продавец; Проверено: 2026-11-11; [hayatestate.com](https://hayatestate.com/object?objectId=108623); Цитата: «Всего 127 апартаментов»)
+- **Комиссия управляющей компании**: В расчёте застройщика: комиссия управляющей компании 15%, амортизация 3% [заявление продавца] (Тип источника: продавец; Проверено: 2026-11-11; [residenceledger.com](https://residenceledger.com/projects/desire-hotel-residences-antalya/); Цитата: «after management commission (15%) and depreciation (3%)»; Только в объявлении агентства или на стороннем сайте; у застройщика и бренда не найдено)
+- **Заявленная ожидаемая доходность**: Ожидаемая доходность 8–12% годовых (прогноз продавца) [заявление продавца] (Тип источника: продавец; Проверено: 2026-11-11; [hayatestate.com](https://hayatestate.com/object?objectId=108623); Цитата: «ожидаемая доходность 8-12% годовых»)
+- **Долевое владение**: Доли 10%, 25% или 50% номера, вход от $19 900 [заявление продавца] (Тип источника: продавец; Проверено: 2026-11-11; [residenceledger.com](https://residenceledger.com/projects/desire-hotel-residences-antalya/); Цитата: «DESIRE Invest fractional program: buy a 10%, 25%, or 50% share in a hotel room. Entry from $19,900.»)
+- **Нет данных**: Лицензия Минкультуры и туризма (KTB) · Звёздность · Тип права · Выход из программы и продажа
+
+### Красные флаги
+
+красных флагов: 0 (проверка неполная)
+
+В проверенных официальных источниках событий: 0. Проверка неполная: архив Ticaret Sicili Gazetesi требует входа, поиск ilan.gov.tr не автоматизирован; публичного списка отзывов лицензий KTB нет. [Как проверяли](https://roomfacts.com/method/index.md)
+
+[Страница проекта: Desire Hotel & Residences Antalya (Best Western)](https://roomfacts.com/tr/antalya/best-western-altintas/index.md)
+
+## Налоги и право
+
+Налоги и право — общие для всего проекта: полный раздел с источниками на странице проекта. [Desire Hotel & Residences Antalya (Best Western) → Налоги и право](https://roomfacts.com/tr/antalya/best-western-altintas/index.md)
+
+## Чего мы не знаем
+
+Что источники не подтверждают — и готовые вопросы, которые можно задать продавцу самостоятельно.
+
+**Не найдено** (12): Вид, Заявленная доходность, Звёздность, Лицензия Минкультуры и туризма (KTB), Работает круглый год или сезонно, Тип программы аренды, Доля владельца в доходе, Ночи владельца в год, Срок договора аренды, Тип права, Красные флаги, Выход из программы и продажа
+
+**Заявление продавца** (15): Цена, Площадь, м², Тип номера, Этаж, Адрес, Координаты, Тип проекта, Бренд, Оператор, Застройщик / продавец, Программа аренды, Всего юнитов в комплексе, Комиссия управляющей компании, Заявленная ожидаемая доходность, Долевое владение
+
+**Значения расходятся** (3): Статус проекта, Число номеров, Доход, заявленный продавцом
+
+### Вопросы продавцу
+
+#### Юнит и цена
+
+1. Какова цена именно этого юнита (тип, площадь) и в какой валюте она фиксируется в договоре?
+2. Какова площадь юнита брутто и нетто по тапу / проекту?
+3. Уточните, пожалуйста: «Тип номера» — и пришлите документ, который это подтверждает.
+4. На каком этаже находится юнит?
+5. Какой вид из окон именно этого юнита?
+6. Какую доходность вы заявляете для этого юнита и на чём она основана (фактическая отчётность оператора за прошлые годы)?
+
+#### Проект
+
+1. Укажите точный адрес проекта (il / ilçe / mahalle, улица) и номер участка (ada / parsel).
+2. Уточните, пожалуйста: «Координаты» — и пришлите документ, который это подтверждает.
+3. Это отель, апарт-отель или резиденция с гостиничным сервисом по документам?
+4. Под каким гостиничным брендом работает (будет работать) объект? Есть ли подписанный договор франшизы или управления — пришлите копию или выписку.
+5. Кто оператор отеля (юрлицо) и кто сторона договора аренды с владельцем? Что будет при смене оператора?
+6. Кто застройщик (юрлицо) и кто продавец по договору купли-продажи?
+7. Объект уже работает или строится? Если строится — дата сдачи по договору и разрешение на строительство (yapı ruhsatı); если работает — год открытия и iskân.
+8. Какая официальная звёздность присвоена отелю (по свидетельству Минкультуры и туризма)?
+9. Есть ли у отеля туристическая лицензия Минкультуры и туризма (Turizm İşletme Belgesi)? Пришлите номер и копию.
+10. Сколько всего номеров в гостиничной части и сколько из них продаётся частным владельцам?
+11. Отель работает круглый год или сезонно? В какие месяцы закрыт?
+12. Сколько всего юнитов в комплексе и сколько из них продаётся частным владельцам?
+
+#### Аренда
+
+1. Есть ли программа аренды через оператора? Пришлите образец договора.
+2. Программа аренды — общий пул (доход делится между всеми владельцами) или индивидуальная (доход от своего номера)?
+3. Какую долю дохода от аренды получает владелец и какие расходы вычитаются до расчёта?
+4. Есть ли гарантированный доход? Кто именно гарантирует (юрлицо), на какой срок, от какой суммы и чем обеспечена гарантия?
+5. Сколько ночей в год владелец может жить в номере сам и есть ли ограничения по месяцам?
+6. На какой срок заключается договор аренды/управления, как его расторгнуть и что будет при смене оператора?
+7. На чём основана заявленная ожидаемая доходность? Есть ли отчёты о фактических выплатах владельцам?
+8. Как выйти из программы аренды или продать номер: за сколько предупредить, есть ли штраф, кто ищет покупателя?
+
+#### Право и документы
+
+1. Выдаётся ли отдельный тапу на номер (kat mülkiyeti / kat irtifakı)? Пришлите копию с номером участка.
+2. Назовите полное юридическое наименование (unvan), налоговый номер (vergi no) или MERSIS застройщика и компании-владельца отеля; были ли у них konkordato, ликвидация, смена владельцев или icra-торги по объекту?
+
+[Что такое досье по лоту](https://roomfacts.com/check/?lot=hasporealty-347529)
+
+## Источники
+
+### Объявления (все источники и дубли)
+
+| URL | Продавец | Впервые замечено | Последний раз | Статус |
+| --- | --- | --- | --- | --- |
+| [hasporealty.com](https://hasporealty.com/en/properties/otelnye-appartamenty-1-1-desire-hotel-residence-altyntash-antalya/) | Haspo Realty | 2026-10-20 | 2026-11-26 | открывается |
+
+### Источники фактов
+
+- [hasporealty.com](https://hasporealty.com/en/properties/otelnye-appartamenty-1-1-desire-hotel-residence-altyntash-antalya/) — Цена, Валюта, Площадь, м², Тип номера, Этаж · 2026-11-11
+- [hayatestate.com](https://hayatestate.com/object?objectId=108623) — Адрес, Тип проекта, Оператор, Статус проекта, Число номеров, Доход, заявленный продавцом, Всего юнитов в комплексе, Заявленная ожидаемая доходность · 2026-11-11
+- [desire-antalya.com](https://www.desire-antalya.com/residences/) — Координаты, Бренд · 2026-11-11
+- [residenceledger.com](https://residenceledger.com/projects/desire-hotel-residences-antalya/) — Застройщик / продавец, Комиссия управляющей компании, Долевое владение · 2026-11-11
+- [turkishrivierahomes.com](https://www.turkishrivierahomes.com/property/premium-residences-and-hotel-apartments-in-altintas-antalya/) — Программа аренды · 2026-11-11
+- [antalya.gov.tr](https://www.antalya.gov.tr/ilcelerimiz) — Регион · 2026-10-19
+- [dhmi.gov.tr](https://www.dhmi.gov.tr/Sayfalar/Havalimani/Antalya/GenelBilgiler.aspx) — Аэропорт · 2026-10-19
+- [dhmi.gov.tr](https://www.dhmi.gov.tr/Sayfalar/Havalimani/Antalya/Ulasim.aspx) — Расстояние до аэропорта, км · 2026-10-19
+- [mgm.gov.tr](https://www.mgm.gov.tr/veridegerlendirme/il-ve-ilceler-istatistik.aspx?k=A&m=ANTALYA) — Климат по месяцам · 2026-10-19
+- [ktb.gov.tr](https://www.ktb.gov.tr/Eklenti/144508%2Caccommodation-monthly-b-lletin-2025-03022026xlsx.xlsx?0) — Сезонность туризма · 2026-10-19
+- [yigm.ktb.gov.tr](https://yigm.ktb.gov.tr/Eklenti/145670%2Ckonaklama-yillik-b-lten-2025-ver2xlsx.xlsx?0) — Загрузка отелей в 2025 г., % · 2026-10-19
+- [cds.climate.copernicus.eu](https://cds.climate.copernicus.eu/datasets/reanalysis-era5-single-levels-monthly-means) — Температура моря по месяцам · 2026-11-13
+
+## Гиды по теме
+
+- [Купить номер в отеле в собственность в Турции: факты](https://roomfacts.com/ru/guides/nomer-v-otele-v-sobstvennost/index.md)
+- [Программы владельцев в Турции](https://roomfacts.com/ru/guides/programmy-vladelcev-turciya/index.md)
+- [ВНЖ Турции за недвижимость: условия и документы](https://roomfacts.com/ru/guides/vnzh-grazhdanstvo-turcii-nedvizhimost/index.md)

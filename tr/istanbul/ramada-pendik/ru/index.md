@@ -1,0 +1,312 @@
+# Ramada Hotel Suite (Pendik): отель в Стамбуле, 2 лота, программа аренды
+
+> Ramada Hotel Suite (Pendik) в Стамбуле. Программа аренды. Факты с источниками.
+
+HTML: https://roomfacts.com/tr/istanbul/ramada-pendik/ru/ · Language: ru · EN version: https://roomfacts.com/tr/istanbul/ramada-pendik/en/index.md
+
+[Главная](https://roomfacts.com/index.md) › [Турция](https://roomfacts.com/tr/index.md) › [Стамбул](https://roomfacts.com/tr/istanbul/index.md) › Ramada Hotel Suite (Pendik)
+
+[Стамбул](https://roomfacts.com/tr/istanbul/index.md), Пендик · Ramada · 2 юнита в продаже
+
+цена не указана
+
+**Проверено**
+
+- Адрес: Пендик, Стамбул (азиатская часть); напротив аэропорта Сабиха Гёкчен [заявление продавца]
+- Застройщик / продавец: FCR Gayrimenkul Yatırım Ortaklığı (FCR GYO), по её проспекту; генподрядчик — FGM Yapı [заявление продавца]
+- Бренд: Ramada [заявление продавца]
+
+[optiononetr.com](https://optiononetr.com/invest-in-ramada-hotel-rental-guarantee-10-years/) · Проверено 2026-11-11
+
+[fcrgyo.com](https://fcrgyo.com/documents/izahname-1.pdf) · Проверено 2026-11-15
+
+[Подобрать лоты под мой бюджет — 990 ₽](https://roomfacts.com/podbor/?from=project)
+
+Блоки A и B1 — Ramada Hotel Suite; B2 — офисы; C — медицинский комплекс* (Тип источника: продавец; Проверено: 2026-11-11; [optiononetr.com](https://optiononetr.com/invest-in-ramada-hotel-rental-guarantee-10-years/); Цитата: «blocks A & B1 RAMADA HOTEl SUITE Block B2 office commercial building Block C is a medical complex specialized in medical tourism.») в Стамбуле, Пендик, адрес — Пендик, Стамбул (азиатская часть); напротив аэропорта Сабиха Гёкчен* (Тип источника: продавец; Проверено: 2026-11-11; [optiononetr.com](https://optiononetr.com/invest-in-ramada-hotel-rental-guarantee-10-years/); Цитата: «The project is located in Pendik, in the Asian part of Istanbul, between Kartal and Tuzla.»). Продавец: FCR Gayrimenkul Yatırım Ortaklığı A.Ş.* (Тип источника: продавец; Проверено: 2026-11-15; [fcrgyo.com](https://fcrgyo.com/documents/izahname-1.pdf); Цитата: «Şirket, sermaye olarak koyduğu İstanbul İli, Pendik İlçesi, Kurtköy Mahallesinde yer alan 6.095,53 m2 büyüklüğündeki arsa üzerinde “Ramada Hotel by Wyndham Sabiha Gökçen Airport Projesi” yatırımına başlamıştır.»). Программа аренды: да* (Тип источника: продавец; Проверено: 2026-11-11; [optiononetr.com](https://optiononetr.com/invest-in-ramada-hotel-rental-guarantee-10-years/); Цитата: «Rental guarantee for 10 years in dollars»; Только в объявлении агентства или на стороннем сайте; у застройщика и бренда не найдено), срок договора — 10 лет — срок гарантии; срок договора не указан* (Тип источника: продавец; Проверено: 2026-11-11; [optiononetr.com](https://optiononetr.com/invest-in-ramada-hotel-rental-guarantee-10-years/); Цитата: «Rental guarantee for 10 years in dollars»; Только в объявлении агентства или на стороннем сайте; у застройщика и бренда не найдено); доход нельзя сравнить: продавец не раскрыл цифры. Срок сдачи: источники расходятся — вкладка «Проект»; фактов о проекте: заявлено продавцом — 9, подтверждено источником — 0, нет данных — 11. * заявление продавца
+
+1. Сколько владельцы получили за прошлый год?
+2. Какие регулярные платежи платит владелец?
+3. Кто оператор?
+
+[Номер в отеле в собственность в Турции](https://roomfacts.com/ru/guides/nomer-v-otele-v-sobstvennost/index.md)
+
+## Другие апарт-отели в Стамбуле
+
+- [The Ritz-Carlton Residences (Şişli)](https://roomfacts.com/tr/istanbul/ritz-carlton-residences-sisli/index.md)
+- [Fairmont Quasar Residences Istanbul](https://roomfacts.com/tr/istanbul/fairmont-quasar-residences/index.md)
+- [JW Marriott Residences Tarabya Istanbul](https://roomfacts.com/tr/istanbul/jw-marriott-residences-tarabya/index.md)
+- [Emaar Square (Üsküdar)](https://roomfacts.com/tr/istanbul/emaar-square-uskudar/index.md)
+- [Kempinski Residences Astoria](https://roomfacts.com/tr/istanbul/kempinski-residences-astoria/index.md)
+- [Residences by Rotana (Şişli)](https://roomfacts.com/tr/istanbul/residences-by-rotana-sisli/index.md)
+
+## Обзор
+
+### Юниты проекта
+
+| Тип | м² | Цена | Цена за м² |
+| --- | --- | --- | --- |
+| [0+1](https://roomfacts.com/lot/optiononetr-op38-1/index.md) | — | не указана | — |
+| [1+1 дуплекс](https://roomfacts.com/lot/optiononetr-op38-2/index.md) | — | не указана | — |
+
+«—» — значения нет в проверенных источниках или источник ещё не снимали.
+
+Значения юнитов — из объявлений: заявление продавца. Замечено в объявлениях: 2026-10-19.
+
+### На карте — приблизительно
+
+Точной точки нет в источниках. Круг — место, которое они называют: напротив аэропорта Сабиха Гёкчен (по объявлению).
+
+Карта: © [OpenStreetMap](https://www.openstreetmap.org/copyright) contributors, [OpenFreeMap](https://openfreemap.org/); приблизительные места проектов — поиск OpenStreetMap ([Nominatim](https://nominatim.openstreetmap.org/), ODbL)
+
+### Тип права и сезон работы
+
+- **Нет данных**: Тип права · Работает круглый год или сезонно
+
+### Город: [Стамбул](https://roomfacts.com/tr/istanbul/index.md)
+
+- **Регион**: провинция Стамбул (административный центр провинции; район в пределах города не указан) (Тип источника: официальный; Проверено: 2026-10-19; [istanbul.gov.tr](https://www.istanbul.gov.tr/ilcelerimiz); Цитата: «T.C. İstanbul Valiliği»)
+- **Аэропорт**: Аэропорт Стамбул (IST) (Тип источника: официальный; Проверено: 2026-10-19; [dhmi.gov.tr](https://www.dhmi.gov.tr/Sayfalar/Havalimani/istanbul/GenelBilgiler.aspx); Цитата: «ICAO Kodu: | ​LTFM | ​IATA Kodu: | ​IST»)
+- **Расстояние до аэропорта, км**: около 50 км от аэропорта до центра города (по данным DHMİ) (Тип источника: официальный; Проверено: 2026-10-19; [dhmi.gov.tr](https://www.dhmi.gov.tr/Sayfalar/Havalimani/istanbul/Ulasim.aspx); Цитата: «Şehir merkezine ve çevre illere yaklaşık 50 km uzaklıkta»)
+
+[Климат и сезонность — на странице города](https://roomfacts.com/tr/istanbul/index.md)
+
+### Другие факты
+
+- **Комиссия управляющей компании**: —
+- **Выход из программы и продажа**: —
+
+## Аренда
+
+### Что публикует застройщик, а что — только агентства
+
+«Сайт застройщика» — сайт застройщика, управляющей компании или гостиничного бренда. «Только агентство» — объявление агентства или сторонний сайт; на проверенных страницах застройщика этого не нашли.
+
+- **Программа аренды**: Только агентство: да ([optiononetr.com](https://optiononetr.com/invest-in-ramada-hotel-rental-guarantee-10-years/), 11.11.2026)
+- **Тип программы аренды**: —
+- **Доход, заявленный продавцом**: Только агентство: Гарантия аренды на 10 лет в долларах; процент и гарант не указаны ([optiononetr.com](https://optiononetr.com/invest-in-ramada-hotel-rental-guarantee-10-years/), 11.11.2026)
+- **Доля владельца в доходе**: —
+- **Ночи владельца в год**: —
+- **Срок договора аренды**: Только агентство: 10 лет — срок гарантии; срок договора не указан ([optiononetr.com](https://optiononetr.com/invest-in-ramada-hotel-rental-guarantee-10-years/), 11.11.2026)
+- **Комиссия управляющей компании**: —
+- **Выход из программы и продажа**: —
+
+«—» — значения нет в проверенных источниках или источник ещё не снимали. Проверено 15.11.2026. Где искали: [fgmyapi.com](https://fgmyapi.com/projeler/ramada-hotels-suites-by-wyndham); [fcrgyo.com](https://fcrgyo.com/documents/izahname-1.pdf).
+
+#### Реклама и документ застройщика: цитаты
+
+В рекламе агентства Option One: «Гарантия аренды на 10 лет в долларах»1; «…блоки A и B1 — RAMADA HOTEL SUITE…»2; «Вы сможете зарабатывать, если владеете гостиничным номером.»3 — [optiononetr.com, архив страницы от 17.05.2026](https://web.archive.org/web/20260517190149/https://optiononetr.com/invest-in-ramada-hotel-rental-guarantee-10-years/).
+
+В проспекте FCR GYO (izahname): «Эта недвижимость — участок площадью 6 095,53 м² (Стамбул, Пендик, Куртькёй, квартал 8881, участок 10) и 72 самостоятельные части (bağımsız bölüm) строящегося на нём проекта Ramada Hotel by Wyndham Sabiha Gökçen Airport: 1 отель, 2 коммерческих помещения (işyeri) и 69 офисов.» (с. 62)4; «По состоянию на 30 сентября 2024 года из 69 офисов в проекте Ramada Hotel By Wyndham Sabiha Gökçen Airport продано 12.» (с. 22)5; «Поскольку после завершения проекта компания планирует получать от этой недвижимости арендный доход, она учитывается как инвестиционная недвижимость.» (с. 18)6; «…всего в проекте 73 самостоятельные части, из них оценивались 72.» (с. 66)7 — [fcrgyo.com, прочитан 15.11.2026; дата одобрения Советом по рынкам капитала Турции (SPK) в документе не заполнена; брокер размещения Tera Yatırım публикует этот проспект как «Başvuru İzahnamesi» (проспект, поданный на одобрение); финансовые данные на 30.09.2024](https://fcrgyo.com/documents/izahname-1.pdf).
+
+Цитаты на языке оригинала:
+
+1. Rental guarantee for 10 years in dollars
+2. blocks A & B1 RAMADA HOTEl SUITE
+3. You will be able to make money if you own the hotel room.
+4. İlgili gayrimenkuller, İstanbul ili, Pendik ilçesi, Kurtköy Mahallesi, 8881 ada, 6.095,53 m² yüzölçümlü 10 no’lu parsel üzerinde yer alan 6.095,53 m² arsa alanı ile üzerinde Ramada Hotel by Wyndham Sabiha Gökçen Airport projesi devam eden ve halihazırda inşaat halinde bulunan 1 adet otel, 2 adet işyeri ve 69 adet ofis niteliğinde toplam 72 adet bağımsız bölümden oluşmaktadır.
+5. 30 Eylül 2024 tarihi itibarıyla Ramada Hotel By Wyndham Sabiha Gökçen Airport Projesi’nde yer alan 69 adet ofisten 12 tanesinin satışı yapılmıştır.
+6. Söz konusu proje tamamlandığında şirketin bu gayrimenkulden kira geliri elde etmesi planlaması nedeniyle, yatırım amaçlı gayrimenkullerde izlenmektedir.
+7. proje bünyesinde toplamda 73 adet bağımsız bölüm bulunmakta olup değerlemeye konu bağımsız bölüm sayısı ise 72 adettir.
+
+#### Что спросить у продавца
+
+Вам предлагают «номер в отеле Ramada» у аэропорта Сабиха Гёкчен с гарантией аренды. До оплаты задайте продавцу два вопроса:
+
+Язык собеседника:
+
+Приветствие:
+
+Здравствуйте! Меня интересует это предложение: [ссылка на объявление]. Хочу уточнить условия и посмотреть документы. Пришлите их, пожалуйста, и ответьте на вопросы по пунктам.
+
+Hello! I’m interested in this listing: [link]. I’d like to clarify the terms and review the documents. Could you please send them and answer the questions point by point?
+
+Merhaba! Bu ilanla ilgileniyorum: [ilan linki]. Şartları netleştirmek ve belgeleri incelemek istiyorum. Belgeleri gönderip sorularıma madde madde yanıt verebilir misiniz?
+
+1. Что указано в выписке из реестра недвижимости (tapu kayıt örneği) в графе «назначение объекта» (nitelik)? Зарегистрировано ли на объект право devre mülk (право периодического владения)? Пришлите, пожалуйста, выписку с этими сведениями.
+  What is entered in the “property designation” (nitelik) field of the land registry extract (tapu kayıt örneği)? Is a devre mülk (timeshare) right registered over the property? Please send an extract showing these details.
+  Tapu kayıt örneğinin “nitelik” hanesinde ne yazıyor? Taşınmaz üzerinde devre mülk hakkı kurulmuş mu? Lütfen bu bilgileri gösteren tapu kayıt örneğini gönderin.
+2. Кто платит обещанную гарантию аренды — застройщик, отель или другая компания? По какому договору и в каком его пункте это записано? Пришлите, пожалуйста, договор.
+  Who pays the promised rental guarantee: the developer, the hotel or another company? Under which contract and in which clause is this written? Please send the contract.
+  Vaat edilen kira garantisini kim ödüyor: geliştirici şirket mi, otel mi, yoksa başka bir şirket mi? Bu hangi sözleşmenin hangi maddesinde yazıyor? Lütfen sözleşmeyi gönderin.
+
+[Все турецкие проекты в одной таблице](https://roomfacts.com/ru/guides/programmy-vladelcev-turciya/index.md)
+
+- **Программа аренды**: да [заявление продавца] (Тип источника: продавец; Проверено: 2026-11-11; [optiononetr.com](https://optiononetr.com/invest-in-ramada-hotel-rental-guarantee-10-years/); Цитата: «Rental guarantee for 10 years in dollars»; Только в объявлении агентства или на стороннем сайте; у застройщика и бренда не найдено)
+- **Доход, заявленный продавцом**: Гарантия аренды на 10 лет в долларах; процент и гарант не указаны [заявление продавца] (Тип источника: продавец; Проверено: 2026-11-11; [optiononetr.com](https://optiononetr.com/invest-in-ramada-hotel-rental-guarantee-10-years/); Цитата: «Rental guarantee for 10 years in dollars»; Сайт застройщика или оператора с этим обещанием не найден. Обещание — только в объявлении агентства.)
+- **Срок договора аренды**: 10 лет — срок гарантии; срок договора не указан [заявление продавца] (Тип источника: продавец; Проверено: 2026-11-11; [optiononetr.com](https://optiononetr.com/invest-in-ramada-hotel-rental-guarantee-10-years/); Цитата: «Rental guarantee for 10 years in dollars»; Только в объявлении агентства или на стороннем сайте; у застройщика и бренда не найдено)
+- **Нет данных**: Тип программы аренды · Доля владельца в доходе · Ночи владельца в год · Работает круглый год или сезонно
+
+## Проект и оператор
+
+- **Тип проекта**: Блоки A и B1 — Ramada Hotel Suite; B2 — офисы; C — медицинский комплекс [заявление продавца] (Тип источника: продавец; Проверено: 2026-11-11; [optiononetr.com](https://optiononetr.com/invest-in-ramada-hotel-rental-guarantee-10-years/); Цитата: «blocks A & B1 RAMADA HOTEl SUITE Block B2 office commercial building Block C is a medical complex specialized in medical tourism.»)
+- **Бренд**: Ramada [заявление продавца] (Тип источника: продавец; Проверено: 2026-11-11; [optiononetr.com](https://optiononetr.com/invest-in-ramada-hotel-rental-guarantee-10-years/); Цитата: «Being a part of the global Ramada hotel group, the project represents an investment style and quality.»)
+- **Застройщик / продавец**: FCR Gayrimenkul Yatırım Ortaklığı (FCR GYO), по её проспекту; генподрядчик — FGM Yapı [заявление продавца] (Тип источника: продавец; Проверено: 2026-11-15; [fcrgyo.com](https://fcrgyo.com/documents/izahname-1.pdf); Цитата: «Şirket, sermaye olarak koyduğu İstanbul İli, Pendik İlçesi, Kurtköy Mahallesinde yer alan 6.095,53 m2 büyüklüğündeki arsa üzerinde “Ramada Hotel by Wyndham Sabiha Gökçen Airport Projesi” yatırımına başlamıştır.»)
+- **Звёздность**: По документу о туристических инвестициях (Turizm yatırım belgesi), пересказанному в проспекте компании, — 5 звёзд [заявление продавца] (Тип источника: продавец; Проверено: 2026-11-15; [fcrgyo.com](https://fcrgyo.com/documents/izahname-1.pdf); Цитата: «Turizm yatırım belgesine göre otel adı Ramada Hotel By Wyndham Sabiha Gökçen Airport; sınıfı ve türü ise 5 yıldızlı oteldir.»)
+- **Статус проекта**: На странице одновременно «Under Construction» и «The project is ready» [в объявлении противоречие] [заявление продавца] (Тип источника: продавец; Проверено: 2026-11-11; [optiononetr.com](https://optiononetr.com/invest-in-ramada-hotel-rental-guarantee-10-years/); Цитата: «Delivery Date Under Construction»)В том же объявлении: стадия: построен; тапу готов: да [заявление продавца] (Тип источника: продавец; Проверено: 2026-10-19; [optiononetr.com](https://optiononetr.com/invest-in-ramada-hotel-rental-guarantee-10-years/); Цитата: «The project is ready. The title deed is ready and suitable for Turkish citizenship»)
+- **Число номеров**: 216 номеров по проспекту компании (по документу о туристических инвестициях) [заявление продавца] (Тип источника: продавец; Проверено: 2026-11-15; [fcrgyo.com](https://fcrgyo.com/documents/izahname-1.pdf); Цитата: «toplam 216 oda, 432 yatak»)
+- **Адрес**: Пендик, Стамбул (азиатская часть); напротив аэропорта Сабиха Гёкчен [заявление продавца] (Тип источника: продавец; Проверено: 2026-11-11; [optiononetr.com](https://optiononetr.com/invest-in-ramada-hotel-rental-guarantee-10-years/); Цитата: «The project is located in Pendik, in the Asian part of Istanbul, between Kartal and Tuzla.»)
+- **Нет данных**: Оператор · Лицензия Минкультуры и туризма (KTB) · Координаты · Тип права
+
+[Все проекты застройщика FCR Gayrimenkul Yatırım Ortaklığı A.Ş.](https://roomfacts.com/developer/fcr-gayrimenkul-yatirim-ortakligi-a-s/index.md)
+
+### Красные флаги
+
+красных флагов: 0 (проверка неполная)
+
+В проверенных официальных источниках событий: 0. Проверка неполная: архив Ticaret Sicili Gazetesi требует входа, поиск ilan.gov.tr не автоматизирован; публичного списка отзывов лицензий KTB нет. [Как проверяли](https://roomfacts.com/method/index.md)
+
+## Налоги и право
+
+### Гражданство: РФ
+
+- **Въезд**: Граждане РФ с общегражданским загранпаспортом въезжают в Турцию без визы для туристических и деловых поездок на срок до 60 дней. (Тип источника: официальный; Проверено: 2026-10-19; [mfa.gov.tr](https://www.mfa.gov.tr/visa-information-for-foreigners.en.mfa); Цитата: «Russian Federation: Ordinary passport holders are exempted from visa for their touristic and business travels up to 60 days.»)
+- **Валютный контроль**: Физическое лицо — резидент представляет в налоговый орган по месту учёта отчёт ежегодно, до 1 июня года, следующего за отчётным. (Тип источника: официальный; Проверено: 2026-10-19; [nalog.gov.ru](https://www.nalog.gov.ru/rn77/related_activities/exchange_controls/); Цитата: «Физическое лицо - резидент представляет в налоговый орган по месту своего учета отчет ежегодно, до 1 июня года, следующего за отчетным годом.»)
+- **Уведомление ФНС о зарубежном счёте**: Об открытии, закрытии или изменении реквизитов счёта в зарубежном банке (в т.ч. турецком) резидент обязан уведомить налоговую не позднее одного месяца. (Тип источника: официальный; Проверено: 2026-10-19; [nalog.gov.ru](https://www.nalog.gov.ru/rn77/fl/interest/account_opening/); Цитата: «Резидент уведомляет налоговый орган по месту своего учета об открытии (закрытии) счетов (вкладов) и об изменении реквизитов счетов (вкладов) в банках и иных организациях финансового рынка, расположенных за пределами территории Российской Федерации, не позднее одного месяца со дня соответственно открытия (закрытия) или изменения реквизитов таких счетов (вкладов) по форме, утвержденной федеральным органом исполнительной власти, уполномоченным по контролю и надзору в области налогов и сборов.»)
+- **Лимиты переводов**: С 8 декабря 2025 г. Банк России отменил ранее установленные лимиты на переводы иностранной валюты за рубеж для граждан России и физических лиц — нерезидентов из дружественных стран. (Тип источника: официальный; Проверено: 2026-10-19; [cbr.ru](https://www.cbr.ru/press/event?id=28158); Цитата: «Учитывая стабильную ситуацию на валютном рынке, с 8 декабря 2025 года Банк России отменяет ранее установленные лимиты на переводы иностранной валюты за рубеж для граждан России и физических лиц – нерезидентов из дружественных стран.»)
+- **Банки и способы перевода**: — (Проверено: 2026-10-19; Где искали: cbr.ru nalog.gov.ru mfa.gov.tr tcmb.gov.tr)
+- **Валютный контроль: исключение для находящихся за рубежом более 183 дней (счета)**: Требования к порядку открытия счетов (вкладов) в зарубежных банках и иных организациях финансового рынка не применяются к резидентам, которые в течение календарного года в совокупности находятся за пределами РФ более 183 дней. (Тип источника: официальный; Проверено: 2026-10-19; [nalog.gov.ru](https://www.nalog.gov.ru/rn77/related_activities/exchange_controls/); Цитата: «Требования к порядку открытия счетов (вкладов) в банках и иных организациях финансового рынка, расположенных за пределами территории Российской Федерации, не применяются к физическим лицам - резидентам, срок пребывания которых за пределами территории Российской Федерации в течение календарного года в совокупности составит более 183 дней»)
+- **Валютный контроль: исключение для находящихся за рубежом более 183 дней (отчёты)**: Требования к отчётам о движении средств по счетам в зарубежных банках и иных организациях финансового рынка (и к отчётам о переводах через иностранных платёжных провайдеров без открытия счёта) не применяются к резидентам, которые в течение календарного года в совокупности находятся за пределами РФ более 183 дней. (Тип источника: официальный; Проверено: 2026-10-19; [nalog.gov.ru](https://www.nalog.gov.ru/rn77/related_activities/exchange_controls/); Цитата: «Требования к порядку представления отчетов о движении денежных средств и иных финансовых активов по счетам (вкладам) в банках и иных организациях финансового рынка, расположенных за пределами территории Российской Федерации и отчетов о переводах денежных средств без открытия банковского счета с использованием электронных средств платежа, предоставленных иностранными поставщиками платежных услуг не применяются к физическим лицам - резидентам, срок пребывания которых за пределами территории Российской Федерации в течение календарного года в совокупности составит более 183 дней»)
+- **Валютный контроль: зачисления на зарубежный счёт**: С 1 января 2020 г. резиденты могут без ограничений зачислять средства от нерезидентов на свои зарубежные счета при условии, что счёт открыт в стране ЕАЭС или в стране, осуществляющей автоматический обмен финансовой информацией с РФ. (Тип источника: официальный; Проверено: 2026-10-19; [nalog.gov.ru](https://www.nalog.gov.ru/rn77/related_activities/exchange_controls/); Цитата: «С 1 января 2020 года физические лица – резиденты могут без ограничений зачислять средства от нерезидентов на свои зарубежные счета при условии: счет должен быть открыт в зарубежном банке на территории государства-члена ЕАЭС (Беларуси, Казахстана, Армении, Киргизии) или иностранного государства, осуществляющего автоматический обмен финансовой информацией с Российской Федерацией»)
+- **Лимиты переводов для нерезидентов из недружественных стран**: С 8 июня по 7 декабря 2026 г. включительно Банк России сохраняет ограничения: нерезиденты из недружественных стран, работающие в России, могут переводить за рубеж средства в размере зарплаты; для неработающих в России нерезидентов из таких стран и для юрлиц из них перевод запрещён. (Тип источника: официальный; Проверено: 2026-10-19; [cbr.ru](https://www.cbr.ru/press/event/?id=32586); Цитата: «Банк России сохраняет на период с 8 июня до 7 декабря 2026 года включительно действующие сейчас ограничения: – физические лица – нерезиденты из недружественных стран, работающие в России, могут переводить за рубеж средства в размере заработной платы; – запрет на перевод средств за рубеж для не работающих в России физических лиц – нерезидентов из недружественных стран, а также для юридических лиц из таких государств.»)
+
+### Гражданство: UK
+
+- **Въезд**: С паспортом гражданина Великобритании (British citizen) можно находиться в Турции без визы до 90 дней в любые 180 дней — для туризма или бизнеса. (Тип источника: официальный; Проверено: 2026-10-19; [gov.uk](https://www.gov.uk/foreign-travel-advice/turkey/entry-requirements); Цитата: «If you hold a British citizen passport, you can visit Turkey without a visa for up to 90 days in any 180-day period, for business or tourism»)
+
+### Гражданство: другое
+
+Сведений для этого варианта пока нет.
+
+### Налоговое резидентство: РФ
+
+- **Договор об избежании двойного налогообложения**: Действует Соглашение между Правительством РФ и Правительством Турецкой Республики об избежании двойного налогообложения в отношении налогов на доходы: подписано 15.12.1997, вступило в силу 31.12.1999, применяется с 01.01.2000. (Тип источника: официальный; Проверено: 2026-10-19; [cdn.gib.gov.tr](https://cdn.gib.gov.tr/api/gibportal-file/file/getFileResources?objectKey=arsiv%2Fmevzuat%2Fuluslararasi_mevzuat%2FCifte_Vergilendirme%2FTurkiyenin_Sonuclandirdigi_Vergi_Anlasmalari_Listesi.pdf); Цитата: «41) Rusya 15.12.1997 17.12.1999 - 23909 31.12.1999 01.01.2000»)
+- **Зачёт турецкого налога**: По ст. 22 соглашения налог, уплаченный в другой стране (Турции) с дохода, который по соглашению может там облагаться, может быть зачтён в счёт налога страны резидентства (РФ); сумма зачёта не превышает налог, исчисленный с этого дохода по законодательству страны резидентства. (Тип источника: официальный; Проверено: 2026-10-19; [cdn.gib.gov.tr](https://cdn.gib.gov.tr/api/gibportal-file/file/getFileResources?objectKey=arsiv%2Fmevzuat%2Fuluslararasi_mevzuat%2FTURKCE_METIN%2FRUSYA.pdf); Цитата: «MADDE 22 ÇİFTE VERGİLENDİRMENİN ÖNLENMESİ Bir Akit Devlet mukimi, bu Anlaşma hükümlerine uygun olarak diğer Akit Devlette vergilendirilebilen bir gelir elde ettiğinde, bu diğer Devlette ödenen gelire ilişkin vergi tutarı, ilk bahsedilen Devlette alınacak vergiden mahsup edilebilir. Bununla beraber sözkonusu mahsup tutarı, bu gelir için ilk bahsedilen Devletin vergi kanunları ile düzenlemelerine uygun olarak hesaplanan vergi tutarını aşmayacaktır.»)
+- **Налог дома на доход от аренды**: Для граждан, проживающих в РФ более 183 дней в году, доход от сдачи имущества в аренду с 01.01.2025 облагается НДФЛ по прогрессивной шкале п. 1 ст. 224 НК РФ: 13/15/18/20/22%. (Тип источника: официальный; Проверено: 2026-10-19; [nalog.gov.ru](https://www.nalog.gov.ru/rn77/fl/pay_taxes/income/realty_sell/); Цитата: «Для граждан, проживающих в Российской Федерации более 183 дней в году, такие доходы с 01.01.2025 года облагаются налогом по следующим ставкам: от сдачи имущества в аренду – по прогрессивной шкале налогообложения, установленной п. 1 ст. 224 НК РФ (13%/ 15%/ 18%/ 20%/ 22%);»)
+- **Налог дома при продаже**: Для граждан, проживающих в РФ более 183 дней в году, доход от продажи недвижимости с 01.01.2025 облагается НДФЛ по шкале п. 1.1 ст. 224 НК РФ: 13% / 15%. Порог перехода на 15% и минимальный срок владения — отдельными полями ниже. (Тип источника: официальный; Проверено: 2026-10-19; [nalog.gov.ru](https://www.nalog.gov.ru/rn77/fl/pay_taxes/income/realty_sell/); Цитата: «Для граждан, проживающих в Российской Федерации более 183 дней в году, такие доходы с 01.01.2025 года облагаются налогом по следующим ставкам: от сдачи имущества в аренду – по прогрессивной шкале налогообложения, установленной п. 1 ст. 224 НК РФ (13%/ 15%/ 18%/ 20%/ 22%); от продажи - по шкале налогообложения, установленной п. 1.1 ст. 224 НК РФ (13%/ 15%).»)
+- **Соглашение, ст. 6: доход от недвижимости**: Ст. 6(1) соглашения: доход резидента одной страны от недвижимости, находящейся в другой стране, может облагаться в этой другой стране. (Тип источника: официальный; Проверено: 2026-10-19; [cdn.gib.gov.tr](https://cdn.gib.gov.tr/api/gibportal-file/file/getFileResources?objectKey=arsiv%2Fmevzuat%2Fuluslararasi_mevzuat%2FTURKCE_METIN%2FRUSYA.pdf); Цитата: «MADDE 6 1. Bir Akit Devlet mukiminin diğer Akit Devlette bulunan gayrimenkul varlıklardan elde ettiği gelir (tarım veya ormancılıktan elde edilen gelir dahil), bu diğer Devlette vergilendirilebilir.»)
+- **Соглашение, ст. 13: прирост капитала**: Ст. 13(1) соглашения: прирост от отчуждения недвижимости, находящейся в другой стране, может облагаться в этой другой стране. (Тип источника: официальный; Проверено: 2026-10-19; [cdn.gib.gov.tr](https://cdn.gib.gov.tr/api/gibportal-file/file/getFileResources?objectKey=arsiv%2Fmevzuat%2Fuluslararasi_mevzuat%2FTURKCE_METIN%2FRUSYA.pdf); Цитата: «MADDE 13 SERMAYE DEĞER ARTIŞ KAZANÇLARI 1. Bir Akit Devlet mukimince, diğer Akit Devlette yer alan ve 6 nci maddede belirtilen gayrimenkul varlıkların elden çıkarılmasından sağlanan kazançlar, bu diğer Devlette vergilendirilebilir.»)
+- **Зачёт иностранного налога: порядок (РФ)**: Для зачёта иностранного налога (ст. 232 НК РФ) к декларации прикладываются документы о доходе и уплаченном за рубежом налоге, выданные или заверенные уполномоченным органом иностранного государства, и их нотариальный перевод. (Тип источника: официальный; Проверено: 2026-10-19; [nalog.gov.ru](https://www.nalog.gov.ru/html/sites/www.new.nalog.ru/docs/minfin/minfin106247_031220.pdf); Цитата: «Так, в соответствии с пунктом 3 статьи 232 Кодекса в целях зачета в Российской Федерации суммы налога, уплаченного физическим лицом - налоговым резидентом Российской Федерации в иностранном государстве с полученных им доходов, к налоговой декларации прилагаются документы, подтверждающие сумму полученного в иностранном государстве дохода и уплаченного с этого дохода налога в иностранном государстве, выданные (заверенные) уполномоченным органом соответствующего иностранного государства, и их нотариально заверенный перевод на русский язык.»)
+- **Декларирование зарубежных доходов**: Доходы от источников за пределами РФ отражаются в налоговой декларации по НДФЛ (Приложение 2); срок подачи — не позднее 30 апреля следующего года. (Тип источника: официальный; Проверено: 2026-10-19; [nalog.gov.ru](https://www.nalog.gov.ru/rn21/taxation/taxes/ndfl/14642672/); Цитата: «Налоговую декларацию по налогу на доходы физических лиц необходимо представить не позднее 30 апреля года следующего за отчетным (абзац 2 пункта 1 статьи 229 Налогового кодекса Российской Федерации), «иностранные» доходы в которой отражаются в «Приложении 2. Доходы от источников за пределами Российской Федерации».»)
+- **НДФЛ при продаже: ставки**: С 2025 года НДФЛ при продаже имущества — двухступенчатая шкала: 13% для дохода до 2,4 млн руб., 15% для дохода более 2,4 млн руб. (Тип источника: официальный; Проверено: 2026-10-19; [nalog.gov.ru](https://www.nalog.gov.ru/rn26/news/activities_fts/15849565/); Цитата: «С 2025 года введена двухступенчатая шкала по ставкам для НДФЛ при продаже имущества: 13% - для дохода до 2,4 млн руб.; 15% - для дохода более 2,4 млн руб.»)
+- **Минимальный срок владения (РФ)**: Если недвижимость продана, когда она была в собственности менее минимального предельного срока владения (три года или пять лет), доход нужно самостоятельно отразить в декларации 3-НДФЛ. (Тип источника: официальный; Проверено: 2026-10-19; [nalog.gov.ru](https://www.nalog.gov.ru/rn77/fl/pay_taxes/income/realty_sell/); Цитата: «Если Вы сдавали недвижимое имущество физическим лицам, не являющимся индивидуальными предпринимателями, либо продали недвижимое имущество, находившееся у Вас в собственности менее минимального предельного срока владения объектом недвижимого имущества (три года или пять лет) Вам необходимо самостоятельно отразить полученные доходы в налоговой декларации по налогу на доходы физических лиц ( форма 3-НДФЛ).»)
+
+### Налоговое резидентство: UK
+
+- **Договор об избежании двойного налогообложения**: Соглашение UK–Турция об избежании двойного налогообложения подписано 19.02.1986 и вступило в силу 26.10.1988 (на gov.uk опубликовано как действующее — «in force»). (Тип источника: официальный; Проверено: 2026-10-19; [gov.uk](https://www.gov.uk/government/publications/turkey-tax-treaties/1988-uk-turkey-double-taxation-agreement-in-force); Цитата: «UK-Turkey double taxation agreement signed 19 February 1986 entered into force 26 October 1988.»)
+- **Зачёт турецкого налога**: По ст. 23(1)(a) соглашения турецкий налог, уплаченный по законодательству Турции и в соответствии с соглашением с прибыли, дохода или прироста капитала из источников в Турции, засчитывается против налога UK, исчисленного с той же прибыли, дохода или прироста. (Тип источника: официальный; Проверено: 2026-10-19; [gov.uk](https://www.gov.uk/government/publications/turkey-tax-treaties/1988-uk-turkey-double-taxation-agreement-in-force); Цитата: «(a) Turkish tax payable under the law of Turkey and in accordance with this Agreement, whether directly or by deduction, on profits, income or chargeable gains from sources within Turkey (excluding in the case of a dividend, tax payable in respect of the profits out of which the dividend is paid) shall be allowed as a credit against any United Kingdom tax computed by reference to the same profits, income or chargeable gains by reference to which the Turkish tax is computed.»)
+- **Налог дома на доход от аренды**: Налог с зарубежной недвижимости платится в обычном порядке; если сдаётся больше одного объекта, убытки можно зачесть против других зарубежных объектов. (Тип источника: официальный; Проверено: 2026-10-19; [gov.uk](https://www.gov.uk/tax-foreign-income/foreign-income-thats-taxed-differently); Цитата: «You pay tax in the normal way on overseas property. But if you rent out more than one, you can offset losses against other overseas properties.»)
+- **Налог дома при продаже**: Резидент UK платит налог на прирост капитала (CGT) при отчуждении зарубежной недвижимости. (Тип источника: официальный; Проверено: 2026-10-19; [gov.uk](https://www.gov.uk/tax-sell-property/selling-overseas-property); Цитата: «You pay Capital Gains Tax when you ‘dispose of’ overseas property if you’re resident in the UK.»)
+- **Налог на наследство**: С 6 апреля 2025 г. зарубежные активы долгосрочного резидента UK могут облагаться налогом на наследство (IHT) при передаче активов или смерти. (Тип источника: официальный; Проверено: 2026-10-19; [gov.uk](https://www.gov.uk/guidance/inheritance-tax-if-youre-a-long-term-uk-resident); Цитата: «From 6 April 2025, if you are a long-term UK resident, your non-UK (overseas) assets may be subject to Inheritance Tax if you make a transfer of assets or die.»)
+- **Зачёт иностранного налога (UK)**: Зачёт (Foreign Tax Credit Relief) обычно заявляется при декларировании зарубежного дохода в налоговой декларации; его размер зависит от соглашения об избежании двойного налогообложения со страной источника дохода. (Тип источника: официальный; Проверено: 2026-10-19; [gov.uk](https://www.gov.uk/tax-foreign-income/taxed-twice); Цитата: «You can usually claim Foreign Tax Credit Relief when you report your overseas income in your tax return. How much relief you get depends on the UK’s ‘double-taxation agreement’ with the country your income’s from.»)
+- **Соглашение, ст. 6: доход от недвижимости**: Ст. 6(1) соглашения: доход резидента одной страны от недвижимости, находящейся в другой стране, может облагаться в этой другой стране. (Тип источника: официальный; Проверено: 2026-10-19; [gov.uk](https://www.gov.uk/government/publications/turkey-tax-treaties/1988-uk-turkey-double-taxation-agreement-in-force); Цитата: «Article 6: income from immovable property (1) Income derived by a resident of a Contracting State from immovable property (including income from agriculture or forestry) situated in the other Contracting State may be taxed in that other State.»)
+- **Соглашение, ст. 13: прирост капитала**: Ст. 13(1) соглашения: прирост от отчуждения недвижимости, находящейся в другой стране, может облагаться в этой другой стране. (Тип источника: официальный; Проверено: 2026-10-19; [gov.uk](https://www.gov.uk/government/publications/turkey-tax-treaties/1988-uk-turkey-double-taxation-agreement-in-force); Цитата: «Article 13: capital gains (1) Gains derived by a resident of a Contracting State from the alienation of immovable property referred to in Article 6 of this Agreement and situated in the other Contracting State may be taxed in that other State.»)
+- **Ставки налога на прирост капитала (CGT)**: CGT с 6 апреля 2026: 18% в пределах базовой полосы подоходного налога, 24% сверх неё. (Тип источника: официальный; Проверено: 2026-10-19; [gov.uk](https://www.gov.uk/capital-gains-tax/rates); Цитата: «If this amount is within the basic Income Tax band, you’ll pay 18% on your gains made from 6 April 2026. For any amount above the basic Income Tax band, you’ll pay 24% on gains made from 6 April 2026.»)
+- **Налог на наследство: тест долгосрочного резидента**: Долгосрочный резидент UK в налоговом году — тот, кто был налоговым резидентом UK либо предыдущие 10 лет подряд, либо в сумме 10 лет или больше из предыдущих 20. (Тип источника: официальный; Проверено: 2026-10-19; [gov.uk](https://www.gov.uk/guidance/inheritance-tax-if-youre-a-long-term-uk-resident); Цитата: «You are a long-term UK resident in a tax year if you are tax resident in the UK for either: the previous 10 years consecutive years a total of 10 years or more within the previous 20 years»)
+- **Налог на наследство после отъезда из UK**: Статус долгосрочного резидента UK может сохраняться до 10 налоговых лет после отъезда; срок короче, если человек жил в UK не все предыдущие 20 лет. (Тип источника: официальный; Проверено: 2026-10-19; [gov.uk](https://www.gov.uk/guidance/inheritance-tax-if-youre-a-long-term-uk-resident); Цитата: «You can still keep long-term UK residence for up to 10 tax years after you leave the UK. This is shorter if you have not lived in the UK for all the previous 20 years.»)
+
+#### Регулирование FCA, FSCS и Financial Ombudsman Service (UK)
+
+- **Предупреждение FCA**: FCA: схема коллективных инвестиций, не авторизованная FCA, считается нерегулируемой (UCIS); она не обязана соответствовать тем же стандартам, и при проблемах деньги могут быть не защищены. (Тип источника: официальный; Проверено: 2026-10-19; [fca.org.uk](https://www.fca.org.uk/investsmart/unregulated-collective-investment-schemes); Цитата: «If a CIS has not been authorised by us, it is considered an unregulated collective investment scheme (UCIS). This means it does not have to meet the same standards, and if something goes wrong, your money may not be protected.»)
+- **FCA: UCIS и гостиничные номера**: FCA: UCIS могут вкладывать в более рискованные активы, которые трудно оценить в любой момент, — например, гостиничные номера, земельные участки и виски. (Тип источника: официальный; Проверено: 2026-10-19; [fca.org.uk](https://www.fca.org.uk/investsmart/unregulated-collective-investment-schemes); Цитата: «UCIS may invest in riskier assets or use riskier investment strategies than authorised schemes. Riskier assets could include things that are tricky to value at any given time - these include hotel rooms, plots of land and whisky.»)
+- **FCA PERG 11.2: структура схемы**: FCA (руководство PERG о клубах инвестиций в недвижимость): является ли такой клуб схемой коллективных инвестиций, зависит от его конкретной структуры и обстоятельств. (Тип источника: официальный; Проверено: 2026-10-19; [handbook.fca.org.uk](https://www.handbook.fca.org.uk/handbook/PERG/11/2.html); Цитата: «Whether your property investment club is a collective investment scheme or not will depend on its individual structure and the facts surrounding it.»)
+- **Защита FOS и FSCS**: Если фирма, предлагающая инвестицию, не регулируется FCA, защиты обычно гораздо меньше: например, подать жалобу в Financial Ombudsman Service и получить выплату от FSCS, скорее всего, не получится. (Тип источника: официальный; Проверено: 2026-10-19; [fca.org.uk](https://www.fca.org.uk/news/statements/beware-high-risk-investments-unregulated-firms); Цитата: «If a firm offering an investment is not regulated by the FCA there are generally far fewer protections. For example, you are unlikely to be able to take complaints to the Financial Ombudsman Service and you’re unlikely to be able to make a claim through the Financial Services Compensation Scheme.»)
+
+### Налоговое резидентство: другое
+
+Сведений для этого варианта пока нет.
+
+****Турция: налоги, покупка, ВНЖ****
+
+- **Право граждан РФ на покупку**: Общий принцип (Россия в источнике не названа): страны, граждане которых могут приобретать недвижимость в Турции, определяет Кабинет министров; он же может устанавливать особые условия приобретения. Есть ли РФ в перечне — см. поле «Есть ли РФ в перечне стран» ниже. (Тип источника: официальный; Проверено: 2026-10-19; [invest.gov.tr](https://www.invest.gov.tr/en/investmentguide/pages/acquiring-property-and-citizenship.aspx); Цитата: «Countries whose nationals are eligible to acquire real estate in Türkiye are determined by the Cabinet of Ministers, who may also stipulate special conditions for acquisitions if deemed necessary.»)
+- **Право граждан UK на покупку**: Руководство FCDO для британских граждан приводит общие условия для иностранцев: всего до 30 га в Турции на человека и ограниченные вещные права; нельзя приобретать или арендовать недвижимость в военных запретных зонах и зонах безопасности. (Тип источника: официальный; Проверено: 2026-10-19; [gov.uk](https://www.gov.uk/guidance/how-to-buy-property-in-turkey); Цитата: «a) Persons with foreign nationality can buy maximum 30 hectares of property in Turkey in total and can acquire limited in rem right. b) Foreigners cannot acquire or rent property within military forbidden zones and security zones.»)
+- **Налог на регистрацию сделки (tapu harcı)**: Тапу-харджи при переходе права собственности — 20 промилле (2%) от заявленной фактической цены сделки, отдельно с покупателя и с продавца. (Тип источника: официальный; Проверено: 2026-10-19; [cdn.gib.gov.tr](https://cdn.gib.gov.tr/api/gibportal-file/file/getFileResources?objectKey=arsiv%2Fonceki-dokumanlar%2Fgayrimenkul_alimsatim_vergilendirilmesi.pdf); Цитата: «Gayrimenkul devir ve iktisaplarında tapu harcı, beyan edilen gerçek devir ve iktisap bedeli üzerinden binde 20 oranında alıcı ve satıcıdan ayrı ayrı alınır.»)
+- **Ежегодный налог на недвижимость**: Ставки налога на недвижимость (emlak vergisi): жилые здания — 1 промилле (0,1%), прочие здания — 2 промилле, земля (arazi) — 1, участки (arsa) — 3 промилле. В границах büyükşehir belediye и прилегающих зон ставки применяются с увеличением на 100%. (Тип источника: официальный; Проверено: 2026-10-19; [cdn.gib.gov.tr](https://cdn.gib.gov.tr/api/gibportal-file/file/getFileResources?objectKey=arsiv/onceki-dokumanlar/emlak_ver_rehber_2025.pdf); Цитата: «Bina vergisinin oranı meskenlerde binde 1, • Diğer binalarda binde 2, • Arazide binde 1 ve arsalarda binde 3’tür. Bina, arsa ve arazilere ilişkin vergi oranları büyükşehir belediye sınırları ve mücavir alanlar içinde %100 artırımlı uygulanır.»)
+- **Налог на доход от аренды (нерезидент)**: Доход от аренды облагается по прогрессивной шкале (справочник GİB для нерезидентов): 15%, 20%, 27%, 35%, 40% с порогами в TL. Режим для посуточной аренды и rental pool в этой цитате не описан (см. поле о краткосрочной аренде ниже). (Тип источника: официальный; Проверено: 2026-10-19; [cdn.gib.gov.tr](https://cdn.gib.gov.tr/api/gibportal-file/file/getFileResources?objectKey=arsiv%2Ffileadmin%2Fbeyannamerehberi%2F2026%2F2026_theguidebooktaxpayers.pdf); Цитата: «Income subject to income tax is taxed at the following rates. Up to the amount of 158.000 TL 15% 23.700 TL for 158.000 TL of 330.000 TL, over 20% 58.100 TL for 330.000 TL of 800.000 TL (for wage incomes 58.100 TL for 330.000 TL of 1.200.000 TL), over 27% 185.000 TL for 800.000 TL of 4.300.000 TL, (for wage incomes 293.000 TL for 1.200.000 TL of 4.300.000 TL), over 35% 1.410.000 TL for 4.300.000 TL of amount exceeding 4.300.000 TL (for wage incomes 1.378.000 TL for 4.300.000 TL of amount exceeding 4.300.000 TL), over 40%»)
+- **ВНЖ через недвижимость: минимальная сумма**: Для заявителей, владеющих недвижимостью в Турции: нужен документ о принадлежности жилья заявителю (копия тапу); стоимость жилья на дату приобретения — не менее 200 тысяч долларов США в эквиваленте лир. (Тип источника: официальный; Проверено: 2026-10-19; [e-ikamet.goc.gov.tr](https://e-ikamet.goc.gov.tr/Ikamet/BasvuruIstenenBelgeler/BasvuruFormuIstenenBelgeler?tur=0); Цитата: «b. Those owning immovable property in Türkiye  Official, e-signed/signed and sealed/stamped document showing that the residence belongs to the applicant foreigner (Photocopy of the title deed) (The value of the house must be at least 200 thousand US Dollars equivalent to Turkish Lira as of the date of acquisition).»)
+- **ВНЖ: требование к назначению объекта**: Недвижимость должна быть жильем и использоваться иностранцем по этому назначению; жилье нельзя использовать для сдачи в аренду и иных доходных целей. (Тип источника: официальный; Проверено: 2026-10-19; [e-ikamet.goc.gov.tr](https://e-ikamet.goc.gov.tr/Ikamet/BasvuruIstenenBelgeler/BasvuruFormuIstenenBelgeler?tur=0); Цитата: «(The immovable property must be a residence and must be used by the foreigner for this purpose. The residence cannot be used for rent and similar income generating purposes.)»)
+- **Порог гражданства через инвестицию**: Критерий для гражданства: приобретение недвижимости стоимостью не менее 400 000 долларов США или эквивалента в иностранной валюте с ограничением в тапу на перепродажу минимум три года, что подтверждает Министерство окружающей среды, урбанизации и изменения климата. (Тип источника: официальный; Проверено: 2026-10-19; [invest.gov.tr](https://www.invest.gov.tr/en/investmentguide/pages/acquiring-property-and-citizenship.aspx); Цитата: «Acquiring a property worth a minimum of USD 400,000 or equivalent foreign currency with a title deed restriction on its resale for at least three years, as attested by the Ministry of Environment, Urbanization and Climate Change»)
+- **Процедура покупки**: Документы для регистрационной процедуры в тапу (invest.gov.tr, «Requirements for Land Registry Procedures»): удостоверение или паспорт, документ о представительстве (если есть), справка муниципалитета о рыночной стоимости, полис обязательного страхования от землетрясений для зданий. Прочие шаги — отдельными полями ниже. (Тип источника: официальный; Проверено: 2026-10-19; [invest.gov.tr](https://www.invest.gov.tr/en/investmentguide/pages/acquiring-property-and-citizenship.aspx); Цитата: «Photo ID or passport issued by the country of which the foreigner is a citizen (notarized and certified translations should be submitted for ID cards and passports issued in alphabets other than the Latin alphabet) If the procedure involves representation, document regarding representation (order regarding guardianship, letter of authorization, power of attorney etc.) Document on the current market value of the real estate issued by the relevant municipality Mandatory earthquake insurance policy for the buildings»)
+- **Есть ли РФ в перечне стран для покупки**: — (Проверено: 2026-10-19; [invest.gov.tr](https://www.invest.gov.tr/en/investmentguide/pages/acquiring-property-and-citizenship.aspx))
+- **Ограничения для иностранцев при покупке**: Общие ограничения для иностранцев: всего не более 30 га в Турции на человека; нельзя приобретать или арендовать недвижимость в военных запретных зонах и зонах безопасности; лица с иностранным гражданством могут приобретать недвижимость или ограниченные вещные права в районе (городе) в пределах 10% общей площади этого района (города). (Тип источника: официальный; Проверено: 2026-10-19; [gov.uk](https://www.gov.uk/guidance/how-to-buy-property-in-turkey); Цитата: «a) Persons with foreign nationality can buy maximum 30 hectares of property in Turkey in total and can acquire limited in rem right. b) Foreigners cannot acquire or rent property within military forbidden zones and security zones. c) Persons with foreign nationality can acquire property or limited in rem right in a district/town up to 10 % of the total area of the said district/town.»)
+- **Удержание налога с аренды**: Арендаторы, относящиеся к указанным в справочнике лицам, корпорациям и организациям, обязаны удерживать 20% подоходного налога с валовой суммы арендной платы. (Тип источника: официальный; Проверено: 2026-10-19; [cdn.gib.gov.tr](https://cdn.gib.gov.tr/api/gibportal-file/file/getFileResources?objectKey=arsiv%2Ffileadmin%2Fbeyannamerehberi%2F2026%2F2026_theguidebooktaxpayers.pdf); Цитата: «Persons, corporations and entities in question that are tenants have to withhold income tax from the gross amount of their rental payments at the rate of 20%.»)
+- **Необлагаемый доход от сдачи жилья**: Доход от сдачи жилья освобождается от подоходного налога в пределах 47 000 TL за 2025 г. (58 000 TL за 2026 г.); норма приведена в справочнике GİB для нерезидентов. (Тип источника: официальный; Проверено: 2026-10-19; [cdn.gib.gov.tr](https://cdn.gib.gov.tr/api/gibportal-file/file/getFileResources?objectKey=arsiv%2Ffileadmin%2Fbeyannamerehberi%2F2026%2F2026_theguidebooktaxpayers.pdf); Цитата: «The amount of 47.000 TL for rental income from house for the year 2025 (the exception amount of 58.000 TL for the year 2026) is exempted from the income tax.»)
+- **Краткосрочная сдача: налогообложение**: Разъяснение налоговой администрации Турции (GİB, özelge по запросу налогоплательщика): если недвижимость в рамках коммерческой организации постоянно сдаётся на короткие сроки — посуточно, понедельно или помесячно, — такая деятельность считается коммерческой, а доход облагается по правилам Закона о подоходном налоге о коммерческой прибыли (ticari kazanç). (Тип источника: официальный; Проверено: 2026-10-19; [gib.gov.tr](https://gib.gov.tr/mevzuat/kanun/433/ozelge/38812); Цитата: «Buna göre, gayrimenkulleri ticari bir organizasyon çerçevesinde devamlı olarak günlük, haftalık veya aylık periyotlar halinde kısa süreli olarak kiraya verme faaliyetinizin ticari faaliyet kapsamında değerlendirilmesi ve bu faaliyet dolayısıyla elde ettiğiniz kazancın da Gelir Vergisi Kanununun ticari kazanca ilişkin hükümlerine göre vergilendirilmesi gerekmektedir.»)
+- **Краткосрочная сдача: учёт (по руководству FCDO)**: По руководству FCDO (gov.uk): при сдаче на короткие сроки доход облагается как коммерческий; нужны налоговый счёт, бухгалтер и ведение учёта. (Тип источника: официальный; Проверено: 2026-10-19; [gov.uk](https://www.gov.uk/guidance/how-to-buy-property-in-turkey); Цитата: «On the other hand, if you rent for short periods then this income will be subject to commercial income tax. You must have a tax account, an accountant, and keep financial books.»)
+- **Шаг покупки: проверка обременений**: До начала процедуры в управлении тапу проверяют ипотеки, аресты и подобные ограничения, которые могут препятствовать продаже. (Тип источника: официальный; Проверено: 2026-10-19; [invest.gov.tr](https://www.invest.gov.tr/en/investmentguide/pages/acquiring-property-and-citizenship.aspx); Цитата: «Burdens such as mortgages, liens, and similar types of restrictions that may exist with regard to the said property that would prevent the sale thereof should be checked prior to the initiation of procedures at the respective land registry directorate.»)
+- **Шаг покупки: номер иностранца**: Покупателю без ВНЖ нужно получить номер иностранца (Yabancı Kimlik No.) в TNP Foreigners’ Department ближайшего города (не городка); услуга бесплатна (по руководству FCDO). (Тип источника: официальный; Проверено: 2026-10-19; [gov.uk](https://www.gov.uk/guidance/how-to-buy-property-in-turkey); Цитата: «However, anyone wishing to buy property in Turkey who does not hold a residence permit needs to obtain their Foreigner Identity number (Yabanci Kimlik No.) from the TNP Foreigners’ Department in the nearest city (not local town) in order to proceed with the property purchase. This service is free of charge.»)
+- **Шаг покупки: оценочный отчёт**: Для обычной покупки иностранцем оценочный отчёт отменён. Для покупки ради гражданства применяется отчёт TTB. (Тип источника: официальный; Проверено: 2026-11-17; [yourkeyturkiye.gov.tr](https://www.yourkeyturkiye.gov.tr/yabanci-gercek-kisilerin-tasinmaz-edinimi); Цитата: «Yabancı gerçek kişilerin taşınmaz mal edinimlerinde taşınmaz değerleme raporu uygulaması kaldırılmıştır. Vatandaşlık kazanımı amaçlı edinimlerde ise TTB uygulaması getirilmiştir.»)
+- **Шаг покупки: заявление в тапу**: Покупатель подает заявление в службу тапу вместе с собственником; запись — через колл-центр Alo 181 или randevu.tkgm.gov.tr. (Тип источника: официальный; Проверено: 2026-10-19; [invest.gov.tr](https://www.invest.gov.tr/en/investmentguide/pages/acquiring-property-and-citizenship.aspx); Цитата: «A natural or legal person intending to acquire real estate in Türkiye is required to apply to the General Directorate of Land Registry and Cadastre together with the owner of the property. In addition, they may call the Alo 181 Call Center, offering service around the clock, or visit randevu.tkgm.gov.tr to make an appointment without having to visit the directorates’ offices in person.»)
+- **Шаг покупки: регистрация права**: Предварительные договоры (нотариальные или письменные между физлицами) сами по себе не передают право собственности — это лишь обязательство передать его. (Тип источника: официальный; Проверено: 2026-10-19; [invest.gov.tr](https://www.invest.gov.tr/en/investmentguide/pages/acquiring-property-and-citizenship.aspx); Цитата: «Preliminary real estate contracts, issued by notaries or entered into by natural persons in writing, do not confer transfer of property per se. They only serve as a commitment for the transfer of ownership; the property in question does not change hands by means of such instruments.»)
+- **Статистика продаж иностранцам**: — (Проверено: 2026-10-19; [veriportali.tuik.gov.tr](https://veriportali.tuik.gov.tr/tr/press/58350/metadata))
+- **Показатель сбора döner sermaye**: — (Проверено: 2026-11-17; [cms-api.tkgm.gov.tr](https://cms-api.tkgm.gov.tr/media/101471/view))
+- **Как считается сбор döner sermaye**: — (Проверено: 2026-11-17; [cms-api.tkgm.gov.tr](https://cms-api.tkgm.gov.tr/media/101471/view))
+- **НДС в сборе döner sermaye**: — (Проверено: 2026-11-17; [cms-api.tkgm.gov.tr](https://cms-api.tkgm.gov.tr/media/101471/view))
+- **Тариф döner sermaye: год**: Тариф 2026 года действует с начала календарного года. (Тип источника: официальный; Проверено: 2026-11-17; [tkgm.gov.tr](https://www.tkgm.gov.tr/doner-sermaye-isletme-mudurlugu/haberler/doner-sermaye-isletme-mudurlugu-2026-yili-doner-sermaye-ucretlerine-iliskin-tarife-cetveli); Цитата: «2026 Yılı Döner Sermaye Ücretlerine ilişkin güncel tarife cetveli 01.01.2026 tarihi itibariyle uygulanmak üzere yürürlüğe girmiştir.»)
+- **Платёж TKGM, если сторона — иностранец**: — (Проверено: 2026-11-17; [cms-api.tkgm.gov.tr](https://cms-api.tkgm.gov.tr/media/101471/view))
+- **НДС: общая ставка**: Общая ставка НДС — 20%. (Тип источника: официальный; Проверено: 2026-11-17; [cdn.gib.gov.tr](https://cdn.gib.gov.tr/api/gibportal-file/file/getFileResources?objectKey=arsiv%2Fyardim-kaynaklar%2Fyararli-bilgiler%2Fkdv-oranlari.pdf); Цитата: «a) Ekli listelerde yer alanlar hariç olmak üzere, vergiye tabi işlemler için, (7346 sayılı Cumhurbaşkanı Kararı ile değişen ibare. Yürürlük: 10/07/2023) % 20 (102)»)
+- **НДС: ставки списков**: Список I — 1%. Список II — 10%. (Тип источника: официальный; Проверено: 2026-11-17; [cdn.gib.gov.tr](https://cdn.gib.gov.tr/api/gibportal-file/file/getFileResources?objectKey=arsiv%2Fyardim-kaynaklar%2Fyararli-bilgiler%2Fkdv-oranlari.pdf); Цитата: «b) Ekli (I) sayılı listede yer alan teslim ve hizmetler için, % 1 c) Ekli (II) sayılı listede yer alan teslim ve hizmetler için,(7346 sayılı Cumhurbaşkanı Kararı ile değişen ibare. Yürürlük: 10/07/2023) % 10 (103)»)
+- **НДС: жильё до 150 м²**: С 1 апреля 2022 года во втором списке названа часть жилья до 150 м². (Тип источника: официальный; Проверено: 2026-11-17; [cdn.gib.gov.tr](https://cdn.gib.gov.tr/api/gibportal-file/file/getFileResources?objectKey=arsiv%2Fyardim-kaynaklar%2Fyararli-bilgiler%2Fkdv-oranlari.pdf); Цитата: «35- (29/03/2022 tarihli ve 5359 sayılı Cumhurbaşkanı Kararı 9.maddesi ile eklenen sıra; Yürürlük: 01/04/2022) Konutların net alanının 150 m2'ye kadar olan kısmı,»)
+- **НДС: прежние разрешения и закон 6306**: Для разрешений до смены правила прежние положения сохраняются. Жильё по закону 6306 до 150 м² названо в первом списке. (Тип источника: официальный; Проверено: 2026-11-17; [cdn.gib.gov.tr](https://cdn.gib.gov.tr/api/gibportal-file/file/getFileResources?objectKey=arsiv%2Fyardim-kaynaklar%2Fyararli-bilgiler%2Fkdv-oranlari.pdf); Цитата: «Bu Kararın yürürlük tarihinden önce yapı ruhsatı alınmış veya kamu kurum ve kuruluşları ile bunların iştirakleri tarafından ihalesi yapılmış projeler kapsamında inşa edilen konutlar için 1 inci ve 4 üncü maddelerde kaldırılan veya değiştirilen hükümlerin uygulanmasına devam olunur.) 16/5/2012 tarihli ve 6306 sayılı Afet Riski Altındaki Alanların Dönüştürülmesi Hakkında Kanun kapsamında rezerv yapı alanı ve riskli alan olarak belirlenen yerler ile riskli yapıların bulunduğu yerlerde dönüşüm projeleri çerçevesinde yapılan konutların net alanının 150 m2'ye kadar olan kısmı»)
+- **НДС: первая продажа нерезиденту**: Первая передача жилья нерезиденту-иностранцу не облагается, если цена пришла в Турцию в валюте. (Тип источника: официальный; Проверено: 2026-11-17; [mevzuat.gov.tr](https://www.mevzuat.gov.tr/MevzuatMetin/1.5.3065.pdf); Цитата: «Konut veya iş yeri olarak inşa edilen binaların ilk tesliminde uygulanmak ve bedeli döviz olarak Türkiye’ye getirilmek kaydıyla, Gelir Vergisi Kanununun 3 üncü maddesinin birinci fıkrasının 2 numaralı bendinde belirtilenler hariç olmak üzere çalışma veya oturma izni alarak altı aydan daha fazla yurt dışında yaşayan Türk vatandaşları, Türkiye’de yerleşmiş olmayan yabancı uyruklu gerçek kişiler»)
+- **НДС: продажа в течение трёх лет**: Если такое жильё продают в течение трёх лет, налог взыскивают до сделки в тапу. (Тип источника: официальный; Проверено: 2026-11-17; [mevzuat.gov.tr](https://www.mevzuat.gov.tr/MevzuatMetin/1.5.3065.pdf); Цитата: «İstisna kapsamında teslim alınan konut veya iş yerinin üç yıl içerisinde elden çıkarılması hâlinde zamanında tahsil edilmeyen verginin, 6183 sayılı Kanunun 48 inci maddesine göre hesaplanan tecil faiziyle birlikte tapu işleminden önce elden çıkaran tarafından ödenmesi şarttır.»)
+- **Шаг покупки: справка о покупке валюты**: Справка о покупке валюты подаётся через KEP вместе с документами в управление тапу. (Тип источника: официальный; Проверено: 2026-11-17; [yourkeyturkiye.gov.tr](https://www.yourkeyturkiye.gov.tr/yabanci-gercek-kisilerin-tasinmaz-edinimi); Цитата: «Döviz alım belgesi KEP üzerinden olmak üzere, gerekli belgelerle birlikte tapu müdürlüğüne başvuru yapılır.»)
+- **Шаг покупки: присяжный переводчик**: Если сторона не знает турецкий, на сделке нужен присяжный переводчик. Размер платы регламент не задаёт. (Тип источника: официальный; Проверено: 2026-11-17; [tkgm.gov.tr](https://www.tkgm.gov.tr/duyurular/tapu-sicili-tuzugu); Цитата: «İstem sahiplerinden biri veya birkaçının Türkçe bilmemesi hâlinde, yeminli tercüman bulundurulur.»)
+- **Тапу по словам продавца**: Turkey Property Guru (письмо о Ramada Resort Kusadasi, 16.10.2026) называет 4% за переход тапу. [заявление продавца] (Тип источника: продавец; Проверено: 2026-11-17; Цитата: «Title deed transfer 4%»)
+- **Местные сборы по словам продавца**: Turkey Property Guru в письме о Ramada от 16.10.2026 называет местные налоги и государственные сборы «около 1%». Что входит в эту сумму, в письме не сказано; отдельно в оценку не добавлено, чтобы не посчитать сборы дважды. [заявление продавца] (Тип источника: продавец; Проверено: 2026-11-17; Цитата: «Local taxes & government fees around 1%»)
+- **Комиссия агентства**: Turkey Property Guru (письмо о Ramada Resort Kusadasi, 16.10.2026) называет комиссию агентства 2%. [заявление продавца] (Тип источника: продавец; Проверено: 2026-11-17; Цитата: «Agency fees 2%»)
+- **Юрист при покупке**: Turkey Property Guru (письмо о Ramada Resort Kusadasi, 16.10.2026) называет 1 000 GBP, если покупатель берёт юриста. [заявление продавца] (Тип источника: продавец; Проверено: 2026-11-17; Цитата: «Please also allow a further £1000 if you wish to use a lawyer.»)
+
+[Турция — Карточка страны](https://roomfacts.com/tr/index.md)
+
+## Чего мы не знаем
+
+Что источники не подтверждают — и готовые вопросы, которые можно задать продавцу самостоятельно.
+
+**Не найдено** (11): Координаты, Оператор, Лицензия Минкультуры и туризма (KTB), Работает круглый год или сезонно, Тип программы аренды, Доля владельца в доходе, Ночи владельца в год, Тип права, Красные флаги, Комиссия управляющей компании, Выход из программы и продажа
+
+**Заявление продавца** (9): Адрес, Тип проекта, Бренд, Застройщик / продавец, Звёздность, Число номеров, Программа аренды, Доход, заявленный продавцом, Срок договора аренды
+
+**Значения расходятся** (1): Статус проекта
+
+### Вопросы продавцу
+
+#### Проект
+
+1. Укажите точный адрес проекта (il / ilçe / mahalle, улица) и номер участка (ada / parsel).
+2. Пришлите координаты или ссылку на карту с точным расположением здания.
+3. Это отель, апарт-отель или резиденция с гостиничным сервисом по документам?
+4. Под каким гостиничным брендом работает (будет работать) объект? Есть ли подписанный договор франшизы или управления — пришлите копию или выписку.
+5. Кто оператор отеля (юрлицо) и кто сторона договора аренды с владельцем? Что будет при смене оператора?
+6. Кто застройщик (юрлицо) и кто продавец по договору купли-продажи?
+7. Объект уже работает или строится? Если строится — дата сдачи по договору и разрешение на строительство (yapı ruhsatı); если работает — год открытия и iskân.
+8. Какая официальная звёздность присвоена отелю (по свидетельству Минкультуры и туризма)?
+9. Есть ли у отеля туристическая лицензия Минкультуры и туризма (Turizm İşletme Belgesi)? Пришлите номер и копию.
+10. Сколько всего номеров в гостиничной части и сколько из них продаётся частным владельцам?
+11. Отель работает круглый год или сезонно? В какие месяцы закрыт?
+
+#### Аренда
+
+1. Есть ли программа аренды через оператора? Пришлите образец договора.
+2. Программа аренды — общий пул (доход делится между всеми владельцами) или индивидуальная (доход от своего номера)?
+3. Какую долю дохода от аренды получает владелец и какие расходы вычитаются до расчёта?
+4. Есть ли гарантированный доход? Кто именно гарантирует (юрлицо), на какой срок, от какой суммы и чем обеспечена гарантия?
+5. Сколько ночей в год владелец может жить в номере сам и есть ли ограничения по месяцам?
+6. На какой срок заключается договор аренды/управления, как его расторгнуть и что будет при смене оператора?
+7. Какая комиссия управляющей компании и какие ещё расходы вычитаются из дохода владельца?
+8. Как выйти из программы аренды или продать номер: за сколько предупредить, есть ли штраф, кто ищет покупателя?
+
+#### Право и документы
+
+1. Выдаётся ли отдельный тапу на номер (kat mülkiyeti / kat irtifakı)? Пришлите копию с номером участка.
+2. Назовите полное юридическое наименование (unvan), налоговый номер (vergi no) или MERSIS застройщика и компании-владельца отеля; были ли у них konkordato, ликвидация, смена владельцев или icra-торги по объекту?
+
+[Что такое досье по лоту](https://roomfacts.com/check/?lot=tr%2Fistanbul%2Framada-pendik)
+
+## Источники
+
+- [optiononetr.com](https://optiononetr.com/invest-in-ramada-hotel-rental-guarantee-10-years/) — Адрес, Тип проекта, Бренд, Статус проекта, Программа аренды, Доход, заявленный продавцом, Срок договора аренды · 2026-11-11
+- [fcrgyo.com](https://fcrgyo.com/documents/izahname-1.pdf) — Застройщик / продавец, Звёздность, Число номеров · 2026-11-15
+
+## Гиды по теме
+
+- [ВНЖ Турции за недвижимость: условия и документы](https://roomfacts.com/ru/guides/vnzh-grazhdanstvo-turcii-nedvizhimost/index.md)
